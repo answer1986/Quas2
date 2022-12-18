@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33.563" height="19.577" viewBox="0 0 33.563 19.577">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_160" data-name="Rectángulo 160" width="33.563" height="19.577" transform="translate(-137.619 117.687)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="CHILE" transform="translate(137.619 -117.687)">
+    <g id="Grupo_107" data-name="Grupo 107">
+      <g id="Grupo_106" data-name="Grupo 106">
+        <g id="Grupo_105" data-name="Grupo 105" clip-path="url(#clip-path)">
+          <rect id="Rectángulo_157" data-name="Rectángulo 157" width="33.563" height="19.577" transform="translate(-137.619 117.687)" fill="#fff"/>
+          <rect id="Rectángulo_158" data-name="Rectángulo 158" width="9.789" height="19.577" transform="translate(-137.619 117.687)" fill="#2530a9"/>
+          <rect id="Rectángulo_159" data-name="Rectángulo 159" width="33.563" height="9.789" transform="translate(-137.619 127.475)" fill="#c22623"/>
+          <path id="Trazado_334" data-name="Trazado 334" d="M-132.721,120.132l-.758,2.329,1.164.378Z" fill="#fff"/>
+          <path id="Trazado_335" data-name="Trazado 335" d="M-132.721,120.132l.754,2.329-1.164.378Z" fill="#fff"/>
+          <path id="Trazado_336" data-name="Trazado 336" d="M-130.4,121.823h-2.443v1.225Z" fill="#fff"/>
+          <path id="Trazado_337" data-name="Trazado 337" d="M-130.4,121.823l-1.98,1.44-.717-.991Z" fill="#fff"/>
+          <path id="Trazado_338" data-name="Trazado 338" d="M-135.051,121.823l1.982,1.44.717-.991Z" fill="#fff"/>
+          <path id="Trazado_339" data-name="Trazado 339" d="M-135.051,121.823h2.449v1.225Z" fill="#fff"/>
+          <path id="Trazado_340" data-name="Trazado 340" d="M-131.285,124.559l-.754-2.326-1.164.378Z" fill="#fff"/>
+          <path id="Trazado_341" data-name="Trazado 341" d="M-131.285,124.559l-1.98-1.438.723-.987Z" fill="#fff"/>
+          <path id="Trazado_342" data-name="Trazado 342" d="M-134.16,124.559l1.981-1.438-.723-.987Z" fill="#fff"/>
+          <path id="Trazado_343" data-name="Trazado 343" d="M-134.16,124.559l.754-2.326,1.164.378Z" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
