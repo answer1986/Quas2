@@ -44,9 +44,9 @@
     <div class="col-12 col-md-2">
         <h5 id="footer-contacto">Contacto</h5>
         <div class="col">
-         <a id="parrafo-caja-3"> +56 9 7453 2868 </a>
+         <a href="tel:+56 9 7453 2868" id="parrafo-caja-3"> +56 9 7453 2868 </a>
         </div>
-        <a id="parrafo-caja-3">comercial@quas.cl</a>
+        <a href="mailto:comercial@quas.cl" id="parrafo-caja-3">comercial@quas.cl</a>
         <h5 id="siguenos">Siguenos</h5>
         <img src="{{ asset('./image/redes/twetter.svg') }}" alt="facebook" id="facebook">
         <img src="{{ asset('./image/redes/linked.svg') }}" alt="instagram" id="instagram">

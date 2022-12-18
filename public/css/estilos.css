@@ -71,9 +71,30 @@ color: darkgreen;
 
 #parrafo-caja-3{
   font-size: 14px;
+  color:black
 }
 
 #siguenos{
   color: darkgreen;
   margin-top: 2%;
+}
+/*fin de caja-2 y 3*/
+
+/*banner*/
+#banner{
+  background-position: center;
+  height: 500px;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-bottom: 70%;
+  font-size: 90px;
+  color: rgb(7, 76, 7);
+  justify-items: center;
+  position: absolute;
+  display: inline-block;
+  top: 20%;
+}
+
+#particles-js{
+position: relative;
 }
