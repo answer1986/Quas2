@@ -88,6 +88,28 @@
     <h2 id="titulo-clientes"><b>Nuestros Clientes</b></h2>
     <p id="parrafo-clientes">En Quas certificamos a clientes de diferentes áreas</p>
 </div>
+<div class="row" id="clientes">
+    <div class="col md-3" id="cliente-1">
+        <img src="{{asset('./image/fotos/1-mineria.png')}}" alt="cliente" width="100%" >
+        <p id="mineria"><b> Mineria</b></p>
+        <img src="{{asset('./image/iconos/Trazado 394.png')}}" id="comillas" alt="alimento" width="75px
+    </div>
+    <div class="col md-3" id="cliente-2">
+        <img src="{{asset('./image/fotos/1.2-alimentos.png')}}" alt="cliente" width="100%">
+        <p id="mineria"><b> Alimentos</b></p>
+    </div>
+    <div class="col md-3" id="cliente-3">
+        <img src="{{asset('./image/fotos/1.3-manufacturas.png')}}" alt="cliente" width="100%">
+        <p id="mineria"><b> Manufactura</b></p>
+    </div>
+    <div class="col md-3" id="cliente-4">
+        <img src="{{asset('./image/fotos/1.4-transportes.png')}}" alt="cliente" width="100%">
+        <p id="mineria"><b> Transporte</b></p>
+    </div>
+    <div class="col md-3" id="cliente-5">
+        <img src="{{asset('./image/fotos/1.5-comercio.png')}}" alt="cliente" width="100%">
+        <p id="mineria"><b> Comercio Internacional</b></p>
+    </div>
 @endsection
 
 @extends('essencials.footer')
