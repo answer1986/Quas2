@@ -2,7 +2,57 @@
 #titulo-contacto{
     color:darkgreen;
     font-size: 3em;
-    margin-left: 45%;
+    margin-left: 40%;
 }
 
-#mapa{}
+#formulario{
+    width: 500px;
+    height: 400px;
+    color:white;
+    margin-left: 30%;
+    padding: 20px;
+    border-radius: 15px;
+    background:transparent linear-gradient(137deg, #21D9B2 0%, #004839 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 40px 60px 60px #0000001A;
+    border-radius: 32px;
+   
+}
+
+#exampleFormControlInput1{
+font: normal normal bold 25px/30px Montserrat;
+}
+
+#exampleFormControlInput2{
+    font: normal normal bold 25px/30px Montserrat;
+
+}
+
+
+#exampleFormControlInput3{
+    font: normal normal bold 25px/30px Montserrat;
+
+}
+.boton{
+    background-color: black;
+    text-align: center;
+   
+}
+#ubicacion{
+    margin-left: 45%;
+    color:darkgreen;
+    
+}
+
+#datos{
+    width: 500px;
+    height: 400px;
+    margin-top: 4%;
+    
+}
+
+#datos-titulo{
+color:darkgreen
+}
+#formula{
+    margin-bottom: 10%;
+}

@@ -7,6 +7,7 @@
 #navbar{
   background: transparent linear-gradient(61deg, #FAFAFA 0%, #F5FFFD 100%) 0% 0% no-repeat padding-box;
   margin-left: 2%;
+  
 }
 
 #logo{
@@ -14,7 +15,7 @@
 }
 .nav-link{
     color:black;
-    font-family:Montserrat extrabold;
+    font: normal normal bold 18px/22px Montserrat;
     margin-right: 32px;
     font-size: 18px;
     

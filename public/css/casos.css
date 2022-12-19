@@ -1,0 +1,46 @@
+
+#parrafo{
+    background: transparent linear-gradient(103deg, #FAFAFA 0%, #F5FFFD 100%) 0% 0% no-repeat padding-box;
+    opacity: 1; 
+}
+
+#titulo-casos{
+    color:darkgreen;
+    font-size: 3em;
+    margin-left: 40%;
+    margin-top: 3%;
+}
+
+#parrafo-casos{
+text-align: center;
+font: normal normal normal 25px/30px Montserrat;
+letter-spacing: 0px;
+color: #606060;
+opacity: 1;
+}
+
+#parrafo-1{
+color:black;
+font-size: 2em;
+font: normal normal normal 30px/54px Montserrat;
+letter-spacing: 0px;
+color: #606060;
+opacity: 1;
+}
+
+#parrafo-2{
+    color:black;
+    font-size: 2em;
+    font: normal normal normal 30px/54px Montserrat;
+    letter-spacing: 0px;
+    color: #606060;
+    opacity: 1;
+ }
+
+
+#boton{
+    background: darkgreen;
+    opacity: 1; 
+    margin-left: 45%;
+    margin-bottom: 10%;
+}
