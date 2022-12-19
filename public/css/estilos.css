@@ -5,7 +5,7 @@
 
 
 #navbar{
-  background-color: transparent;
+  background: transparent linear-gradient(61deg, #FAFAFA 0%, #F5FFFD 100%) 0% 0% no-repeat padding-box;
   margin-left: 2%;
 }
 
@@ -132,11 +132,11 @@ margin-left: 35%;
 /*certifica*/
 
 #certificars{
-  background: radial-gradient( #faf8f8,  #c2f5d1);
+  background: transparent linear-gradient(61deg, #FAFAFA 0%, #F5FFFD 100%) 0% 0% no-repeat padding-box;
 }
 
 #caja-certifica-0{
-  background: radial-gradient( #faf8f8,  #c2f5d1);
+  background: transparent linear-gradient(61deg, #FAFAFA 0%, #F5FFFD 100%) 0% 0% no-repeat padding-box;
 }
 
 
@@ -279,6 +279,7 @@ margin-left: 35%;
 
 #cabecera{
   align-items: center;
+  background: transparent linear-gradient(61deg, #FAFAFA 0%, #F5FFFD 100%) 0% 0% no-repeat padding-box;
 }
 
 #titulo-clientes{
