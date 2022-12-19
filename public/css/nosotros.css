@@ -1,0 +1,60 @@
+/* sobre */
+
+#titulo-sobre{
+color:darkgreen;
+font-size: 3em;
+margin-top: 5%;
+text-align: center;
+}
+
+#parrafo-sobre{
+    text-align: center;
+    font: normal normal normal 25px/30px Montserrat;
+    letter-spacing: 0px;
+    color: #606060;
+    opacity: 1;
+}
+
+#img-sobre{
+    margin-left: 8%;
+    margin-top: 2%;
+}
+
+#parrafo-porque{
+color:darkgreen;
+font-size: 3em;
+margin-left: 25%;
+}
+
+#contenido-porque{
+    margin-left: 25%;
+    font: normal normal normal 18px/32px Montserrat;
+    letter-spacing: 0px;
+    color: #606060;
+    opacity: 1;
+    margin-bottom: 5%;
+    width: 800px;
+}
+
+#parrafo-preguntas{
+color:darkgreen;
+font-size: 3em;
+margin-left:25% ;
+text-align: center;
+width: 900px;
+}
+
+#contenido-preguntas{
+text-align: center;
+font: normal normal normal 18px/32px Montserrat;
+letter-spacing: 0px;
+color: #606060;
+opacity: 1;
+padding: 5%;
+}
+
+#boton-nosotros{
+    margin-left: 47%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
