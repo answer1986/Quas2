@@ -1,6 +1,7 @@
 @section('footer')
 <footer>
-<div class="row">
+    <br>
+<div class="row" id="footer">
     <div class="col-12 col-md-3" id="footer-caja-1">
         <h3 id="marca-footer">Quas</h3>
         <p id="parrafo-caja-1">Expertos en gestión de todo requerimiento exigido por el proceso de certificación en organizaciones.</p>

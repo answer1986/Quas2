@@ -16,9 +16,11 @@
 
 <body>
   @yield('navbar_top')
-  @yield('navbar')
-  @yield('banner')
-  @yield('certifica')
+  <div class="fondo-1">
+      @yield('navbar')
+      @yield('banner')
+      @yield('certifica')
+  </div>
   @yield('casos')
   @yield('cliente')
   @yield('footer')
