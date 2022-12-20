@@ -8,19 +8,19 @@
 <br>
 <div class="row">
     <div class="col" id="cabecera-caja-servicios">
-        <img src="{{asset('./image/iconos/medalla.svg')}}" alt="consultoria" width="15%">
+        <img src="{{asset('./image/iconos/medalla.svg')}}" id="parrafo-caja" width="15%" style="float:left; margin-right:10px">
         <p id="parrafo-caja">Certificacion de empresas</p>
     </div>
     <div class="col" id="cabecera-caja-servicios">
-        <img src="{{asset('./image/iconos/compu-grafica.svg')}}" alt="consultoria" width="15%">
+        <img src="{{asset('./image/iconos/compu-grafica.svg')}}" id="parrafo-caja" width="15%" style="float:left; margin-right:10px">
         <p id="parrafo-caja">Consultoria en empresas</p>
     </div>
     <div class="col" id="cabecera-caja-servicios">
-        <img src="{{asset('./image/iconos/compu-tablet-celu.svg')}}" alt="consultoria" width="15%">
+        <img src="{{asset('./image/iconos/compu-tablet-celu.svg')}}" id="parrafo-caja" width="15%" style="float:left; margin-right:10px">
         <p id="parrafo-caja">ERP Gestion de empresas</p>
     </div>
     <div class="col" id="cabecera-caja-servicios">
-        <img src="{{asset('./image/iconos/compu-tablet-celu.svg')}}" alt="consultoria" width="15%">
+        <img src="{{asset('./image/iconos/compu-tablet-celu.svg')}}" id="parrafo-caja" width="15%" style="float:left; margin-right:10px">
         <p id="parrafo-caja">Capacitacion y entrenamiento</p>
     </div>
 </div>
