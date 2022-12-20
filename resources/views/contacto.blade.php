@@ -26,11 +26,11 @@
     </div>
     <div class="col" id="datos">
         <h3 id="datos-titulo"><b>Escríbenos</b></h3>
-        <i class="fa-thin fa-location-dot">Agustinas N° 1022, oficina 1001, Santiago</i><br>
+        <i class="fa fa-thin fa-location-dot" id="texto">Agustinas N° 1022, oficina 1001, Santiago</i><br>
         <br>
-        <i class="fa-sharp fa-solid fa-paper-plane">comercial@quas.cl</i><br>
+        <i class="fa fa-sharp fa-solid fa-paper-plane" id="texto">comercial@quas.cl</i><br>
         <br>
-        <i class="fa-solid fa-phone">Teléfono: (+56) 9 7453 2868</i><br>
+        <i class="fa fa-solid fa-phone" id="texto">Teléfono: (+56) 9 7453 2868</i><br>
         <br>
         <img src="{{asset('image/redes/linked.svg')}}" id="whatsapp" alt="linked" class="img-fluid">
         <img src="{{asset('image/redes/twetter.svg')}}" id="whatsapp" alt="whatsapp" class="img-fluid">

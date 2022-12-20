@@ -1,6 +1,6 @@
 
 #titulo-contacto{
-    color:darkgreen;
+    color:#006953;
     font-size: 3em;
     margin-left: 40%;
 }
@@ -19,17 +19,17 @@
 }
 
 #exampleFormControlInput1{
-font: normal normal bold 25px/30px Montserrat;
+font: normal normal  25px/30px sans-serif;
 }
 
 #exampleFormControlInput2{
-    font: normal normal bold 25px/30px Montserrat;
+    font: normal normal  25px/30px sans-serif;
 
 }
 
 
 #exampleFormControlInput3{
-    font: normal normal bold 25px/30px Montserrat;
+    font: normal normal  25px/30px sans-serif;
 
 }
 .boton{
@@ -39,7 +39,7 @@ font: normal normal bold 25px/30px Montserrat;
 }
 #ubicacion{
     margin-left: 45%;
-    color:darkgreen;
+    color:#006953;
     
 }
 
@@ -51,8 +51,13 @@ font: normal normal bold 25px/30px Montserrat;
 }
 
 #datos-titulo{
-color:darkgreen
+color:#006953
 }
 #formula{
     margin-bottom: 10%;
+}
+
+#texto{
+    color: #606060;
+    font: normal normal normal 31px/38px sans-serif;
 }

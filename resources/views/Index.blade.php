@@ -77,7 +77,7 @@
 @section('casos')
 
 <h2 id="titulo-casos"><b>Casos de éxito</b></h2>
-<p id="parrafo-clientes" style="margin-left:30px"> Lee lo que dicen nuestros clientes</p>
+<p id="parrafo-clientes"> Lee lo que dicen nuestros clientes</p>
 <div class="row">
     <div class="col">
         <img src="{{asset('./image/fotos/1.2-alimentos@2x.png')}}" id="alimento" width="561px">

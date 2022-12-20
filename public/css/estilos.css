@@ -1,11 +1,19 @@
 /*barra de navegación*/
+
+#fondo-1{
+  opacity: 1;
+  background-image:url('../Image/1-banner-home.jpg') ;
+  background-size: contain;
+
+}
+
 .navbar-top{
     margin:20px;
 }
 
 
 #navbar{
-  background: transparent linear-gradient(61deg, #FAFAFA 0%, #F5FFFD 100%) 0% 0% no-repeat padding-box;
+  /*background: transparent linear-gradient(61deg, #FAFAFA 0%, #F5FFFD 100%) 0% 0% no-repeat padding-box;*/
   margin-left: 2%;
   
 }
@@ -15,7 +23,7 @@
 }
 .nav-link{
     color: #606060;
-    font: normal normal bold 18px/22px Montserrat;
+    font: normal normal sans-serif 18px/22px sans-serif;
     margin-right: 32px;
     font-size: 18px;
     
@@ -30,7 +38,7 @@
  background-color: #006953 ;
  border-radius: 15px;
  margin-top: 5%;
- font-family:Montserrat extrabold;
+ font-family:sans-serif extrasans-serif;
  margin-left: 200px;
 }
 /** fin barra de navegación*/
@@ -46,7 +54,7 @@
   font-size: 14px;
   margin-left: 4%;
   text-align: left;
-  font: normal normal normal 14px/32px Montserrat;
+  font: normal normal normal 14px/32px sans-serif;
   letter-spacing: 0px;
   color: #606060;
 }
@@ -65,7 +73,7 @@ margin-left: 4%;
   
   margin: 5%;
   text-align: left;
-  font: normal normal normal 14px/32px Montserrat;
+  font: normal normal normal 14px/32px sans-serif;
   letter-spacing: 0px;
   color: #606060;
 }
@@ -73,7 +81,7 @@ margin-left: 4%;
 /*caja-2*/
 #certficacion-empresas{
   text-align: left;
-font: normal normal bold 20px/24px Montserrat;
+font: normal normal sans-serif 20px/24px sans-serif;
 letter-spacing: 0px;
 color: #006953;
 opacity: 1;
@@ -82,7 +90,7 @@ opacity: 1;
 #parrafo-caja-2{
   font-size: 14px;
   text-align: left;
-  font: normal normal normal 14px/32px Montserrat;
+  font: normal normal normal 14px/32px sans-serif;
   letter-spacing: 0px;
   color: #606060;
 }
@@ -91,12 +99,12 @@ opacity: 1;
   margin-top: 8%;
   font-size: 14px;
   text-align: left;
-  font: normal normal normal 14px/32px Montserrat;
+  font: normal normal normal 14px/32px sans-serif;
   letter-spacing: 0px;
   color: #606060;
 }
 #footer-contacto{
-font: normal normal bold 20px/24px Montserrat;
+font: normal normal sans-serif 20px/24px sans-serif;
 letter-spacing: 0px;
 color: #006953;
 }
@@ -107,7 +115,7 @@ color: #006953;
 }
 
 #siguenos{
-  font: normal normal bold 20px/24px Montserrat;
+  font: normal normal sans-serif 20px/24px sans-serif;
   letter-spacing: 0px;
   color: #006953;
 }
@@ -122,10 +130,10 @@ color: #006953;
 #banner{
   margin-top: 202px;
   margin-left:20%;
-  width: 1000px;
+  width: 1200px;
   height: 200px;
   text-align: center;
-  font: normal normal 800 70px/86px Montserrat;
+  font: normal normal 800 70px/86px sans-serif;
   letter-spacing: 0px;
   color: #006953;
   opacity: 1;
@@ -135,7 +143,7 @@ color: #006953;
 
 #segunda-linea{
   text-align: center;
-  font: normal normal normal 30px/37px Montserrat;
+  font: normal normal normal 30px/37px sans-serif;
   letter-spacing: 0px;
   color: #606060;
   opacity: 1;
@@ -146,28 +154,29 @@ color: #006953;
   color: white;
   background: #006953 0% 0% no-repeat padding-box;
   border-radius: 15px;
-  font-family:Montserrat extrabold;
+  font-family:sans-serif extrasans-serif;
   margin-left: 45%;
   padding: 10px;
   font-size: 22px;
   width: 130px;
   align-items: center;
+  
 }
 /*fin banner*/
 /*certifica*/
 
 #certificars{
-  background: transparent linear-gradient(61deg, #FAFAFA 0%, #F5FFFD 100%) 0% 0% no-repeat padding-box;
+  /*background: transparent linear-gradient(61deg, #FAFAFA 0%, #F5FFFD 100%) 0% 0% no-repeat padding-box;*/
 }
 
 #caja-certifica-0{
-  background: transparent linear-gradient(61deg, #FAFAFA 0%, #F5FFFD 100%) 0% 0% no-repeat padding-box;
+  /*background: transparent linear-gradient(61deg, #FAFAFA 0%, #F5FFFD 100%) 0% 0% no-repeat padding-box;*/
 }
 
 
 #certifica{
   text-align: center;
-  font: normal normal 800 45px/55px Montserrat;
+  font: normal normal 800 45px/55px sans-serif;
   letter-spacing: 0px;
   color: #006953;
   opacity: 1;
@@ -176,12 +185,20 @@ color: #006953;
   height: 110px;
   margin-left: 23%;
   margin-bottom: 5%;
-  margin-top: 5%;
+  margin-top: 15%;
 }
+
 
 #caja-certifica-1{
   margin-left: 8%;
-  border: solid 1px;
+  margin-right: 2%;
+  border-radius: 15px;
+}
+
+
+#caja-certifica-1:hover{
+  margin-left: 8%;
+  border: solid 1px darkgreen;
   margin-right: 2%;
   background-color: #f5f5f5;
   border-radius: 15px;
@@ -191,7 +208,7 @@ color: #006953;
 
 #titulo-caja-certifica-1{
   text-align: left;
-  font: normal normal bold 30px/37px Montserrat;
+  font: normal normal sans-serif 30px/37px sans-serif;
   letter-spacing: 0px;
   color: #006953;
   opacity: 1;
@@ -200,8 +217,14 @@ color: #006953;
   padding: 10px;
 }
 
+
 #caja-certificar-2{
-  border: solid 1px;
+  margin-right: 2%;
+  border-radius: 15px;
+}
+
+#caja-certificar-2:hover{
+  border: solid 1px darkgreen;
   margin-right: 2%;
   background-color: #f5f5f5;
   border-radius: 15px;
@@ -209,7 +232,7 @@ color: #006953;
 
 #enlace{
   text-align: left;
-font: normal normal normal 18px/27px Montserrat;
+font: normal normal normal 18px/27px sans-serif;
 letter-spacing: 0px;
 color: #006953;
 opacity: 1;
@@ -217,14 +240,14 @@ opacity: 1;
 
 #titulo-caja-certifica-2{
   text-align: left;
-  font: normal normal bold 30px/37px Montserrat;
+  font: normal normal sans-serif 30px/37px sans-serif;
   letter-spacing: 0px;
   color: #006953;
   width: 200px;
 }
 #enlace2{
   text-align: left;
-  font: normal normal normal 18px/27px Montserrat;
+  font: normal normal normal 18px/27px sans-serif;
   letter-spacing: 0px;
   color: #006953;
   opacity: 1;
@@ -232,14 +255,20 @@ opacity: 1;
 
 #titulo-caja-certifica-3{
   text-align: left;
-  font: normal normal bold 30px/37px Montserrat;
+  font: normal normal sans-serif 30px/37px sans-serif;
   letter-spacing: 0px;
   color: #006953;
   width: 200px;
 }
 
 #caja-certificar-3{
-  border: solid 1px;
+  margin-right: 2%;
+  border-radius: 15px;
+}
+
+
+#caja-certificar-3:hover{
+  border: solid 1px darkgreen;
   margin-right: 2%;
   background-color: #f5f5f5;
   border-radius: 15px;
@@ -247,7 +276,7 @@ opacity: 1;
 
 #enlace3{
   text-align: left;
-  font: normal normal normal 18px/27px Montserrat;
+  font: normal normal normal 18px/27px sans-serif;
   letter-spacing: 0px;
   color: #006953;
   opacity: 1;
@@ -270,7 +299,7 @@ opacity: 1;
 
 #titulo-casos{
   text-align: left;
-  font: normal normal 800 45px/55px Montserrat;
+  font: normal normal 800 45px/55px sans-serif;
   letter-spacing: 0px;
   color: #006953;
   opacity: 1;
@@ -279,11 +308,12 @@ opacity: 1;
 
 #parrafo-clientes{
   text-align: left;
-  font: normal normal normal 31px/38px Montserrat;
+  font: normal normal normal 31px/38px sans-serif;
   letter-spacing: 0px;
   color: #606060;
   opacity: 1;
-  margin-left:0px;
+  margin-left:30px;
+  width: 500px;
   
 }
 
@@ -292,7 +322,7 @@ opacity: 1;
   height: 255px;
   /* UI Properties */
   text-align: left;
-  font: normal normal normal 30px/54px Montserrat;
+  font: normal normal normal 30px/54px sans-serif;
   letter-spacing: 0px;
   margin-top: 10%;
   color: #606060;
@@ -336,7 +366,7 @@ opacity: 1;
 
 #titulo-clientes{
   text-align: center;
-  font: normal normal 800 45px/55px Montserrat;
+  font: normal normal 800 45px/55px sans-serif;
   letter-spacing: 0px;
   color: #006953;
   opacity: 1;
@@ -344,7 +374,7 @@ opacity: 1;
 
 #parrafo-clientes{
 text-align: center;
-font: normal normal normal 31px/38px Montserrat;
+font: normal normal normal 31px/38px sans-serif;
 letter-spacing: 0px;
 color: #606060;
 opacity: 1;
@@ -352,7 +382,7 @@ margin-bottom: 10%;
 }
 #mineria{
   text-align: left;
-  font: normal normal bold 24px/49px Montserrat;
+  font: normal normal sans-serif 24px/49px sans-serif;
   letter-spacing: 0px;
   color: #006953;
   opacity: 1;
@@ -362,7 +392,7 @@ margin-bottom: 10%;
 
 #mineria-1{
   text-align: left;
-  font: normal normal bold 24px/49px Montserrat;
+  font: normal normal sans-serif 24px/49px sans-serif;
   letter-spacing: 0px;
   color: #006953;
   opacity: 1;
