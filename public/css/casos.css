@@ -1,11 +1,11 @@
 
 #parrafo{
-    background: transparent linear-gradient(103deg, #FAFAFA 0%, #F5FFFD 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(103deg, #FAFAFA 0%, #e8f7f4 100%) 0% 0% no-repeat padding-box;
     opacity: 1; 
 }
 
 #titulo-casos{
-    color:darkgreen;
+    color:#006953;
     font-size: 3em;
     margin-left: 40%;
     margin-top: 3%;
@@ -13,7 +13,7 @@
 
 #parrafo-casos{
 text-align: center;
-font: normal normal normal 25px/30px Montserrat;
+font: normal normal normal 25px/30px sans-serif;
 letter-spacing: 0px;
 color: #606060;
 opacity: 1;
@@ -22,7 +22,7 @@ opacity: 1;
 #parrafo-1{
 color:black;
 font-size: 2em;
-font: normal normal normal 30px/54px Montserrat;
+font: normal normal normal 30px/54px sans-serif;
 letter-spacing: 0px;
 color: #606060;
 opacity: 1;
@@ -31,7 +31,7 @@ opacity: 1;
 #parrafo-2{
     color:black;
     font-size: 2em;
-    font: normal normal normal 30px/54px Montserrat;
+    font: normal normal normal 30px/54px sans-serif;
     letter-spacing: 0px;
     color: #606060;
     opacity: 1;
@@ -39,8 +39,15 @@ opacity: 1;
 
 
 #boton{
-    background: darkgreen;
+    background: #006953;
     opacity: 1; 
     margin-left: 45%;
     margin-bottom: 10%;
 }
+
+#carouselExampleIndicators{
+    margin-left: 8%;
+}
+
+/** carrousel **/
+

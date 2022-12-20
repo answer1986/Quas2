@@ -1,0 +1,32 @@
+
+#Titulo{
+    text-align: center;
+    font: normal normal 800 45px/55px sans-serif;
+    letter-spacing: 0px;
+    color: #006953;
+    opacity: 1;
+    margin-top: 5%;
+}
+
+#parrafo{
+    text-align: center;
+    font: normal normal normal 25px/30px sans-serif;
+    letter-spacing: 0px;
+    color: #606060;
+    opacity: 1;
+}
+
+#cabecera-caja-servicios{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+#parrafo-caja{
+    
+}

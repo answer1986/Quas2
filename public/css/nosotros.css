@@ -1,7 +1,17 @@
 /* sobre */
 
+#nosotros{
+top: 0px;
+left: 0px;
+width: 1920px;
+height: 428px;
+/* UI Properties */
+background: transparent linear-gradient(103deg, #FAFAFA 0%, #F5FFFD 100%) 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
 #titulo-sobre{
-color:darkgreen;
+color:#006953;
 font-size: 3em;
 margin-top: 5%;
 text-align: center;
@@ -9,26 +19,26 @@ text-align: center;
 
 #parrafo-sobre{
     text-align: center;
-    font: normal normal normal 25px/30px Montserrat;
+    font: normal normal normal 25px/30px sans-serif;
     letter-spacing: 0px;
     color: #606060;
     opacity: 1;
 }
 
 #img-sobre{
-    margin-left: 8%;
+    margin-left: 15%;
     margin-top: 2%;
 }
 
 #parrafo-porque{
-color:darkgreen;
+color:#006953;
 font-size: 3em;
 margin-left: 25%;
 }
 
 #contenido-porque{
     margin-left: 25%;
-    font: normal normal normal 18px/32px Montserrat;
+    font: normal normal normal 18px/32px sans-serif;
     letter-spacing: 0px;
     color: #606060;
     opacity: 1;
@@ -37,7 +47,7 @@ margin-left: 25%;
 }
 
 #parrafo-preguntas{
-color:darkgreen;
+color:#006953;
 font-size: 3em;
 margin-left:25% ;
 text-align: center;
@@ -46,7 +56,7 @@ width: 900px;
 
 #contenido-preguntas{
 text-align: center;
-font: normal normal normal 18px/32px Montserrat;
+font: normal normal normal 18px/32px sans-serif;
 letter-spacing: 0px;
 color: #606060;
 opacity: 1;

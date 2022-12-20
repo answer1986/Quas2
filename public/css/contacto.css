@@ -1,4 +1,13 @@
 
+#contactors{
+    background: transparent linear-gradient(103deg, #FAFAFA 0%, #e1f2ee 100%) 0% 0% no-repeat padding-box;
+}
+
+
+#mapa{
+    margin-left: 6%;
+}
+
 #titulo-contacto{
     color:#006953;
     font-size: 3em;
