@@ -20,7 +20,7 @@
         <p id="parrafo-caja">ERP Gestion de empresas</p>
     </div>
     <div class="col" id="cabecera-caja-servicios">
-        <img src="{{asset('./image/iconos/compu-tablet-celu.svg')}}" alt="consultoria" width="15%">
+        <img src="{{asset('./image/iconos/certificado.svg')}}" alt="consultoria" width="15%">
         <p id="parrafo-caja">Capacitacion y entrenamiento</p>
     </div>
 </div>

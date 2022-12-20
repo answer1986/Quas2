@@ -18,15 +18,18 @@
 
 #cabecera-caja-servicios{
     margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
     margin-bottom: 5%;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
     border-radius: 10px;
     opacity: 1;
+    width: 300px;
 }
 
 #parrafo-caja{
+    font: sans-serif;
+    color: #006953;
     
 }
