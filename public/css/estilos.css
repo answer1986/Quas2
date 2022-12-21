@@ -329,7 +329,8 @@ color: #006953;
 }
 
 #relatos-clientes{
-  
+  width: 705px;
+  height: 255px;
   /* UI Properties */
   text-align: left;
   font: normal normal normal 28px/38px sans-serif;

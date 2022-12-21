@@ -22,7 +22,7 @@
     margin-right: 2%;
     margin-bottom: 5%;
     background: #FFFFFF 0% 0% no-repeat padding-box;
-    box-shadow: 0px 3px 6px #00000029;
+    box-shadow: 0px 3px 6px #e5e2e2ce;
     border-radius: 10px;
     opacity: 1;
     padding-top: 2%;
@@ -96,6 +96,20 @@ opacity: 1;
 /*fin consultoria en empresas */
 
 /* erp gestion empresas */
+
+#resumen-gestion-emp-1{
+    font-size: 1em;
+    color: #606060;
+    width: 60%;
+}
+
+#boton-erp-1{
+    background-color: white;
+    color: gray;
+    padding: 8px;
+    border-radius: 15px;
+    margin-bottom: 5%;
+}
 
 #video{
     margin-top: 15%;
@@ -189,7 +203,23 @@ opacity: 1;
 
 /* fin capacitacion y entrenamiento personal  */
 
+/*manejo de cajas*/
+#capacitacion_entrenamiento{
+    display: none;
+    
+}
 
+#erp-gestion-de-empresas-2{
+    display: none;
+}
+
+
+#erp-gestion-de-empresas-1{
+    display: none;
+    
+}
+
+#consultoria_en_empresas{}
 
 /* area nuestros clientes */
 #parrafo-clientes{
