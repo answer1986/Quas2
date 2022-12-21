@@ -10,56 +10,55 @@
 </div>
 <br>
 
-
-
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1" ></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-        <div class="carousel-item vh-100 active">
-            <img class="d-block w-80" src="{{asset ('/image/fotos/Topografos.png')}}" alt="First slide" style="margin-left:10%">
-            <div class="carousel-caption d-none d-md-block">
-                <div>
-                    <image src="{{asset ('/image/iconos/Trazado 394.png')}}" id="logo" alt="logo" style="float:left;">
-                        <p id="parrafo-1">Somos la única empresa en Chile de servicios de monitoreo de relaves geofísico y geotécnicos, que cuenta con un sistema de gestión integral certificado en ISO9001, ISO14001 e ISO 45001… Quas, es nuestro partner”.</p>
-                </div>
-
-            </div>
-            <div class="carousel-item vh-100">
-                <img class="d-block w-80" src="{{asset ('/image/fotos/plasti.png')}}" alt="Second slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <div>
-                        <image src="{{asset ('/image/iconos/Trazado 394.png')}}" id="logo" alt="logo" style="float:left;">
-                            <p id="parrafo-2">Nuestros productos de envase y empaque de frutas, están hoy en los mercado más importantes del mundo, tenemos todas las certificaciones de mercados europeos, asiáticos… Quas, es nuestro Socio Estratégico”.</p>
-                    </div>
-                </div>
-                <!-- <div class="carousel-item vh-100">
-                <img class="d-block w-100" src="https://wallpaperplay.com/walls/full/1/d/4/234836.jpg" alt="Third slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Lorem ipsum dolor sit amet.</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, repellendus.</p>
-                </div>
-            </div>-->
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-            
-
-        </div>
-        
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-    <button id="boton" type="button" class="btn btn-success">Contáctanos</button>
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+            <img src="{{asset ('/image/fotos/Topografos.png')}}" class="d-block w-60" alt="..." id="foto1">
+            <br>
+            <div class="carousel-caption d-none d-md-block" id="caja-texto">
+                <image src="{{asset ('/image/iconos/Trazado 394.png')}}" id="logo" alt="logo" style="float:left;">
+                    <p id="parrafo-1">Somos la única empresa en Chile de servicios de monitoreo de relaves geofísico y geotécnicos, que cuenta con un sistema de gestión integral certificado en ISO9001, ISO14001 e ISO 45001… Quas, es nuestro partner”.</p>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="{{asset ('/image/fotos/plasti.png')}}" class="d-block w-60" alt="..." id="foto1">
+            <div class="carousel-caption d-none d-md-block" id="caja-texto" >
+                <br>
+                <image src="{{asset ('/image/iconos/Trazado 394.png')}}" id="logo" alt="logo" style="float:left;">
+                    <p id="parrafo-1">Nuestros productos de envase y empaque de frutas, están hoy en los mercado más importantes del mundo, tenemos todas las certificaciones de mercados europeos, asiáticos… Quas, es nuestro Socio Estratégico”.</p>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="{{asset ('/image/fotos/alimento.png')}}" class="d-block w-60" alt="..." id="foto1">
+            <div class="carousel-caption d-none d-md-block" id="caja-texto" >
+                <br>
+                <image src="{{asset ('/image/iconos/Trazado 394.png')}}" id="logo" alt="logo" style="float:left;">
+                    <p id="parrafo-1">Después de varios años de intentar certificarnos en ISO 22000 sin resultados… , hoy nuestra empresa de alimentos ya cumple su segundo ciclo de certificación en norma de inocuidad alimentaria… Quas, confianza en ellos…”</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true" style="margin-right:50px"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
 
-        @endsection
 
 
-        @extends('essencials.footer')
+
+
+<button id="boton" type="button" class="btn btn-success">Contáctanos</button>
+
+@endsection
+
+
+@extends('essencials.footer')

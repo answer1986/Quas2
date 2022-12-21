@@ -84,7 +84,7 @@
 <p id="parrafo-clientes"> Lee lo que dicen nuestros clientes</p>
 <div class="row">
     <div class="col">
-        <img src="{{asset('./image/fotos/1.2-alimentos@2x.png')}}" id="alimento" width="561px">
+        <img src="{{asset('./image/fotos/1.2-alimentos@2x.png')}}" id="alimento" width="80%">
     </div>
     <div class="col">    
         <img src="{{asset('./image/iconos/Trazado 394.png')}}" id="comillas" alt="alimento" width="75px">

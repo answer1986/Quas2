@@ -329,8 +329,7 @@ color: #006953;
 }
 
 #relatos-clientes{
-  width: 765px;
-  height: 255px;
+  
   /* UI Properties */
   text-align: left;
   font: normal normal normal 28px/38px sans-serif;
@@ -354,8 +353,7 @@ color: #006953;
 
 #alimento{
   
-  width: 761px;
-  height: 683px;
+ 
   /* UI Properties */
   box-shadow: 10px 20px 60px #21D9B21A;
   border-radius: 24px;

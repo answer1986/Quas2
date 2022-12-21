@@ -16,17 +16,18 @@ text-align: center;
 }
 
 #parrafo-sobre{
-    text-align: center;
-    font: normal normal normal 25px/30px sans-serif;
-    letter-spacing: 0px;
-    color: #606060;
-    opacity: 1;
+text-align: center;
+font: normal normal normal 25px/30px sans-serif;
+letter-spacing: 0px;
+color: #606060;
+opacity: 1;
 }
 
-#img-sobre{
-    margin-top: 2%;
-    align-items: center;
+#imagen-so{
+align-content: center;
+margin: auto;
 }
+
 
 #parrafo-porque{
 color:#006953;
@@ -35,20 +36,23 @@ text-align: center;
 }
 
 #contenido-porque{
-    text-align: center;
-    font: normal normal normal 18px/32px sans-serif;
-    letter-spacing: 0px;
-    color: #606060;
-    opacity: 1;
-    margin-bottom: 5%;
-    width: 800px;
+font: normal normal normal 18px/32px sans-serif;
+letter-spacing: 0px;
+color: #606060;
+opacity: 1;
+margin-bottom: 5%;
+width: 80%;
+text-align: center;
+margin: auto;
+    
 }
 
 #parrafo-preguntas{
 color:#006953;
 font-size: 3em;
+width: 80%;
 text-align: center;
-width: 800px;
+margin: auto;
 }
 
 #contenido-preguntas{
@@ -61,7 +65,14 @@ padding: 5%;
 }
 
 #boton-nosotros{
+text-align: center;
+margin-top: 5%;
+margin-bottom: 5%;
+margin: auto;
+margin-left: 45%;
+}
+
+#container{
     text-align: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    vertical-align: middle;
 }
