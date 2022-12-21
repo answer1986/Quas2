@@ -36,7 +36,8 @@ text-align: center;
 }
 
 #contenido-porque{
-font: normal normal normal 18px/32px sans-serif;
+font: normal normal normal sans-serif;
+font-size: 1.5em;
 letter-spacing: 0px;
 color: #606060;
 opacity: 1;
@@ -53,11 +54,13 @@ font-size: 3em;
 width: 80%;
 text-align: center;
 margin: auto;
+margin-top: 5%;
 }
 
 #contenido-preguntas{
 text-align: center;
-font: normal normal normal 18px/32px sans-serif;
+font: normal normal normal sans-serif;
+font-size: 1.5em;
 letter-spacing: 0px;
 color: #606060;
 opacity: 1;
