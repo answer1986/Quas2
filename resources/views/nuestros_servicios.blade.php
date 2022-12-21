@@ -39,15 +39,15 @@
             <h2 id="titulo-certificacion"><b>Certificacion de empresas</b></h2>
             <br>
             <div class="primera-linea-boton">
-                <button id="boton-certificacion-1" onclick="cambio1()">ISO 9001</button>
-                <button id="boton-certificacion-2" onclick="cambio2()">ISO 14001</button>
-                <button id="boton-certificacion-3" onclick="cambio3()">ISO 45001</button>
-                <button id="boton-certificacion-4" onclick="cambio4()">ISO 22000</button>
+                <button id="boton-certificacion-1" onclick="cambio1();">ISO 9001</button>
+                <button id="boton-certificacion-2" onclick="cambio2();">ISO 14001</button>
+                <button id="boton-certificacion-3" onclick="cambio3();">ISO 45001</button>
+                <button id="boton-certificacion-4" onclick="cambio4();">ISO 22000</button>
             </div>
             <div class="segunda-linea-boton">
-                <button id="boton-certificacion-5" onclick="cambio5()">ISO 27001</button>
-                <button id="boton-certificacion-6" onclick="cambio6()">ISO 50001</button>
-                <button id="boton-certificacion-7" onclick="cambio7()">ISO 17025</button>
+                <button id="boton-certificacion-5" onclick="cambio5();">ISO 27001</button>
+                <button id="boton-certificacion-6" onclick="cambio6();">ISO 50001</button>
+                <button id="boton-certificacion-7" onclick="cambio7();">ISO 17025</button>
             </div>
             <br>
             <P id="titulo-iso9001"><b>ISO 9001: Sistema de Gestión de Calidad (SGC)</b></P>
