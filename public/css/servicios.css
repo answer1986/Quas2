@@ -35,8 +35,8 @@
     margin-right: 2%;
     margin-bottom: 5%;
     background: #FFFFFF 0% 0% no-repeat padding-box;
-
-    box-shadow: 0px 3px 6px #006953;
+    
+    box-shadow: 0px 3px 6px #00000029;
     border-radius: 10px;
     opacity: 1;
     padding-top: 2%;
@@ -63,3 +63,135 @@ color: #006953;
 opacity: 1;  
 }
 
+/* consultoria en empresas */
+
+
+#foto-caja-consultoria{
+    margin-top: 10%;
+    margin-left:20%;
+    float: right;
+    margin-right: 1em;
+}
+
+#titulo-consultoria{
+    color: #006953;
+    width: 40%;
+    margin-top: 12%;
+}
+
+#parrafo-consultoria{
+    font-size: 1em;
+    color: #606060;
+    width: 60%;
+}
+
+#resumen-consultoria{
+    font-size: 1em;
+    color: #606060;
+    width: 60%;
+}
+
+
+
+/*fin consultoria en empresas */
+
+/* erp gestion empresas */
+
+#video{
+    margin-top: 15%;
+    width: 70%;
+    height: 40%;
+    float: right;
+    
+}
+
+#descripcion-video{
+    margin-top: 55%;
+    width: 70%;
+    text-align: right ;
+    color: #373636;
+    margin-left: 15%;
+}
+
+#descripcion-especifica{
+    font-size: 1em;
+    color: #606060;
+    width: 60%;
+    text-align: right;
+    margin-left: 30%;
+    margin-top: 1%;
+
+}
+
+#titulo-erp{
+    color: #006953;
+    width: 40%;
+    padding: 2%;
+    margin-top: 12%;
+    
+}
+
+#boton-erp{
+    background-color: #006953;
+    color: white;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+#titulo-plataformas{
+    color: #006953;
+    width: 40%;
+    margin-top: 2%;
+    font-size: 1em;
+}
+
+
+
+
+/* fin erp gestion empresas */
+
+/*capacitacion y entrenamiento personal  */
+#foto-caja-capacitacion{
+    margin-top: 10%;
+    margin-left:20%;
+    float: right;
+    margin-right: 1em;
+}
+
+#titulo-capacitacion{
+    color: #006953;
+    width: 40%;
+    margin-top: 12%;
+}
+
+#parrafo-1{
+    font-size: 1em;
+    color: #606060;
+    width: 60%;
+}
+
+#parrafo-2{
+    font-size: 1em;
+    color: #606060;
+    width: 60%;
+
+}
+#parrafo-3{
+    font-size: 1em;
+    color: #606060;
+    width: 60%;
+
+}
+
+#boton-casos{
+    margin-top: 5%;
+}
+
+/* fin capacitacion y entrenamiento personal  */
+
+
+
+/* area nuestros clientes */
+#parrafo-clientes{
+    text-align: center;
+}
