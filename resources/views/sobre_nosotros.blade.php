@@ -16,7 +16,7 @@
         ¿Quiere vender sus productos y servicios al Estado? ¿Por qué es importante generar valor en mi negocio?</p>
         <br>
         <div class="container">
-            <button id="boton-nosotros" type="button" class="btn btn-success">Contáctanos</button>
+            <button id="boton-nosotros" type="button" class="btn btn-success" href="{{ url('/contacto')}}">Contáctanos</button>
         </div>
 @endsection
 

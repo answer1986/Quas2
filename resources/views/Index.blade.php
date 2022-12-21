@@ -11,6 +11,7 @@
 </div>-->
 <div class="banners">
     <div class="banner-text">
+        <button id="boton-cosmetico"type="button" class="btn btn-outline-secondary" >Estandares de Calidad</button>
         <h1 id="banner">Aseguramos el éxito en la </h1>
         <h1 id="banner-2">certificación de tu empresa</h1>
         <h3 id="segunda-linea">Este es nuestro compromiso corporativo</h3>

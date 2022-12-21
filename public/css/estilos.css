@@ -42,7 +42,11 @@
  margin-left: 200px;
 }
 /** fin barra de navegación*/
-
+#boton-cosmetico{
+margin-left: 43%;
+margin-top: 11%;
+float: none;
+}
 /*inicio de footer*/
 
 #footer{
@@ -128,7 +132,7 @@ color: #006953;
 }
 /* aqui*/
 #banner{
-  margin-top: 202px;
+  margin-top: 15px;
   text-align: center;
   font: normal normal 800 65px/75px sans-serif;
   letter-spacing: 0px;
