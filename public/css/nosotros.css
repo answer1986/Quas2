@@ -3,8 +3,6 @@
 #nosotros{
 top: 0px;
 left: 0px;
-width: 1920px;
-height: 428px;
 /* UI Properties */
 background: transparent linear-gradient(103deg, #FAFAFA 0%, #F5FFFD 100%) 0% 0% no-repeat padding-box;
 opacity: 1;
@@ -26,18 +24,18 @@ text-align: center;
 }
 
 #img-sobre{
-    margin-left: 15%;
     margin-top: 2%;
+    align-items: center;
 }
 
 #parrafo-porque{
 color:#006953;
 font-size: 3em;
-margin-left: 25%;
+text-align: center;
 }
 
 #contenido-porque{
-    margin-left: 25%;
+    text-align: center;
     font: normal normal normal 18px/32px sans-serif;
     letter-spacing: 0px;
     color: #606060;
@@ -49,9 +47,8 @@ margin-left: 25%;
 #parrafo-preguntas{
 color:#006953;
 font-size: 3em;
-margin-left:25% ;
 text-align: center;
-width: 900px;
+width: 800px;
 }
 
 #contenido-preguntas{
@@ -64,7 +61,7 @@ padding: 5%;
 }
 
 #boton-nosotros{
-    margin-left: 47%;
+    text-align: center;
     margin-top: 5%;
     margin-bottom: 5%;
 }

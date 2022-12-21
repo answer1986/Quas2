@@ -5,18 +5,17 @@
 
 
 #mapa{
-    margin-left: 6%;
+    align-items: center;
 }
 
 #titulo-contacto{
     color:#006953;
     font-size: 3em;
-    margin-left: 40%;
+    text-align: center;
 }
 
 #formulario{
-    width: 500px;
-    height: 400px;
+    
     color:white;
     margin-left: 30%;
     padding: 20px;
@@ -60,7 +59,8 @@ font: normal normal  25px/30px sans-serif;
 }
 
 #datos-titulo{
-color:#006953
+color:#006953;
+margin-left: 5%;
 }
 #formula{
     margin-bottom: 10%;
@@ -68,5 +68,10 @@ color:#006953
 
 #texto{
     color: #606060;
-    font: normal normal normal 31px/38px sans-serif;
+    font: normal normal normal 18px/26px sans-serif;
+    margin-left: 5%;
+}
+#whatsapp{
+    margin-left: 5%;
+   
 }

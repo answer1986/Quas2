@@ -11,7 +11,8 @@
 </div>-->
 <div class="banners">
     <div class="banner-text">
-        <h1 id="banner">Aseguramos el éxito en la certificación de nuestros clientes</h1>
+        <h1 id="banner">Aseguramos el éxito en la </h1>
+        <h1 id="banner-2">certificación de tu empresa</h1>
         <h3 id="segunda-linea">Este es nuestro compromiso corporativo</h3>
         <a id="primer-contacto" href="{{url('/contacto')}}">Contáctanos</a>
     </div>
@@ -21,46 +22,49 @@
 
 @section('certifica')
 <div class="row" id="certificars">
-    <h3 id="certifica">Certificar su empresa es hacer crecer su negocio y proteger su inversión</h3>
+    <h3 id="certifica">Certificar su empresa es hacer crecer su </h3>
+    <h3 id="certifica-2">negocio y proteger su inversión</h3>
 </div>
 <div class="row" id="caja-certifica-0">
     <div class="col md-3" id="caja-certifica-1">
         <div>
             <img src="{{asset('./image/iconos/medalla.svg')}}"  style="float:right; margin-right:15%; margin-top:2%;">
-            <h3 id="titulo-caja-certifica-1">Certificación de empresas</h3>
-            
+            <h3 id="titulo-caja-certifica-1"><b>Certificación de empresas</b></h3>
+            <br>
         </div>
-        <p style="text-align: left;font: normal normal bold 18px/27px Montserrat;letter-spacing: 0px;color: #606060;"><b>Normas ISO</b></p>
-        <p style="text-align: left;font: normal normal normal 18px/27px Montserrat;letter-spacing: 0px;color: #606060;">9001 - 22000 - 45001 - 27001 - 14001 </p>
-        <p style="text-align: left;font: normal normal normal 18px/27px Montserrat;letter-spacing: 0px;color: #606060;">HACCP - FSSC - BRC</p>
-        <a id="enlace">Ver detalle</a>
+        <p style="text-align: left;font: normal normal sans-serif 18px/27px sans-serif;letter-spacing: 0px;color: #606060;"><b>Normas ISO</b></p>
+        <p style="text-align: left;font: normal normal normal 18px/27px sans-serif;letter-spacing: 0px;color: #606060;">9001 - 22000 - 45001 - 27001 - 14001 </p>
+        <p style="text-align: left;font: normal normal normal 18px/27px sans-serif;letter-spacing: 0px;color: #606060;">HACCP - FSSC - BRC</p>
+        <br>
+        <br>
+        <a id="enlace" href="{{url('/')}}">Ver detalle</a>
     </div>
 
     <div class="col md-3" id="caja-certificar-2">
         <div>
             <img src="{{asset('./image/iconos/compu-grafica.svg')}}" style="float:right; margin-right:15%; margin-top:2%;">
-            <h3 id="titulo-caja-certifica-2">Consultoría en empresas </h3>
-            
+            <h3 id="titulo-caja-certifica-2"><b>Consultoría en empresas</b> </h3>
+            <br>
         </div>
-        <p style="text-align: left;font: normal normal bold 18px/27px Montserrat;letter-spacing: 0px;color: #606060;">- Control y Gestión de Operaciones.</p>
-        <p style="text-align: left;font: normal normal bold 18px/27px Montserrat;letter-spacing: 0px;color: #606060;">- Control de Procesos. </p>
-        <p style="text-align: left;font: normal normal bold 18px/27px Montserrat;letter-spacing: 0px;color: #606060;">- Clima Organizacional. </p>
-        <p style="text-align: left;font: normal normal bold 18px/27px Montserrat;letter-spacing: 0px;color: #606060;">- Levantamiento y Mapeo de procesos.</p>
-        <p style="text-align: left;font: normal normal bold 18px/27px Montserrat;letter-spacing: 0px;color: #606060;">- Control Estratégico de Organizaciones.</p>
+        <p style="text-align: left;font: normal normal sans-serif 18px/27px sans-serif;letter-spacing: 0px;color: #606060;">- Control y Gestión de Operaciones.</p>
+        <p style="text-align: left;font: normal normal sans-serif 18px/27px sans-serif;letter-spacing: 0px;color: #606060;">- Control de Procesos. </p>
+        <p style="text-align: left;font: normal normal sans-serif 18px/27px sans-serif;letter-spacing: 0px;color: #606060;">- Clima Organizacional. </p>
+        <p style="text-align: left;font: normal normal sans-serif 18px/27px sans-serif;letter-spacing: 0px;color: #606060;">- Levantamiento y Mapeo de procesos.</p>
+        <p style="text-align: left;font: normal normal sans-serif 18px/27px sans-serif;letter-spacing: 0px;color: #606060;">- Control Estratégico de Organizaciones.</p>
         <a id="enlace2">Ver detalle</a>
     </div>
 
     <div class="col md-3" id="caja-certificar-3">
         <div>
         <img src="{{asset('./image/iconos/compu-tablet-celu.svg')}}" style="float:right; margin-right:15%; margin-top:2%;">
-            <h3 id="titulo-caja-certifica-3">ERP Gestión de empresas</h3>
-            
+            <h3 id="titulo-caja-certifica-3"><b>ERP Gestión de empresas</b></h3>
+            <br>
         </div>
-        <p style="text-align: left;font: normal normal bold 18px/27px Montserrat;letter-spacing: 0px;color: #606060;">- Quasmanager.</p>
-        <p style="text-align: left;font: normal normal bold 18px/27px Montserrat;letter-spacing: 0px;color: #606060;">- Quassafety. </p>
-        <p style="text-align: left;font: normal normal bold 18px/27px Montserrat;letter-spacing: 0px;color: #606060;">- Quasfactory. </p>
-        <p style="text-align: left;font: normal normal bold 18px/27px Montserrat;letter-spacing: 0px;color: #606060;">- Quasprocess.</p>
-        <p style="text-align: left;font: normal normal bold 18px/27px Montserrat;letter-spacing: 0px;color: #606060;">- Quasplanning.</p>
+        <p style="text-align: left;font: normal normal sans-serif 18px/27px sans-serif;letter-spacing: 0px;color: #606060;">- Quasmanager.</p>
+        <p style="text-align: left;font: normal normal sans-serif 18px/27px sans-serif;letter-spacing: 0px;color: #606060;">- Quassafety. </p>
+        <p style="text-align: left;font: normal normal sans-serif 18px/27px sans-serif;letter-spacing: 0px;color: #606060;">- Quasfactory. </p>
+        <p style="text-align: left;font: normal normal sans-serif 18px/27px sans-serif;letter-spacing: 0px;color: #606060;">- Quasprocess.</p>
+        <p style="text-align: left;font: normal normal sans-serif 18px/27px sans-serif;letter-spacing: 0px;color: #606060;">- Quasplanning.</p>
         <a id="enlace3">Ver detalle</a>
     </div>
     <br>
@@ -88,7 +92,7 @@
     </div>
 </div>
 
-<button id="boton-casos">Ver más casos de éxito</button>
+<a href="{{url('/casos_exito')}}" id="boton-casos">Ver más casos de éxito</a>
 <br>
 @endsection
 
@@ -96,7 +100,7 @@
 <br>
 <div class="cabecera">
     <h2 id="titulo-clientes"><b>Nuestros Clientes</b></h2>
-    <p id="parrafo-clientes">En Quas certificamos a clientes de diferentes áreas</p>
+    <p id="parrafo-clientes-1">En Quas certificamos a clientes de diferentes áreas</p>
 </div>
 <div class="row" id="clientes">
     <div class="col md-3" id="cliente-1">
