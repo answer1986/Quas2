@@ -446,9 +446,33 @@
 }
 
 #consultoria_en_empresas {
+    display: none;
 }
 
 /* area nuestros clientes */
 #parrafo-clientes {
     text-align: center;
 }
+/*certificacion de empresas*/
+#certificacion_de_empresas-7{
+    display: none;
+}
+#certificacion_de_empresas-6{
+    display: none;
+}
+#certificacion_de_empresas-5{
+    display: none;
+}
+#certificacion_de_empresas-4{
+    display: none;
+}
+#certificacion_de_empresas-3{
+    display: none;
+}
+#certificacion_de_empresas-2{
+    display: none;
+}
+#certificacion_de_empresas-1{
+    display: none;
+}
+/*fin certificacion de empresas*/

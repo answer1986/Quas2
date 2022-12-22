@@ -264,63 +264,63 @@
 </div>
 </div>
 
-
-<div class="certificacion_de_empresas" id="certificacion_de_empresas-7">
-    <div class="row" id="certificacion_de_empresas-7">
-        <div class="col">
-            <img src="{{asset('./image/isos/brc.png')}}" id="foto-caja-certificacionrs" width="80%">
-        </div>
-
-        <div class="col">
-            <h2 id="titulo-certificacion"><b>Certificacion de empresas</b></h2>
-            <br>
-            <div class="primera-linea-boton">
-                <button id="boton-certificacion-1" onclick="cambio1();">ISO 9001</button>
-                <button id="boton-certificacion-2" onclick="cambio2();">ISO 14001</button>
-                <button id="boton-certificacion-3" onclick="cambio3();">ISO 45001</button>
-                <button id="boton-certificacion-4" onclick="cambio4();">ISO 22000</button>
-                <button id="boton-certificacion-6" onclick="cambio7();">HACCP</button>
+<div class="certificacion_de_empresas-7" id="certificacion_de_empresas-7">
+    <div class="certificacion_de_empresas">
+        <div class="row">
+            <div class="col">
+                <img src="{{asset('./image/isos/brc.png')}}" id="foto-caja-certificacionrs" width="80%">
             </div>
-            <div class="segunda-linea-boton">
-                <button id="boton-certificacion-5" onclick="cambio5();">ISO 27001</button>
-                <button id="boton-certificacion-7" onclick="cambio6();">FSSC</button>
-                <button id="boton-certificacion-8" onclick="cambio8();">BRC</button>
-            </div>
-            <br>
-            <p id="titulo-iso9001"><b>BRC (British Retail Consortium Standard) </b></p>
-            <p id="parrafo-certificacion">El estándar BRC, es un estándar que cumple con los requisitos para alimentos, productos de clientes y materiales de empaque bajo el nombre de Estándar Global - Alimentos.<br><br> El propósito principal de los estándares BRC es reconocido internacionalmente, seguridad alimentaria normas. También es para apoyar el desarrollo de la seguridad alimentaria en todo el mundo. Normas BRC en términos de forma y contenido, está diseñado para dar una idea sobre los métodos de trabajo de los fabricantes de alimentos.</p>
-        </div>
 
-    </div>
-    <div class="row" id="texto-ampliadors">
-        <p id="desglocers">De esta manera, se ha logrado una estandarización en los criterios de inocuidad de los alimentos y en los procesos de seguimiento.<br><br> Certificado BRC de Alimentos, Sistemas de Seguridad Alimentaria. Posee una importante ventaja competitiva en mercados nacionales e internacionales. Mientras tanto, se ha logrado mejorar la seguridad y la calidad de los productos, se han reducido los aumentos de eficiencia y la producción.<br><br> BRC Food, Norma del sistema de seguridad alimentariaSe ha publicado para garantizar unas condiciones mínimas de higiene en las empresas productoras de alimentos. Para garantizar el cumplimiento de esta norma, las empresas que trabajan en el sector alimentario deben adaptar seis criterios básicos a sus sistemas de gestión. Estos criterios son:</p>
-        <ul id="listadors">
-            <li>Sistema HACCP (Sistema de Análisis de Riesgos y Puntos Críticos de Control)</li>
-            <li> Sistema de gestión de calidad.</li>
-            <li> Negocios (fábrica) y estándares ambientales.</li>
-            <li> Control de producto.</li>
-            <li> de proceso. Competencia del personal y normas de higiene.
-        </ul>
-        <p id="listadors2">Empresas que operan en el sector alimentario, Certificado BRC de Alimentos, Sistemas de Seguridad Alimentaria cuando se aplican, deben examinar las categorías establecidas por las normas en el momento de la solicitud y tomar la categoría más adecuada para ellos. Las normas se clasifican en seis categorías según la forma en que se procesan los alimentos. Estas categorías son:</p><br>
-        <ul id="listadors">
-            <li>Carnes crudas y productos de pescado (carnes rojas y blancas, pescados, carnes crudas y productos de pescado)</li>
-            <li> Producción (frutas y verduras frescas y congeladas). </li>
-            <li> Alimentos diarios (leche y productos lácteos, huevos). </li>
-            <li>Productos de carne y pescado listos para cocinar o congelados.</li>
-            <li> Productos alimenticios envasados con protección ambiental, protección térmica.</li>
-            <li> Otros productos alimenticios resistentes al medio ambiente (bebidas, alimentos secos, alimentos ligeros y cereales para el desayuno, productos de panadería, aceites y grasas, aditivos alimentarios)
-        </ul>
-        <p id="listadors2">Además de la norma del Sistema de seguridad alimentaria, BRC Food cuenta con una norma técnica de materiales de embalaje y BRC / IOP. Esta norma, también conocida como la norma BRC e IOP (Packaging Institute), está destinada a ayudar a los minoristas y fabricantes de alimentos a cumplir con sus obligaciones legales. El objetivo principal de esta norma es la protección de los consumidores. Los principios del estándar BRC Food, Food Safety System pueden explicarse a continuación:</p><br>
-        <ul id="listadors">
-            <li>Asegurar el cumplimiento de la normativa legal en materia de transparencia y comercio honesto.</li>
-            <li> Minimizar la repetición de la valoración.</li>
-            <li> Revisar y mejorar continuamente los estándares y procesos de soporte.</li>
-            <li> Difundir las mejores prácticas.</li>
-        </ul>
-        <p id="listadors2">Estos elementos son también elementos esenciales del Sistema de Gestión de la Calidad. Gracias al Sistema de gestión de la calidad, que ya se encuentra entre los requisitos del sistema, el estándar BRC Food, Food Safety System y el estándar BRC and IOP (Packaging Institute) no tendrán que hacer mucho esfuerzo para establecer e integrar estos estándares.<br><br> Las empresas que deseen establecer BRC Food, Food Safety System en sus empresas primero deben haber establecido y administrado el sistema HACCP. El sistema de gestión de calidad de la seguridad alimentaria HACCP es un sistema para garantizar la seguridad alimentaria. Es un sistema que garantiza que las condiciones de higiene requeridas por las empresas productoras de alimentos para la producción de alimentos saludables se determinen en cada punto de los empleados, maquinaria y equipo, materias primas, medio ambiente, etc. En cada etapa de la producción, se basa en identificar y eliminar las razones que crean un riesgo para la salud del consumidor.<br><br> Las empresas que deseen establecer el Sistema de Seguridad Alimentaria e Inocuidad de BRC en sus empresas también deben tener un Sistema de Gestión de Calidad efectivo.<br><br> Mientras tanto, las condiciones ambientales de las instalaciones de producción deben cumplir con las normas y el control efectivo de los productos, procesos y empleados son los requisitos de esta norma.</p>
+            <div class="col">
+                <h2 id="titulo-certificacion"><b>Certificacion de empresas</b></h2>
+                <br>
+                <div class="primera-linea-boton">
+                    <button id="boton-certificacion-1" onclick="cambio1();">ISO 9001</button>
+                    <button id="boton-certificacion-2" onclick="cambio2();">ISO 14001</button>
+                    <button id="boton-certificacion-3" onclick="cambio3();">ISO 45001</button>
+                    <button id="boton-certificacion-4" onclick="cambio4();">ISO 22000</button>
+                    <button id="boton-certificacion-6" onclick="cambio7();">HACCP</button>
+                </div>
+                <div class="segunda-linea-boton">
+                    <button id="boton-certificacion-5" onclick="cambio5();">ISO 27001</button>
+                    <button id="boton-certificacion-7" onclick="cambio6();">FSSC</button>
+                    <button id="boton-certificacion-8" onclick="cambio8();">BRC</button>
+                </div>
+                <br>
+                <p id="titulo-iso9001"><b>BRC (British Retail Consortium Standard) </b></p>
+                <p id="parrafo-certificacion">El estándar BRC, es un estándar que cumple con los requisitos para alimentos, productos de clientes y materiales de empaque bajo el nombre de Estándar Global - Alimentos.<br><br> El propósito principal de los estándares BRC es reconocido internacionalmente, seguridad alimentaria normas. También es para apoyar el desarrollo de la seguridad alimentaria en todo el mundo. Normas BRC en términos de forma y contenido, está diseñado para dar una idea sobre los métodos de trabajo de los fabricantes de alimentos.</p>
+            </div>
+
+        </div>
+        <div class="row" id="texto-ampliadors">
+            <p id="desglocers">De esta manera, se ha logrado una estandarización en los criterios de inocuidad de los alimentos y en los procesos de seguimiento.<br><br> Certificado BRC de Alimentos, Sistemas de Seguridad Alimentaria. Posee una importante ventaja competitiva en mercados nacionales e internacionales. Mientras tanto, se ha logrado mejorar la seguridad y la calidad de los productos, se han reducido los aumentos de eficiencia y la producción.<br><br> BRC Food, Norma del sistema de seguridad alimentariaSe ha publicado para garantizar unas condiciones mínimas de higiene en las empresas productoras de alimentos. Para garantizar el cumplimiento de esta norma, las empresas que trabajan en el sector alimentario deben adaptar seis criterios básicos a sus sistemas de gestión. Estos criterios son:</p>
+            <ul id="listadors">
+                <li>Sistema HACCP (Sistema de Análisis de Riesgos y Puntos Críticos de Control)</li>
+                <li> Sistema de gestión de calidad.</li>
+                <li> Negocios (fábrica) y estándares ambientales.</li>
+                <li> Control de producto.</li>
+                <li> de proceso. Competencia del personal y normas de higiene.
+            </ul>
+            <p id="listadors2">Empresas que operan en el sector alimentario, Certificado BRC de Alimentos, Sistemas de Seguridad Alimentaria cuando se aplican, deben examinar las categorías establecidas por las normas en el momento de la solicitud y tomar la categoría más adecuada para ellos. Las normas se clasifican en seis categorías según la forma en que se procesan los alimentos. Estas categorías son:</p><br>
+            <ul id="listadors">
+                <li>Carnes crudas y productos de pescado (carnes rojas y blancas, pescados, carnes crudas y productos de pescado)</li>
+                <li> Producción (frutas y verduras frescas y congeladas). </li>
+                <li> Alimentos diarios (leche y productos lácteos, huevos). </li>
+                <li>Productos de carne y pescado listos para cocinar o congelados.</li>
+                <li> Productos alimenticios envasados con protección ambiental, protección térmica.</li>
+                <li> Otros productos alimenticios resistentes al medio ambiente (bebidas, alimentos secos, alimentos ligeros y cereales para el desayuno, productos de panadería, aceites y grasas, aditivos alimentarios)
+            </ul>
+            <p id="listadors2">Además de la norma del Sistema de seguridad alimentaria, BRC Food cuenta con una norma técnica de materiales de embalaje y BRC / IOP. Esta norma, también conocida como la norma BRC e IOP (Packaging Institute), está destinada a ayudar a los minoristas y fabricantes de alimentos a cumplir con sus obligaciones legales. El objetivo principal de esta norma es la protección de los consumidores. Los principios del estándar BRC Food, Food Safety System pueden explicarse a continuación:</p><br>
+            <ul id="listadors">
+                <li>Asegurar el cumplimiento de la normativa legal en materia de transparencia y comercio honesto.</li>
+                <li> Minimizar la repetición de la valoración.</li>
+                <li> Revisar y mejorar continuamente los estándares y procesos de soporte.</li>
+                <li> Difundir las mejores prácticas.</li>
+            </ul>
+            <p id="listadors2">Estos elementos son también elementos esenciales del Sistema de Gestión de la Calidad. Gracias al Sistema de gestión de la calidad, que ya se encuentra entre los requisitos del sistema, el estándar BRC Food, Food Safety System y el estándar BRC and IOP (Packaging Institute) no tendrán que hacer mucho esfuerzo para establecer e integrar estos estándares.<br><br> Las empresas que deseen establecer BRC Food, Food Safety System en sus empresas primero deben haber establecido y administrado el sistema HACCP. El sistema de gestión de calidad de la seguridad alimentaria HACCP es un sistema para garantizar la seguridad alimentaria. Es un sistema que garantiza que las condiciones de higiene requeridas por las empresas productoras de alimentos para la producción de alimentos saludables se determinen en cada punto de los empleados, maquinaria y equipo, materias primas, medio ambiente, etc. En cada etapa de la producción, se basa en identificar y eliminar las razones que crean un riesgo para la salud del consumidor.<br><br> Las empresas que deseen establecer el Sistema de Seguridad Alimentaria e Inocuidad de BRC en sus empresas también deben tener un Sistema de Gestión de Calidad efectivo.<br><br> Mientras tanto, las condiciones ambientales de las instalaciones de producción deben cumplir con las normas y el control efectivo de los productos, procesos y empleados son los requisitos de esta norma.</p>
+        </div>
     </div>
 </div>
-
 <!--fin caja especial certitificacion de empresas-->
 <div class="consultoria_en_empresas" id="consultoria_en_empresas">
     <div class="row">
