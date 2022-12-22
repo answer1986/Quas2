@@ -176,8 +176,8 @@
 
 #boton-certificacion-6 {
     padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left:  15px;
+    padding-right: 15px;
     border-radius: 15px;
     background-color: white;
     color: gray;
@@ -186,8 +186,8 @@
 
 #boton-certificacion-6:hover {
     padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left:  15px;
+    padding-right: 15px;
     border-radius: 15px;
     background-color: #006953;
     color: white;
@@ -197,8 +197,8 @@
 
 #boton-certificacion-7 {
     padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left:  20px;
+    padding-right: 20px;
     border-radius: 15px;
     background-color: white;
     color: gray;
@@ -206,8 +206,27 @@
 }
 #boton-certificacion-7:hover {
     padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left:  20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    background-color: #006953;
+    color: white;
+    font-style: sans-serif;
+}
+
+#boton-certificacion-8 {
+    padding: 5px;
+    padding-left:  25px;
+    padding-right: 25px;
+    border-radius: 15px;
+    background-color: white;
+    color: gray;
+    font-style: sans-serif;
+}
+#boton-certificacion-8:hover {
+    padding: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
     border-radius: 15px;
     background-color: #006953;
     color: white;
@@ -229,9 +248,58 @@
     font-family: sans-serif;
     color: #606060;
     font-size: 1em;
+    width: 500px;
+}
+#listado{
+    font-family: sans-serif;
+    color: #606060;
+    font-size: 1em;
+    width: 500px;
 }
 
+#desgloce{
+    font-family: sans-serif;
+    color: #606060;
+    font-size: 1em;
+    width: 500px;
+}
 
+#titulo-listado{
+    font-family: sans-serif;
+    color: #606060;
+    font-size: 1em;
+}
+
+#desglocers{
+    font-family: sans-serif;
+    color: #606060;
+    font-size: 1em;
+    width: 80%;
+    margin: auto;
+}
+
+#listadors{
+    font-family: sans-serif;
+    color: #606060;
+    font-size: 1em;
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+#listadors2{
+    font-family: sans-serif;
+    color: #606060;
+    font-size: 1em;
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+#texto-ampliadors{
+    width: 100%;
+    height: 100%;
+}
 
 /*fin certificacion de empresas*/
 

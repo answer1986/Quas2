@@ -79,6 +79,8 @@
     document.getElementById('certificacion_de_empresas-4').style.display = 'none';
     document.getElementById('certificacion_de_empresas-5').style.display = 'none';
     document.getElementById('certificacion_de_empresas-6').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-7').style.display = 'none';
+
   }
 
   function cambio2(){
@@ -89,6 +91,8 @@
     document.getElementById('certificacion_de_empresas-4').style.display = 'none';
     document.getElementById('certificacion_de_empresas-5').style.display = 'none';
     document.getElementById('certificacion_de_empresas-6').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-7').style.display = 'none';
+
   }
 
   function cambio3(){
@@ -99,6 +103,8 @@
     document.getElementById('certificacion_de_empresas-4').style.display = 'none';
     document.getElementById('certificacion_de_empresas-5').style.display = 'none';
     document.getElementById('certificacion_de_empresas-6').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-7').style.display = 'none';
+
   }
 
   function cambio4(){
@@ -109,6 +115,7 @@
     document.getElementById('certificacion_de_empresas-4').style.display = 'none';
     document.getElementById('certificacion_de_empresas-5').style.display = 'none';
     document.getElementById('certificacion_de_empresas-6').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-7').style.display = 'none';
   }
 
   function cambio5(){
@@ -119,6 +126,8 @@
     document.getElementById('certificacion_de_empresas-3').style.display = 'none';
     document.getElementById('certificacion_de_empresas-5').style.display = 'none';
     document.getElementById('certificacion_de_empresas-6').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-7').style.display = 'none';
+
   }
 
   function cambio6(){
@@ -129,6 +138,8 @@
     document.getElementById('certificacion_de_empresas-3').style.display = 'none';
     document.getElementById('certificacion_de_empresas-4').style.display = 'none';
     document.getElementById('certificacion_de_empresas-6').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-7').style.display = 'none';
+
   }
 
   function cambio7(){
@@ -139,6 +150,19 @@
     document.getElementById('certificacion_de_empresas-3').style.display = 'none';
     document.getElementById('certificacion_de_empresas-4').style.display = 'none';
     document.getElementById('certificacion_de_empresas-5').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-7').style.display = 'none';
+
+  }
+  function cambio8(){
+    document.getElementById('certificacion_de_empresas-7').style.display = 'block';
+    document.getElementById('certificacion_de_empresas').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-1').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-2').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-3').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-4').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-5').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-6').style.display = 'none';
+
   }
 
   

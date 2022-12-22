@@ -43,11 +43,12 @@
                 <button id="boton-certificacion-2" onclick="cambio2();">ISO 14001</button>
                 <button id="boton-certificacion-3" onclick="cambio3();">ISO 45001</button>
                 <button id="boton-certificacion-4" onclick="cambio4();">ISO 22000</button>
+                <button id="boton-certificacion-6" onclick="cambio7();">HACCP</button>
             </div>
             <div class="segunda-linea-boton">
                 <button id="boton-certificacion-5" onclick="cambio5();">ISO 27001</button>
-                <button id="boton-certificacion-6" onclick="cambio6();">ISO 50001</button>
-                <button id="boton-certificacion-7" onclick="cambio7();">ISO 17025</button>
+                <button id="boton-certificacion-7" onclick="cambio6();">FSSC</button>
+                <button id="boton-certificacion-8" onclick="cambio8();">BRC</button>
             </div>
             <br>
             <P id="titulo-iso9001"><b>ISO 9001: Sistema de Gestión de Calidad (SGC)</b></P>
@@ -60,74 +61,238 @@
         </div>
     </div>
 </div>
-
+<div class="certificacion_de_empresas" id="certificacion_de_empresas-1">
     <div class="row" id="certificacion_de_empresas-1">
         <div class="col">
-
+            <img src="{{asset('./image/isos/14001.png')}}" id="foto-caja-certificacionrs" width="80%">
         </div>
 
         <div class="col">
-
+        <h2 id="titulo-certificacion"><b>Certificacion de empresas</b></h2>
+            <br>
+            <div class="primera-linea-boton">
+                <button id="boton-certificacion-1" onclick="cambio1();">ISO 9001</button>
+                <button id="boton-certificacion-2" onclick="cambio2();">ISO 14001</button>
+                <button id="boton-certificacion-3" onclick="cambio3();">ISO 45001</button>
+                <button id="boton-certificacion-4" onclick="cambio4();">ISO 22000</button>
+                <button id="boton-certificacion-6" onclick="cambio7();">HACCP</button>
+            </div>
+            <div class="segunda-linea-boton">
+                <button id="boton-certificacion-5" onclick="cambio5();">ISO 27001</button>
+                <button id="boton-certificacion-7" onclick="cambio6();">FSSC</button>
+                <button id="boton-certificacion-8" onclick="cambio8();">BRC</button>
+            </div>
+            <br>
+            <p id="titulo-iso9001"><b>ISO 14001: Sistemas de Gestión Ambiental (SGA)</b></p>
+            <p id="parrafo-certificacion">Es una norma internacional que permite a las empresas demostrar el compromiso asumido con la protección del medio ambiente a través de la gestión de los riesgos medioambientales asociados a la actividad desarrollada. Al asumir la responsabilidad ambiental, además de la reducción del impacto ambiental procedente de su actividad, se proyecta y se refuerza la imagen comercialmente sostenible de la empresa.</p>
         </div>
     </div>
-
-
+</div>
+<div class="certificacion_de_empresas" id="certificacion_de_empresas-2">
     <div class="row" id="certificacion_de_empresas-2">
         <div class="col">
-
+            <img src="{{asset('./image/isos/iso45001.png')}}" id="foto-caja-certificacionrs" width="80%">
         </div>
 
         <div class="col">
+        <h2 id="titulo-certificacion"><b>Certificacion de empresas</b></h2>
+            <br>
+            <div class="primera-linea-boton">
+                <button id="boton-certificacion-1" onclick="cambio1();">ISO 9001</button>
+                <button id="boton-certificacion-2" onclick="cambio2();">ISO 14001</button>
+                <button id="boton-certificacion-3" onclick="cambio3();">ISO 45001</button>
+                <button id="boton-certificacion-4" onclick="cambio4();">ISO 22000</button>
+                <button id="boton-certificacion-6" onclick="cambio7();">HACCP</button>
+            </div>
+            <div class="segunda-linea-boton">
+                <button id="boton-certificacion-5" onclick="cambio5();">ISO 27001</button>
+                <button id="boton-certificacion-7" onclick="cambio6();">FSSC</button>
+                <button id="boton-certificacion-8" onclick="cambio8();">BRC</button>
+            </div>
+            <br>
+            <p id="titulo-iso9001"><b>ISO 45001: Sistemas de Gestión de la Seguridad y <br>
+            Salud en el Trabajo</b></p>
+            <p id="parrafo-certificacion"> Es la norma internacional destinada a proteger a los trabajadores y visitantes de accidentes y enfermedades laborales. La certificación ISO 45001 fue desarrollada para mitigar cualquier factor que pueda causar daños irreparables a los empleados o al negocio. Tiene como objetivo final ayudar a los negocios a proporcionar un ambiente de trabajo seguro para los empleados y cualquier persona en el lugar de trabajo. Esto puede conseguirse al controlar factores que puedan potencialmente causar lesiones, enfermedades, y en casos extremos, defunciones. Como resultado, la ISO 45001 se centra en mitigar cualquier factor dañino o que suponga un riesgo para el bienestar físico y mental de los trabajadores.</p>
 
         </div>
     </div>
+</div>
 
-
+<div class="certificacion_de_empresas" id="certificacion_de_empresas-3">
     <div class="row" id="certificacion_de_empresas-3">
         <div class="col">
-
+            <img src="{{asset('./image/isos/iso22000.png')}}" id="foto-caja-certificacionrs" width="80%">
         </div>
 
         <div class="col">
+        <h2 id="titulo-certificacion"><b>Certificacion de empresas</b></h2>
+            <br>
+            <div class="primera-linea-boton">
+                <button id="boton-certificacion-1" onclick="cambio1();">ISO 9001</button>
+                <button id="boton-certificacion-2" onclick="cambio2();">ISO 14001</button>
+                <button id="boton-certificacion-3" onclick="cambio3();">ISO 45001</button>
+                <button id="boton-certificacion-4" onclick="cambio4();">ISO 22000</button>
+                <button id="boton-certificacion-6" onclick="cambio7();">HACCP</button>
+            </div>
+            <div class="segunda-linea-boton">
+                <button id="boton-certificacion-5" onclick="cambio5();">ISO 27001</button>
+                <button id="boton-certificacion-7" onclick="cambio6();">FSSC</button>
+                <button id="boton-certificacion-8" onclick="cambio8();">BRC</button>
+            </div>
+            <br>
+            <p id="titulo-iso9001"><b>ISO 22000: Sistemas de Gestión Inocuidad<br> Alimentaria (SGIA)</b></p>
+            <p id="parrafo-certificacion">  Es una norma internacional que especifica los requisitos de un sistema de gestión para asegurar la inocuidad de los alimentos, a lo largo de toda la cadena alimentaria, hasta el punto de venta de consumo final. Tiene por objeto la armonización de los requisitos de gestión de la inocuidad en toda la cadena alimentaria a nivel mundial.</p>
+
+        </div>
 
         </div>
     </div>
+</div>
 
 
+
+
+<div class="certificacion_de_empresas" id="certificacion_de_empresas-4">
     <div class="row" id="certificacion_de_empresas-4">
         <div class="col">
-
+            <img src="{{asset('./image/isos/iso27001.png')}}" id="foto-caja-certificacionrs" width="80%">
         </div>
 
         <div class="col">
+        <h2 id="titulo-certificacion"><b>Certificacion de empresas</b></h2>
+            <br>
+            <div class="primera-linea-boton">
+                <button id="boton-certificacion-1" onclick="cambio1();">ISO 9001</button>
+                <button id="boton-certificacion-2" onclick="cambio2();">ISO 14001</button>
+                <button id="boton-certificacion-3" onclick="cambio3();">ISO 45001</button>
+                <button id="boton-certificacion-4" onclick="cambio4();">ISO 22000</button>
+                <button id="boton-certificacion-6" onclick="cambio7();">HACCP</button>
+            </div>
+            <div class="segunda-linea-boton">
+                <button id="boton-certificacion-5" onclick="cambio5();">ISO 27001</button>
+                <button id="boton-certificacion-7" onclick="cambio6();">FSSC</button>
+                <button id="boton-certificacion-8" onclick="cambio8();">BRC</button>
+            </div>
+            <br>
+            <p id="titulo-iso9001"><b>ISO 27001: Sistema de Gestión de la Seguridad de <br>la Información (SGSI) </b></p>
+            <p id="parrafo-certificacion"> Esta norma establece los requisitos para establecer, implementar, mantener y mejorar de forma continua un Sistema de Gestión de la Seguridad de la Información (SGSI). Estos sistemas son cada vez más comunes en las compañías, debido a los nuevos riesgos digitales inherentes a tecnologías como el Cloud Computing o el Big Data y al aumento de los ciberataques. La norma ISO también incluye los requisitos para la apreciación y el tratamiento de los riesgos de seguridad de información a la medida de las necesidades de la organización. Los requisitos establecidos en esta norma internacional son genéricos y aplicables a todas las organizaciones, cualquiera que sea su tipo, tamaño o naturaleza.</p>
+
 
         </div>
     </div>
+</div>
 
 
 
-    <div class="row" id="certificacion_de_empresas-5">
-        <div class="col">
-
-        </div>
-
-        <div class="col">
-
-        </div>
-    </div>
-
-
-
-
+<div class="certificacion_de_empresas" id="certificacion_de_empresas-6">
     <div class="row" id="certificacion_de_empresas-6">
         <div class="col">
-
+        <img src="{{asset('./image/isos/haccp.png')}}" id="foto-caja-certificacionrs" width="80%">
         </div>
 
         <div class="col">
+        <h2 id="titulo-certificacion"><b>Certificacion de empresas</b></h2>
+            <br>
+            <div class="primera-linea-boton">
+                <button id="boton-certificacion-1" onclick="cambio1();">ISO 9001</button>
+                <button id="boton-certificacion-2" onclick="cambio2();">ISO 14001</button>
+                <button id="boton-certificacion-3" onclick="cambio3();">ISO 45001</button>
+                <button id="boton-certificacion-4" onclick="cambio4();">ISO 22000</button>
+                <button id="boton-certificacion-6" onclick="cambio7();">HACCP</button>
+            </div>
+            <div class="segunda-linea-boton">
+                <button id="boton-certificacion-5" onclick="cambio5();">ISO 27001</button>
+                <button id="boton-certificacion-7" onclick="cambio6();">FSSC</button>
+                <button id="boton-certificacion-8" onclick="cambio8();">BRC</button>
+            </div>
+            <br>
+            <p id="titulo-iso9001"><b>HACCP (Hazard Analysis and Critical Control <br>Points) </b></p>
+            <p id="parrafo-certificacion">El Análisis de Peligros y Puntos Críticos de Control, también conocido como HACCP, en un sistema de inocuidad alimentaria, se basa en identificar todos los peligros potenciales en los ingredientes, empaques y procesos de producción de alimentos y tomar las medidas suficientes para evitar todos los riesgos posibles de contaminación. El sistema se ha aceptado por todos los esquemas de seguridad alimentaria, siendo actualmente la mejor herramienta de prevención para la inocuidad alimentaria.<br> <br><b>Sus beneficios:</b></p>
+            <ul id="listado"><li>Aporta confianza al consumidor sobre la higiene de los alimentos.</li><li> Incrementa la competitividad de las organizaciones en el mercado general.</li><li> Reduce la aparición de enfermedades causadas por los alimentos.</li><li> Elimina las barreras para el comercio internacional.</li> <li>Introduce nuevos productos y tecnologías.</li><li> Promueve el cumplimiento con los requisitos de la legislación e inspección.</li><li>Identifica los peligros que puede tener la inocuidad del producto.</ul>
+
+        </div>
 
         </div>
     </div>
+</div>
+
+
+<div class="certificacion_de_empresas" id="certificacion_de_empresas-5">
+    <div class="row" id="certificacion_de_empresas-6">
+        <div class="col">
+        <img src="{{asset('./image/isos/fssc.png')}}" id="foto-caja-certificacionrs" width="80%">
+        </div>
+
+        <div class="col">
+        <h2 id="titulo-certificacion"><b>Certificacion de empresas</b></h2>
+            <br>
+            <div class="primera-linea-boton">
+                <button id="boton-certificacion-1" onclick="cambio1();">ISO 9001</button>
+                <button id="boton-certificacion-2" onclick="cambio2();">ISO 14001</button>
+                <button id="boton-certificacion-3" onclick="cambio3();">ISO 45001</button>
+                <button id="boton-certificacion-4" onclick="cambio4();">ISO 22000</button>
+                <button id="boton-certificacion-6" onclick="cambio7();">HACCP</button>
+            </div>
+            <div class="segunda-linea-boton">
+                <button id="boton-certificacion-5" onclick="cambio5();">ISO 27001</button>
+                <button id="boton-certificacion-7" onclick="cambio6();">FSSC</button>
+                <button id="boton-certificacion-8" onclick="cambio8();">BRC</button>
+            </div>
+            <br>
+            <p id="titulo-iso9001"><b>FSSC 22000 (Food Safety System Certification)<br> - Sistema de Gestión de Seguridad Alimentaria </b></p>
+            <p id="parrafo-certificacion"> FSSC es un programa de certificación completo para los sistemas de inocuidad alimentaria basado en las normas de certificación ISO 22000 e ISO/TS 22002-1/PAS 220.<br><br> La FSSC 22000 tiene el objetivo de convertirse en el programa de certificación de seguridad alimentaria independiente, basada en las normas ISO, aceptado por la GFSI (Iniciativa Global de Seguridad Alimentaria) y líder mundial para toda la cadena de suministro.</b></p>
+            <p id="desgloce">La certificación FSSC 22000 ha sido elaborada para certificar los sistemas de seguridad alimentaria de las organizaciones que procesan o fabrican productos de origen animal, productos vegetales perecederos, productos con una larga vida útil, otros ingredientes alimenticios como aditivos, vitaminas y cultivos biológicos, así como materiales para el empacado de alimentos. La certificación FSSC 22000 ha sido elaborada para certificar los sistemas de seguridad alimentaria de las organizaciones que procesan o fabrican productos de origen animal, productos vegetales perecederos, productos con una larga vida útil, otros ingredientes alimenticios como aditivos, vitaminas y cultivos biológicos, así como materiales para el empacado de alimentos.</p>
+            <p id="titulo-listado"><b>La norma permite a su organización:</b></p>
+            <ul id="listado"><li>Proporcionar pruebas de compromiso con el fin de identificar, evaluar y controlar los peligros para la seguridad alimentaria que pueden producirse, y evitar así posibles daños directos o indirectos hacia el consumidor.</li><li> Operar bajo un sistema de gestión capaz de ayudarle a cumplir mejor los requisitos de calidad/seguridad alimentaria y el cumplimiento legal.</li> <li>Proporcionar una herramienta para la mejora del rendimiento de la seguridad alimentaria, y facilitar los medios para supervisar y medir el rendimiento de la seguridad alimentaria de manera eficaz.</li><li> Desarrollar una buena cultura de seguridad alimentaria que, a su vez, mejore la confianza de los clientes y le ayude a adquirir ventajas competitivas.</ul>
+
+        </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="certificacion_de_empresas" id="certificacion_de_empresas-7">
+    <div class="row" id="certificacion_de_empresas-7">
+        <div class="col">
+             <img src="{{asset('./image/isos/brc.png')}}" id="foto-caja-certificacionrs" width="80%">
+        </div>
+
+        <div class="col">
+            <h2 id="titulo-certificacion"><b>Certificacion de empresas</b></h2>
+            <br>
+            <div class="primera-linea-boton">
+                <button id="boton-certificacion-1" onclick="cambio1();">ISO 9001</button>
+                <button id="boton-certificacion-2" onclick="cambio2();">ISO 14001</button>
+                <button id="boton-certificacion-3" onclick="cambio3();">ISO 45001</button>
+                <button id="boton-certificacion-4" onclick="cambio4();">ISO 22000</button>
+                <button id="boton-certificacion-6" onclick="cambio7();">HACCP</button>
+            </div>
+            <div class="segunda-linea-boton">
+                <button id="boton-certificacion-5" onclick="cambio5();">ISO 27001</button>
+                <button id="boton-certificacion-7" onclick="cambio6();">FSSC</button>
+                <button id="boton-certificacion-8" onclick="cambio8();">BRC</button>
+            </div>
+            <br>
+            <p id="titulo-iso9001"><b>BRC (British Retail Consortium Standard)  </b></p>
+            <p id="parrafo-certificacion">El estándar BRC, es un estándar que cumple con los requisitos para alimentos, productos de clientes y materiales de empaque bajo el nombre de Estándar Global - Alimentos.<br><br> El propósito principal de los estándares BRC es reconocido internacionalmente, seguridad alimentaria normas. También es para apoyar el desarrollo de la seguridad alimentaria en todo el mundo. Normas BRC en términos de forma y contenido, está diseñado para dar una idea sobre los métodos de trabajo de los fabricantes de alimentos.</p>
+        </div>
+        
+                
+            </div>
+        </div>
+    </div>
+    <div class="row"  id="texto-ampliadors">
+                <p id="desglocers">De esta manera, se ha logrado una estandarización en los criterios de inocuidad de los alimentos y en los procesos de seguimiento.<br><br> Certificado BRC de Alimentos, Sistemas de Seguridad Alimentaria. Posee una importante ventaja competitiva en mercados nacionales e internacionales. Mientras tanto, se ha logrado mejorar la seguridad y la calidad de los productos, se han reducido los aumentos de eficiencia y la producción.<br><br> BRC Food, Norma del sistema de seguridad alimentariaSe ha publicado para garantizar unas condiciones mínimas de higiene en las empresas productoras de alimentos. Para garantizar el cumplimiento de esta norma, las empresas que trabajan en el sector alimentario deben adaptar seis criterios básicos a sus sistemas de gestión. Estos criterios son:</p>
+                <ul id="listadors"><li>Sistema HACCP (Sistema de Análisis de Riesgos y Puntos Críticos de Control)</li><li> Sistema de gestión de calidad.</li><li> Negocios (fábrica) y estándares ambientales.</li><li> Control de producto.</li><li> de proceso. Competencia del personal y normas de higiene.</ul>
+                <p id="listadors2">Empresas que operan en el sector alimentario, Certificado BRC de Alimentos, Sistemas de Seguridad Alimentaria cuando se aplican, deben examinar las categorías establecidas por las normas en el momento de la solicitud y tomar la categoría más adecuada para ellos. Las normas se clasifican en seis categorías según la forma en que se procesan los alimentos. Estas categorías son:</p><br>
+                <ul id="listadors"><li>Carnes crudas y productos de pescado (carnes rojas y blancas, pescados, carnes crudas y productos de pescado)</li><li> Producción (frutas y verduras frescas y congeladas). </li><li> Alimentos diarios (leche y productos lácteos, huevos). </li><li>Productos de carne y pescado listos para cocinar o congelados.</li><li> Productos alimenticios envasados con protección ambiental, protección térmica.</li><li> Otros productos alimenticios resistentes al medio ambiente (bebidas, alimentos secos, alimentos ligeros y cereales para el desayuno, productos de panadería, aceites y grasas, aditivos alimentarios)</ul>
+                <p id="listadors2">Además de la norma del Sistema de seguridad alimentaria, BRC Food cuenta con una norma técnica de materiales de embalaje y BRC / IOP. Esta norma, también conocida como la norma BRC e IOP (Packaging Institute), está destinada a ayudar a los minoristas y fabricantes de alimentos a cumplir con sus obligaciones legales. El objetivo principal de esta norma es la protección de los consumidores. Los principios del estándar BRC Food, Food Safety System pueden explicarse a continuación:</p><br>
+                <ul id="listadors"><li>Asegurar el cumplimiento de la normativa legal en materia de transparencia y comercio honesto.</li><li> Minimizar la repetición de la valoración.</li><li> Revisar y mejorar continuamente los estándares y procesos de soporte.</li><li> Difundir las mejores prácticas.</li></ul>
+                <p id="listadors2">Estos elementos son también elementos esenciales del Sistema de Gestión de la Calidad. Gracias al Sistema de gestión de la calidad, que ya se encuentra entre los requisitos del sistema, el estándar BRC Food, Food Safety System y el estándar BRC and IOP (Packaging Institute) no tendrán que hacer mucho esfuerzo para establecer e integrar estos estándares.<br><br> Las empresas que deseen establecer BRC Food, Food Safety System en sus empresas primero deben haber establecido y administrado el sistema HACCP. El sistema de gestión de calidad de la seguridad alimentaria HACCP es un sistema para garantizar la seguridad alimentaria. Es un sistema que garantiza que las condiciones de higiene requeridas por las empresas productoras de alimentos para la producción de alimentos saludables se determinen en cada punto de los empleados, maquinaria y equipo, materias primas, medio ambiente, etc. En cada etapa de la producción, se basa en identificar y eliminar las razones que crean un riesgo para la salud del consumidor.<br><br> Las empresas que deseen establecer el Sistema de Seguridad Alimentaria e Inocuidad de BRC en sus empresas también deben tener un Sistema de Gestión de Calidad efectivo.<br><br> Mientras tanto, las condiciones ambientales de las instalaciones de producción deben cumplir con las normas y el control efectivo de los productos, procesos y empleados son los requisitos de esta norma.</p>
+     </div>  
+</div>
+
 
     <!--fin caja especial certitificacion de empresas-->
     <div class="consultoria_en_empresas" id="consultoria_en_empresas">
