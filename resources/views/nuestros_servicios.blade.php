@@ -359,7 +359,7 @@
     <div class="row">
         <div class="col">
 
-            <video id="video" width="100%" height="100%" controls></video>
+            <video  src="{{asset('./image/fotos/video-Quas.mp4')}}" controls type="video/mp4" width="60%" style="float: right; margin-top:15%"></video>
             <p id="descripcion-video">QUAS - SOFTWARE DE DESARROLLO</p>
             <p id="descripcion-especifica"> El control desde tu celular de nuestras plataformas</p>
 

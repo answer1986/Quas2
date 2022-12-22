@@ -34,6 +34,13 @@
     document.getElementById('erp-gestion-de-empresas-2').style.display = 'none';
     document.getElementById('consultoria_en_empresas').style.display = 'none';
     document.getElementById('certificacion_de_empresas').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-2').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-1').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-3').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-4').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-5').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-6').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-7').style.display = 'none';
   }
 
   function mostrar3(){
@@ -42,6 +49,13 @@
     document.getElementById('erp-gestion-de-empresas-2').style.display = 'none';
     document.getElementById('consultoria_en_empresas').style.display = 'none';
     document.getElementById('certificacion_de_empresas').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-2').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-1').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-3').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-4').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-5').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-6').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-7').style.display = 'none';
   }
   
   function mostrar2(){
@@ -50,6 +64,13 @@
     document.getElementById('erp-gestion-de-empresas-2').style.display = 'none';
     document.getElementById('erp-gestion-de-empresas-1').style.display = 'none';
     document.getElementById('certificacion_de_empresas').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-2').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-1').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-3').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-4').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-5').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-6').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-7').style.display = 'none';
   }
 
   function mostrar1(){
@@ -58,6 +79,13 @@
     document.getElementById('erp-gestion-de-empresas-2').style.display = 'none';
     document.getElementById('erp-gestion-de-empresas-1').style.display = 'none';
     document.getElementById('consultoria_en_empresas').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-2').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-1').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-3').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-4').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-5').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-6').style.display = 'none';
+    document.getElementById('certificacion_de_empresas-7').style.display = 'none';
   }
 
   function cambiar(){
