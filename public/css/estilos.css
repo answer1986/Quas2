@@ -300,15 +300,18 @@ color: #006953;
 
 
 #boton-certifica{
+  color: white;
   background: #006953 0% 0% no-repeat padding-box;
-  border-radius: 27px;
-  opacity: 1;
-  left: 846px;
-  width: 229px;
-  height: 54px;
-  color:white;
-  margin-top: 5%;
-  margin-left:40%;
+  border-radius: 15px;
+  font-family:sans-serif extrasans-serif;
+  margin-left: 45%;
+  padding: 10px;
+  font-size: 22px;
+  width: 130px;
+  height: 30px;
+  align-items: center;
+  margin-top: 15%;
+  
 }
 /*fin certifica*/
 /*casos*/
@@ -346,14 +349,14 @@ color: #006953;
 
 #boton-casos{
   background: #006953 0% 0% no-repeat padding-box;
-  border-radius: 27px;
+  border-radius: 15px;
   opacity: 1;
   width: 280px;
   height: 54px;
   color:white;
   margin-left: 40%;
   margin-bottom: 10%;
-  padding: 1%;
+  padding: 10px;
 }
 
 #alimento{

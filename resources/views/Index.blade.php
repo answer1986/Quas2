@@ -38,7 +38,7 @@
         <p style="text-align: left;font: normal normal normal 18px/27px sans-serif;letter-spacing: 0px;color: #606060;">HACCP - FSSC - BRC</p>
         <br>
         <br>
-        <a id="enlace" href="{{url('/')}}">Ver detalle</a>
+        <a id="enlace" href="{{url('/nuestros_servicios#parrafo-caja')}}">Ver detalle</a>
     </div>
 
     <div class="col md-3" id="caja-certificar-2">
@@ -52,7 +52,7 @@
         <p style="text-align: left;font: normal normal sans-serif 18px/27px sans-serif;letter-spacing: 0px;color: #606060;">- Clima Organizacional. </p>
         <p style="text-align: left;font: normal normal sans-serif 18px/27px sans-serif;letter-spacing: 0px;color: #606060;">- Levantamiento y Mapeo de procesos.</p>
         <p style="text-align: left;font: normal normal sans-serif 18px/27px sans-serif;letter-spacing: 0px;color: #606060;">- Control Estratégico de Organizaciones.</p>
-        <a id="enlace2">Ver detalle</a>
+        <a id="enlace2" href="{{url('/nuestros_servicios#titulo-consultoria')}}">Ver detalle</a>
     </div>
 
     <div class="col md-3" id="caja-certificar-3">
@@ -66,11 +66,11 @@
         <p style="text-align: left;font: normal normal sans-serif 18px/27px sans-serif;letter-spacing: 0px;color: #606060;">- Quasfactory. </p>
         <p style="text-align: left;font: normal normal sans-serif 18px/27px sans-serif;letter-spacing: 0px;color: #606060;">- Quasprocess.</p>
         <p style="text-align: left;font: normal normal sans-serif 18px/27px sans-serif;letter-spacing: 0px;color: #606060;">- Quasplanning.</p>
-        <a id="enlace3">Ver detalle</a>
+        <a id="enlace3" href="{{url('/nuestros_servicios#boton-erp-1')}}">Ver detalle</a>
     </div>
     <br>
-        <row>
-            <button id="boton-certifica">Ver más servicios</button>
+        <row style="margin-top: 10%;">
+            <a href="{{url('/nuestros_servicios')}}" id="boton-certifica">Ver más servicios</a>
         </row>
     <br>
 </div>
@@ -105,13 +105,13 @@
 </div>
 <div class="row" id="clientes">
     <div class="col md-3" id="cliente-1">
-        <img src="{{asset('./image/fotos/1-mineria.png')}}" alt="cliente" width="80%" >
-        <p id="mineria"><b> Mineria</b></p>
+        <img src="{{asset('./image/fotos/1-mineria.png')}}" alt="cliente" width="80%" style="margin-left: 15px;" >
+        <p id="mineria" style="margin-left: 35%;"><b> Mineria</b></p>
         <img src="{{asset('./image/clientes/3castillos.png')}}" width="80%">
     </div>
     <div class="col md-3" id="cliente-2">
         <img src="{{asset('./image/fotos/1.2-alimentos.png')}}" alt="cliente" width="80%">
-        <p id="mineria"><b> Alimentos</b></p>
+        <p id="mineria" style="margin-left:30% ;"><b> Alimentos</b></p>
         <img src="{{asset('./image/clientes/plastiservi.png')}}" width="80%">
     </div>
     <div class="col md-3" id="cliente-3">
@@ -126,7 +126,7 @@
     </div>
     <div class="col md-3" id="cliente-5">
         <img src="{{asset('./image/fotos/1.5-comercio.png')}}" alt="cliente" width="80%">
-        <p id="mineria-1"><b> Comercio Internacional</b></p>
+        <p id="mineria-1"style="margin-left:10% ;"><b> Comercio Internacional</b></p>
         <img src="{{asset('./image/clientes/lucsa.png')}}"  width="80%">
     </div>
 @endsection

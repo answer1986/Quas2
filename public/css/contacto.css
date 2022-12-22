@@ -23,7 +23,14 @@
     background:transparent linear-gradient(137deg, #21D9B2 0%, #004839 100%) 0% 0% no-repeat padding-box;
     box-shadow: 40px 60px 60px #0000001A;
     border-radius: 32px;
+    width: 350px;
+    float: right;
    
+}
+
+#boton{
+    width: 150px;
+    margin-left:25%;
 }
 
 #exampleFormControlInput1{

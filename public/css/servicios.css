@@ -21,7 +21,7 @@
     margin-right: 2%;
     margin-bottom: 5%;
     background: #ffffff 0% 0% no-repeat padding-box;
-    box-shadow: 0px 3px 6px #1b581cce;
+    box-shadow: rgb(147, 145, 145) 0px 3px 1px #b7e9b8ce;
     border-radius: 10px;
     opacity: 1;
     padding-top: 2%;
@@ -35,7 +35,7 @@
     margin-bottom: 5%;
     background: #ffffff 0% 0% no-repeat padding-box;
 
-    box-shadow: 0px 3px 6px #72dd5fc8;
+    box-shadow: 0px 3px 6px #72dd5fc8 white;
     border-radius: 10px;
     opacity: 1;
     padding-top: 2%;
@@ -52,6 +52,37 @@
 }
 
 #parrafo-caja:hover {
+    text-align: left;
+    font: normal normal bold 20px/24px sans-serif;
+    letter-spacing: 0px;
+    color: #006953;
+    opacity: 1;
+}
+#parrafo-caja1 {
+    text-align: left;
+    font: normal normal bold 20px/24px sans-serif;
+    letter-spacing: 0px;
+    color: #606060;
+    opacity: 1;
+}
+
+#parrafo-caja1:hover {
+    text-align: left;
+    font: normal normal bold 20px/24px sans-serif;
+    letter-spacing: 0px;
+    color: #006953;
+    opacity: 1;
+}
+
+#parrafo-caja2 {
+    text-align: left;
+    font: normal normal bold 20px/24px sans-serif;
+    letter-spacing: 0px;
+    color: #606060;
+    opacity: 1;
+}
+
+#parrafo-caja2:hover {
     text-align: left;
     font: normal normal bold 20px/24px sans-serif;
     letter-spacing: 0px;
@@ -427,7 +458,8 @@
 }
 
 #boton-casos {
-    margin-top: 5%;
+    margin-top: 15%;
+    margin-left: 45%;
 }
 
 /* fin capacitacion y entrenamiento personal  */

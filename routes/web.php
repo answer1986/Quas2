@@ -32,3 +32,7 @@ Route::get('/sobre_nosotros', function(){
 Route::get('/contacto', function(){
     return view ('/contacto');
 });
+
+Route::get('/terminos', function(){
+    return view ('/terminos');
+});

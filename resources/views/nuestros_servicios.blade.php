@@ -13,11 +13,11 @@
     </button>
     <button class="col" id="cabecera-caja-servicios">
         <img src="{{asset('./image/iconos/compu-grafica.svg')}}" id="parrafo-caja" width="15%" style="float:left; margin-right:10px">
-        <p id="parrafo-caja" onclick="mostrar2()">Consultoria en empresas</p>
+        <p id="parrafo-caja1"id="ancla2" onclick="mostrar2()">Consultoria en empresas</p>
     </button>
     <button class="col" id="cabecera-caja-servicios">
         <img src="{{asset('./image/iconos/compu-tablet-celu.svg')}}" id="parrafo-caja" width="15%" style="float:left; margin-right:10px">
-        <p id="parrafo-caja" onclick="mostrar3();">ERP Gestion de empresas</p>
+        <p id="parrafo-caja2"  onclick="mostrar3();">ERP Gestion de empresas</p>
     </button>
     <button class="col" id="cabecera-caja-servicios">
         <img src="{{asset('./image/iconos/diploma-v.svg')}}" id="parrafo-caja" width="15%" style="float:left; margin-right:10px">
@@ -332,7 +332,7 @@
             <h2 id="titulo-consultoria"><b>Consultoría en empresas</b></h2>
             <p id="parrafo-consultoria">Asesoramos, ofrecemos apoyo, orientación y respaldo a las empresas sobre los siguientes aspectos:</p>
             <br>
-            <p id="resumen-consultoria">Control y Gestión de Operaciones<br> Control de Procesos<br> Clima Organizacional <br>Levantamiento y Mapeo de procesos <br>Control Estratégico de Organizaciones </p>
+            <p id="resumen-consultoria">-Control y Gestión de Operaciones<br> -Control de Procesos<br> -Clima Organizacional <br>-Levantamiento y Mapeo de procesos <br>-Control Estratégico de Organizaciones </p>
         </div>
     </div>
 </div>
@@ -394,8 +394,8 @@
         <div class="col">
             <h2 id="titulo-capacitacion"><b>Capacitación y entrenamiento de personal</b></h2>
             <p id="parrafo-1">Capacitaciones, entrenamiento y certificación de personal requerido por norma, son cubiertos por el proceso de consultoría de la empresa Quas Consultores.</p>
-            <p id="parrafo-2">Curso presenciales y remotos en formatos de: 12hrs., 16hrs., 24hrs.<br>
-                Todos los cursos son evaluados y certificados.<br>
+            <p id="parrafo-2">-Curso presenciales y remotos en formatos de: 12hrs., 16hrs., 24hrs.<br>
+                -Todos los cursos son evaluados y certificados.<br>
                 Áreas de cursos:</p>
 
             <p id="parrafo-3">- Monitores en las Normas ISO 9001, 14001, 45001, 22000, HACCP <br>
@@ -410,7 +410,7 @@
 </div>
 <!--fin cajas -->
 
-<button id="boton-casos" href="{{ url('/contacto')}}">Contactanos</button>
+<a id="boton-casos" href="{{ url('/contacto')}}">Contactanos</a>
 
 @endsection
 
@@ -422,13 +422,13 @@
 </div>
 <div class="row" id="clientes">
     <div class="col md-3" id="cliente-1">
-        <img src="{{asset('./image/fotos/1-mineria.png')}}" alt="cliente" width="80%">
-        <p id="mineria"><b> Mineria</b></p>
+        <img src="{{asset('./image/fotos/1-mineria.png')}}" alt="cliente" width="80%" style="margin-left: 30px;">
+        <p id="mineria" style="margin-left:40% ;"><b> Mineria</b></p>
         <img src="{{asset('./image/clientes/3castillos.png')}}" width="80%">
     </div>
     <div class="col md-3" id="cliente-2">
         <img src="{{asset('./image/fotos/1.2-alimentos.png')}}" alt="cliente" width="80%">
-        <p id="mineria"><b> Alimentos</b></p>
+        <p id="mineria" style="margin-left:30% ;"><b> Alimentos</b></p>
         <img src="{{asset('./image/clientes/plastiservi.png')}}" width="80%">
     </div>
     <div class="col md-3" id="cliente-3">
@@ -443,7 +443,7 @@
     </div>
     <div class="col md-3" id="cliente-5">
         <img src="{{asset('./image/fotos/1.5-comercio.png')}}" alt="cliente" width="80%">
-        <p id="mineria-1"><b> Comercio Internacional</b></p>
+        <p id="mineria-1" style="margin-left:10% ;"><b> Comercio Internacional</b></p>
         <img src="{{asset('./image/clientes/lucsa.png')}}" width="80%">
     </div>
     @endsection
