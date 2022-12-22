@@ -20,10 +20,10 @@
         <b><a class="nav-link" href="{{ url('/sobre_nosotros')}}">Sobre nosotros</a></b>
       </li>
       <li class="nav-item">
-        <b><a class="nav-link" href="{{ url('/contacto')}}">Contacto</a></b>
+        <b><a class="nav-link" id="ivanrs" href="{{ url('/contacto')}}">Contacto</a></b>
       </li>
-      <li class="nav-item cliente">
-        <a class="nav-linkad"  id="cliente-quas"href="https://www.quasmanager.cl/profile">Clientes quasmanager</a>
+      <li class="nav-item cliente"style="margin-left:200px">
+      <button type="button" id="ivan" class="btn btn-success" role="link" onclick="window.location='https://www.quasmanager.cl/profile'">Clientes Quasmanager</button>
       </li>
     </ul>
   </div>
