@@ -16,13 +16,13 @@ class ContactanosController extends Controller
     public function store(Request $request){
 
         $request->validate([
-            'name' => 'required',
+            'nombre' => 'required',
             'email' => 'required|email',
-            'message' =>'required',
+            'mensaje' =>'required',
         ]);
 
     $correo = new ContactanosMailable($request ->all());
     Mail::to('comercial@quas.cl')->send($correo);
-    return "Mensaje enviado";
+    return redirect()->route('contacto')->with("mensaje enviado");
     }
 }

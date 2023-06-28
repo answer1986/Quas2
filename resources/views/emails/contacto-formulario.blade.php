@@ -8,7 +8,7 @@
 <body>
     <h1>te han escrito de la web Quas.cl</h1>
     <br>
-    <p><strong>Nombre:<strong>  {{$contacto['name']}} </p>
+    <p><strong>Nombre:<strong>  {{$contacto['nombre']}} </p>
     <br>
     <p><strong>Correo:<strong>  {{$contacto['correo']}} </p>
     <br>

@@ -15,14 +15,30 @@
             @csrf
                 <label for="exampleFormControlInput1" id="exampleFormControlInput1">Nombre</label>
                 <input type="text" class="form-control" placeholder="Tu nombre" name="nombre">
+                @error('nombre')
+                  <p><strong>{{$message}}</strong></p>
+                @enderror
+
                 <label for="exampleFormControlInput1" id="exampleFormControlInput2">Email address</label>
                 <input type="email" class="form-control" placeholder="Tu email" name="email">
+                @error('email')
+                  <p><strong>{{$message}}</strong></p>
+                @enderror
+                
                 <label for="mensaje" id="exampleFormControlInput3">Mensaje</label>
                 <textarea class="form-control" id="mensaje" rows="3" name="mensaje"></textarea>
-
+                @error('mensaje')
+                  <p><strong>{{$message}}</strong></p>
+                @enderror
                     <br>
                     <button type="submit" class="btn btn-dark" id="boton">Enviar</button>
         </form>
+        @if(session('info'))
+            <script>
+              alert("{{session('info')}}")
+            </script>
+        @endif
+
     </div>
     <div class="col" id="datos">
         <h3 id="datos-titulo"><b>Escríbenos</b></h3>
