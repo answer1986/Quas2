@@ -11,17 +11,17 @@
 
 <div class="row" id="formula">
     <div class="col">
-        <form action="{{route('contacto.store')}}" method="POST"   id="formulario">
-           
+        <form action="{{route('contacto.store')}}" method="POST" id="formulario">
+            @csrf
                 <label for="exampleFormControlInput1" id="exampleFormControlInput1">Nombre</label>
-                <input type="text" class="form-control" placeholder="Tu nombre">
+                <input type="text" class="form-control" placeholder="Tu nombre" name="nombre">
                 <label for="exampleFormControlInput1" id="exampleFormControlInput2">Email address</label>
-                <input type="email" class="form-control" placeholder="Tu email">
+                <input type="email" class="form-control" placeholder="Tu email" name="email">
                 <label for="mensaje" id="exampleFormControlInput3">Mensaje</label>
-                <textarea class="form-control" id="mensaje" rows="3"></textarea>
+                <textarea class="form-control" id="mensaje" rows="3" name="mensaje"></textarea>
 
-            <br>
-            <button type="submit" class="btn btn-dark" id="boton">Enviar</button>
+                    <br>
+                    <button type="submit" class="btn btn-dark" id="boton">Enviar</button>
         </form>
     </div>
     <div class="col" id="datos">

@@ -13,9 +13,15 @@ class ContactanosController extends Controller
 
     }
 
-    public function store(){
+    public function store(Request $request){
 
-    $correo = new ContactanosMailable;
+        $request->validate([
+            'name' => 'required',
+            'email' => 'required|email',
+            'message' =>'required',
+        ]);
+
+    $correo = new ContactanosMailable($request ->all());
     Mail::to('comercial@quas.cl')->send($correo);
     return "Mensaje enviado";
     }
