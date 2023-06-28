@@ -11,7 +11,7 @@
 
 <div class="row" id="formula">
     <div class="col">
-        <form id="formulario">
+        <form action="{{route('contacto.store')}}" method="POST"   id="formulario">
            
                 <label for="exampleFormControlInput1" id="exampleFormControlInput1">Nombre</label>
                 <input type="text" class="form-control" placeholder="Tu nombre">

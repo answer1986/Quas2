@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactanosController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -29,9 +30,9 @@ Route::get('/sobre_nosotros', function(){
     return view ('/sobre_nosotros');
 });
 
-Route::get('/contacto', function(){
-    return view ('/contacto');
-});
+Route::get('/contacto', [ContactanosController::class, 'index'])->name('contacto.index');
+
+Route::post('/contacto', [ContactanosController::class, 'store'])->name('contacto.store');
 
 Route::get('/terminos', function(){
     return view ('/terminos');
