@@ -13,6 +13,8 @@ class contactanosMailable extends Mailable
 
     public $subject =  "Contacto Web" ;
 
+    public $contacto;
+
     /**
      * Create a new message instance.
      *
