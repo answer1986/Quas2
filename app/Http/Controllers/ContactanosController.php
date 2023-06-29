@@ -23,6 +23,6 @@ class ContactanosController extends Controller
 
     $correo = new ContactanosMailable($request ->all());
     Mail::to('comercial@quas.cl')->send($correo);
-    return redirect()->route('/contacto')->with("mensaje enviado");
+    return redirect()->route('contacto.index')->with("mensaje enviado");
     }
 }
