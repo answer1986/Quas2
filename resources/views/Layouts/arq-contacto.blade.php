@@ -13,6 +13,43 @@
   <link rel="stylesheet" href="{{ asset('./css/estilos.css') }}" type="text/css">
   <link rel="stylesheet" href="{{ asset('./css/contacto.css') }}" type="text/css">
   <script src="https://kit.fontawesome.com/594a01a72d.js" crossorigin="anonymous"></script>
+
+<!-- Nuevo recaptcha -->
+
+<script type="text/javascript">
+
+        function callbackThen(response){
+
+        // read HTTP status
+
+        console.log(response.status);
+
+        // read Promise object
+
+        response.json().then(function(data){
+
+        console.log(data);
+
+        });
+
+        }
+
+        function callbackCatch(error){
+
+        console.error('Error:', error)
+
+        }
+
+        </script>
+
+        {!! htmlScriptTagJsApi([
+
+        'callback_then' => 'callbackThen',
+
+        'callback_catch' => 'callbackCatch'
+
+        ]) !!}
+
 </head>
 
 <body>
