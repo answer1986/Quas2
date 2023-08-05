@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ContactanosController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,6 +34,14 @@ Route::get('/sobre_nosotros', function(){
 Route::get('/contacto', [ContactanosController::class, 'index'])->name('contacto.index');
 
 Route::post('/contacto', [ContactanosController::class, 'store'])->name('contacto.store');
+
+
+Route::get('/contacto', [ContactController::class, 'showForm'])->name('contacto.index');
+Route::post('/contacto', [ContactController::class, 'submitForm'])->name('contact.submit');
+
+
+
+
 
 Route::get('/terminos', function(){
     return view ('/terminos');

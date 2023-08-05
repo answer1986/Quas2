@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Mail\ContactanosMailable;
 use Illuminate\Support\Facades\Mail;
+use Biscolab\ReCaptcha\Facades\ReCaptcha;
+
 
 class ContactanosController extends Controller
 {
@@ -15,14 +17,26 @@ class ContactanosController extends Controller
 
     public function store(Request $request){
 
+        $recaptcha = ReCaptcha::verify($request->input('g-recaptcha-response'));
+
+        if(!$recaptcha->isSuccess()){
+            return back()->withErrors(['captcha_error' => 'Please verify that you are not a robot.']);
+        }
+
+
+        
         $request->validate([
-            'nombre' => 'required',
+            'name' => 'required',
             'email' => 'required|email',
-            'mensaje' =>'required',
+            'message' =>'required',
+            'g-recaptcha-response' => 'required|captcha',  // <-- Aquí está la validación para ReCaptcha
+
         ]);
 
     $correo = new ContactanosMailable($request ->all());
-    Mail::to('comercial@quas.cl')->send($correo);
+    Mail::to('soporte@quas.cl')->send($correo);
     return redirect()->route('contacto.index')->with("mensaje enviado");
     }
 }
+
+

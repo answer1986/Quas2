@@ -23,7 +23,7 @@
         <a href="{{ url('/terminos') }}" id="Terminos">Terminos y condiciones</a>
     </div>
     <div class="col-12 col-md-4" id="footer-caja-2">
-        <h5 id="certficacion-empresas">Certificacion de empresas</h5>
+        <h5 id="certficacion-empresas"><b>Certificacion de empresas</b></h5>
         <ul class="certificaciones-footer">
             <li id="parrafo-caja-2"><b>ISO 9001:</b>Sistema de gestion de la calidad (SGC)</li>
             <li id="parrafo-caja-2"><b>ISO 14001:</b>Sistemas de Gestión Ambiental (SGA)</li>
@@ -43,11 +43,11 @@
 
 
     <div class="col-12 col-md-2">
-        <h5 id="footer-contacto">Contacto</h5>
+        <h5 id="footer-contacto"><b>Contacto</b></h5>
         <div class="col">
-         <a href="tel:+56 9 7453 2868" id="parrafo-caja-3"> +56 9 7453 2868 </a>
+         <a href="tel:+56 9 7453 2868" id="parrafo-caja-3"> Tel... </a>
         </div>
-        <a href="mailto:comercial@quas.cl" id="parrafo-caja-3">comercial@quas.cl</a>
+        <a href="mailto:comercial@quas.cl" id="parrafo-caja-3">comercial@quas.pe</a>
         <h5 id="siguenos">Siguenos</h5>
         <img src="{{ asset('./image/redes/twetter.svg') }}" alt="facebook" id="facebook">
         <img src="{{ asset('./image/redes/linked.svg') }}" alt="instagram" id="instagram">
