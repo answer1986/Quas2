@@ -9,7 +9,7 @@
         <h1 id="banner">Aseguramos el éxito en la</h1>
         <h1 id="banner-2">certificación de tu empresa</h1>
         <h3 id="segunda-linea">Este es nuestro compromiso corporativo</h3>
-        <a id="primer-contacto" href="{{ url('/contacto') }}">Contáctanos</a>
+        <a id="primer-contacto" href="#contacto-index">Contáctanos</a>
     </div>
 </div>
 @endsection
@@ -130,11 +130,9 @@
 
 
 @section('contacto-rapido')
-    @php
-        use Biscolab\ReCaptcha\Facades\ReCaptcha;
-    @endphp
+   
 
-    <div class="contact-form">
+    <div class="contact-form" id="contacto-index">
         <!-- Aquí va tu imagen al costado izquierdo del formulario -->
         <div class="image-container">
             <img src="{{ asset('image/peru/peru-contacto.jpg') }}" alt="Imagen de contacto">
@@ -146,6 +144,7 @@
             <input type="email" name="email" placeholder="Correo Electrónico" required>
             <input type="text" name="phone" placeholder="Teléfono">
             <textarea name="message" placeholder="Mensaje" required></textarea>
+
 
             <div class="g-recaptcha" data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}"></div>
 

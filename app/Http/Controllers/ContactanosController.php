@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Contact;
 use Illuminate\Http\Request;
 use App\Mail\ContactanosMailable;
 use Illuminate\Support\Facades\Mail;
@@ -17,11 +18,11 @@ class ContactanosController extends Controller
 
     public function store(Request $request){
 
-        $recaptcha = ReCaptcha::verify($request->input('g-recaptcha-response'));
+        $recaptcha = ReCaptcha::validate($request->input('g-recaptcha-response'));
 
-        if(!$recaptcha->isSuccess()){
-            return back()->withErrors(['captcha_error' => 'Please verify that you are not a robot.']);
-        }
+         if(is_array($recaptcha) && (!isset($recaptcha['success']) || !$recaptcha['success'])){
+        return back()->withErrors(['captcha_error' => 'Please verify that you are not a robot.']);
+    }
 
 
         
@@ -29,9 +30,25 @@ class ContactanosController extends Controller
             'name' => 'required',
             'email' => 'required|email',
             'message' =>'required',
-            'g-recaptcha-response' => 'required|captcha',  // <-- Aquí está la validación para ReCaptcha
+            'g-recaptcha-response' => 'required|recaptcha',
+
 
         ]);
+
+
+        // Procesar los datos del formulario
+        $name = $request->input('name');
+        $email = $request->input('email');
+        $phone = $request->input('phone');
+        $message = $request->input('message');
+
+        // Guardar los datos en la base de datos utilizando el modelo Contact
+        $contact = new Contact();
+        $contact->name = $name;
+        $contact->email = $email;
+        $contact->phone = $phone;
+        $contact->message = $message;
+        $contact->save();
 
     $correo = new ContactanosMailable($request ->all());
     Mail::to('soporte@quas.cl')->send($correo);

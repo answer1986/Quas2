@@ -36,8 +36,8 @@ Route::get('/contacto', [ContactanosController::class, 'index'])->name('contacto
 Route::post('/contacto', [ContactanosController::class, 'store'])->name('contacto.store');
 
 
-Route::get('/contacto', [ContactController::class, 'showForm'])->name('contacto.index');
-Route::post('/contacto', [ContactController::class, 'submitForm'])->name('contact.submit');
+Route::get('/index', [ContactController::class, 'showForm'])->name('contacto.index');
+Route::post('/index', [ContactController::class, 'submitForm'])->name('contact.submit');
 
 
 

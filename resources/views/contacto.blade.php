@@ -14,7 +14,7 @@
         <form action="{{route('contacto.store')}}" method="POST" id="formulario">
             @csrf
                 <label for="exampleFormControlInput1" id="exampleFormControlInput1">Nombre</label>
-                <input type="text" class="form-control" placeholder="Tu nombre" name="nombre">
+                <input type="text" class="form-control" placeholder="Tu nombre" name="name">
                 @error('nombre')
                   <p><strong>{{$message}}</strong></p>
                 @enderror
@@ -26,10 +26,14 @@
                 @enderror
                 
                 <label for="mensaje" id="exampleFormControlInput3">Mensaje</label>
-                <textarea class="form-control" id="mensaje" rows="3" name="mensaje"></textarea>
+                <textarea class="form-control" id="mensaje" rows="3" name="message"></textarea>
                 @error('mensaje')
                   <p><strong>{{$message}}</strong></p>
                 @enderror
+
+                <div class="g-recaptcha" data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}"></div>
+  
+
                     <br>
                     <button type="submit" class="btn btn-dark" id="boton">Enviar</button>
         </form>

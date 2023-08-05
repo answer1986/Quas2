@@ -22,7 +22,8 @@ class ContactController extends Controller
             'email' => 'required|email|max:40',
             'phone' => 'nullable|numeric|digits_between:7,9',
             'message' => 'required|string|max:255',
-            'g-recaptcha-response' => 'required|captcha',
+            'g-recaptcha-response' => 'required|recaptcha',
+
         ]);
 
 
@@ -44,5 +45,6 @@ class ContactController extends Controller
 
         // Redirigir a una página de éxito o mostrar un mensaje de confirmación
         return redirect()->route('contacto.index')->with('success', 'Mensaje enviado con éxito. Gracias por contactarnos.');
+        
     }
 }
