@@ -17,17 +17,13 @@ use App\Http\Controllers\CatalogoController;
 |
 */
 
-Route::get('/', function () {
-    return view('/index');
-});
+
 
 Route::get('/nuestros_servicios', function(){
     return view ('/nuestros_servicios');
 });
 
-Route::get('/casos_exito', function(){
-    return view ('/casos_exito');
-});
+
 
 Route::get('/sobre_nosotros', function(){
     return view ('/sobre_nosotros');
@@ -37,7 +33,9 @@ Route::get('/contacto', [ContactanosController::class, 'index'])->name('contacto
 
 Route::post('/contacto', [ContactanosController::class, 'store'])->name('contacto.store');
 
-
+Route::get('/', function () {
+    return view('/index');
+});
 Route::get('/index', [ContactController::class, 'showForm'])->name('contacto.index');
 Route::post('/index', [ContactController::class, 'submitForm'])->name('contact.submit');
 
@@ -49,4 +47,7 @@ Route::get('/terminos', function(){
     return view ('/terminos');
 });
 
-Route::post('/casos_exito', [CatalogoController::class, 'store']);
+Route::get('/casos_exito', [CatalogoController::class, 'showForm'])->name('casos_exito');
+Route::post('/casos', [CatalogoController::class, 'store'])->name('casos.store');
+
+Route::get('/casos', [CatalogoController::class, 'downloadFile'])->name('casos.downloadFile');

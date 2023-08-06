@@ -12,7 +12,7 @@
     <br>
     <p><strong>Correo:<strong>{{$contacto['email']}}</p>
     <br>
-    <p><strong>Mensaje:<strong>{{$contacto['mensaje']}}</p>
+    <p><strong>message:<strong>{{$contacto['message']}}</p>
 
     <p> Saludos web Quas.cl</p>
 </body>

@@ -61,31 +61,33 @@
 @endsection
 
 
+
 @section('catalogo')
 <div class="catalogo" id="catalogo">
     <h2 id="titulo-catalogo">Catalogo 2023</h2>
-
-<p id="parrafo-1" style= "text-aling:center"> Revisa nuestra oferta comercial adaptada a tus necesidades consulta con nosotros.</p>
-<form action="/guardar-contacto" method="post">
+    <p id="parrafo-1" style= "text-aling:center"> Revisa nuestra oferta comercial adaptada a tus necesidades consulta con nosotros.</p>
+    <form action="{{ route('casos.store')}}" method="post">
         <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required><br><br>
+        <input type="text" id="nombre" name="name" required><br><br>
         
         <label for="email">Correo Electrónico:</label>
         <input type="email" id="email" name="email" required><br><br>
         
         <label for="telefono">Teléfono:</label>
-        <input type="text" id="telefono" name="telefono"><br><br>
-        @csrf
+        <input type="text" id="telefono" name="phone"><br><br>
         <input type="submit" value="Descargar Archivo">
+        @csrf
+
     </form>
 </div>
 
 @if(session('message'))
-    <div class="alert alert-success">
-        {{ session('message') }}
-    </div>
+    <script>
+        window.onload = function() {
+            window.location.href = "/descargar-archivo";
+        };
+    </script>
 @endif
-
 @endsection
 
 @extends('essencials.footer')
