@@ -161,6 +161,38 @@
     });
 </script>
 
+<script>
+    document.getElementById('serviceSelector').addEventListener('change', function() {
+        var selectedValue = this.value;
+        if (selectedValue) {
+            window.location.href = '/servicios#' + selectedValue;
+        }
+    });
+</script>
+<script>
+
+function navigateToSelectedURL(selectElement) {
+    const selectedValue = selectElement.value;
+    if (selectedValue) {
+        window.location.href = selectedValue;
+        
+        // Conserva esta lógica si aún la necesitas
+        if (selectedValue === "http://localhost:8888/Programas/Quas2-Peru/public/nuestros_servicios#erp-gestion-de-empresas-1") {
+            localStorage.setItem("autoClickBehavior", "true");
+        }
+    }
+}
+
+
+
+</script>
+
+
+
+
+
+
+
 
 
 <!-- JavaScript Bundle with Popper -->

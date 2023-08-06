@@ -196,5 +196,32 @@
   
  
 </script>
+
+
+<script>
+window.onload = function() {
+    // Solo realiza los clics automáticos si la bandera en localStorage está establecida
+    if (localStorage.getItem("autoClickBehavior") === "true") {
+        setTimeout(() => {
+            const element1 = document.getElementById("parrafo-caja2");
+            if (element1) {
+                element1.click();
+                
+                setTimeout(() => {
+                    const element2 = document.getElementById("boton-erp-1");
+                    if (element2) {
+                        element2.click();
+                    }
+                }, 1000);
+            }
+        }, 1000);
+
+        // Limpiar la bandera de localStorage para que no se repita el comportamiento en futuros cargos de página
+        localStorage.removeItem("autoClickBehavior");
+    }
+};
+
+
+</script>
 </body>
 </html>

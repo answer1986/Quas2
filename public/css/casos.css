@@ -62,5 +62,17 @@ text-align: left;
     color: #006953;
 }
 
-/** carrousel **/
 
+
+#catalogo{
+    width: 70%;
+    align-items: center;
+    margin-left: 10%;
+}
+
+#titulo-catalogo{
+text-align: center;
+color: #006953;
+align-items: center;
+margin-left:10%;
+}

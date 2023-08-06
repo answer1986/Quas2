@@ -61,4 +61,31 @@
 @endsection
 
 
+@section('catalogo')
+<div class="catalogo" id="catalogo">
+    <h2 id="titulo-catalogo">Catalogo 2023</h2>
+
+<p id="parrafo-1" style= "text-aling:center"> Revisa nuestra oferta comercial adaptada a tus necesidades consulta con nosotros.</p>
+<form action="/guardar-contacto" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="telefono">Teléfono:</label>
+        <input type="text" id="telefono" name="telefono"><br><br>
+        @csrf
+        <input type="submit" value="Descargar Archivo">
+    </form>
+</div>
+
+@if(session('message'))
+    <div class="alert alert-success">
+        {{ session('message') }}
+    </div>
+@endif
+
+@endsection
+
 @extends('essencials.footer')

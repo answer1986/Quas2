@@ -3,6 +3,8 @@
 use App\Http\Controllers\ContactanosController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\CatalogoController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -46,3 +48,5 @@ Route::post('/index', [ContactController::class, 'submitForm'])->name('contact.s
 Route::get('/terminos', function(){
     return view ('/terminos');
 });
+
+Route::post('/casos_exito', [CatalogoController::class, 'store']);

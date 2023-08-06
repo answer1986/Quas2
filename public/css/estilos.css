@@ -41,6 +41,53 @@
  font-family:sans-serif extrasans-serif;
  margin-left: 200px;
 }
+
+
+
+
+.nav-item {
+  position: relative; /* Añadido para el ítem padre */
+}
+
+.submenu {
+  display: none;
+  list-style-type: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  min-width: 200px; /* Añadido para asegurarse de que el submenú tenga un ancho mínimo adecuado */
+  z-index: 1000;
+}
+
+
+
+.nav-item:hover .submenu {
+  display: block; 
+}
+
+.submenu li {
+  width: 100%; 
+}
+
+.submenu li a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+  color: #333; /* Color de texto de los enlaces del submenú */
+  white-space: nowrap; /* Asegura que los enlaces no se rompan en varias líneas */
+}
+
+.submenu li a:hover {
+  background-color: #f1f1f1; /* Color de fondo al pasar el cursor sobre los enlaces del submenú */
+} 
+
+
+
 /** fin barra de navegación*/
 #boton-cosmetico{
 margin-left: 43%;
@@ -527,3 +574,57 @@ button[type="submit"]:hover {
   color: #721c24;
   border: 1px solid #f5c6cb;
 }
+
+
+/* Buscador */
+.buscador-text {
+  display: flex;
+  justify-content: center; /* Alinear elementos horizontalmente en el centro */
+  gap: 10px; /* Espacio entre los selectores */
+  text-align: center;
+}
+
+#url-selector {  /* Actualizado para usar selector de clase */
+  font-size: 1.2em;
+  padding: 10px 15px;
+  width: 280px; /* Ajusta según prefieras */
+  border: 2px solid #4CAF50;
+  border-radius: 8px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #fff;
+  color: #333;
+  transition: border-color 0.3s;
+  align-items: center;
+  text-align: center;
+}
+
+#url-selector:hover { /* Actualizado para usar selector de clase */
+  border-color: #45a049;
+}
+
+#url-selector:focus { /* Actualizado para usar selector de clase */
+  border-color: #088a08;
+  outline: none;
+}
+
+#primer-contacto {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #154d17;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none; /* Elimina el subrayado */
+  transition: background-color 0.3s;
+  align-items: center;
+  text-align: center;
+  width: 15%;
+}
+
+#primer-contacto:hover {
+  background-color: #39953d;
+}
+

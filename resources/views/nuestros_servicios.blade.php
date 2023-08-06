@@ -51,7 +51,7 @@
                 <button id="boton-certificacion-8" onclick="cambio8();">BRC</button>
             </div>
             <br>
-            <P id="titulo-iso9001"><b>ISO 9001: Sistema de Gestión de Calidad (SGC)</b></P>
+            <P id="9001" name="iso9001"><b>ISO 9001: Sistema de Gestión de Calidad (SGC)</b></P>
             <p id="parrafo-certificacion">Le ayudará a supervisar y gestionar continuamente la calidad en toda su empresa para que pueda identificar áreas de mejora. A nivel internacional, es el sistema de calidad de elección.<br><br>
                 Un sistema de gestión de calidad ISO 9001, abreviado con las siglas SGC, está formado por un conjunto de políticas, procesos y procedimientos documentados. Este conjunto define la forma en que la empresa elaborará y entregará el producto o servicio a sus clientes, con el fin de asegurarse su satisfacción. La ISO de gestión de calidad ofrece así un conjunto de directrices que ayuda a aplicar el SGC con resultados óptimos, para organizaciones de diferentes tipos y tamaños.<br><br>
                 <b>Por lo general, el estándar se implanta cuando una organización necesita:</b><br>
@@ -83,7 +83,7 @@
                 <button id="boton-certificacion-8" onclick="cambio8();">BRC</button>
             </div>
             <br>
-            <p id="titulo-iso9001"><b>ISO 14001: Sistemas de Gestión Ambiental (SGA)</b></p>
+            <p id="14001"><b>ISO 14001: Sistemas de Gestión Ambiental (SGA)</b></p>
             <p id="parrafo-certificacion">Es una norma internacional que permite a las empresas demostrar el compromiso asumido con la protección del medio ambiente a través de la gestión de los riesgos medioambientales asociados a la actividad desarrollada. Al asumir la responsabilidad ambiental, además de la reducción del impacto ambiental procedente de su actividad, se proyecta y se refuerza la imagen comercialmente sostenible de la empresa.</p>
         </div>
     </div>
@@ -110,8 +110,8 @@
                 <button id="boton-certificacion-8" onclick="cambio8();">BRC</button>
             </div>
             <br>
-            <p id="titulo-iso9001"><b>ISO 45001: Sistemas de Gestión de la Seguridad y <br>
-                    Salud en el Trabajo</b></p>
+            <a id="45001"><b>ISO 45001: Sistemas de Gestión de la Seguridad y <br>
+                    Salud en el Trabajo</b></a>
             <p id="parrafo-certificacion"> Es la norma internacional destinada a proteger a los trabajadores y visitantes de accidentes y enfermedades laborales. La certificación ISO 45001 fue desarrollada para mitigar cualquier factor que pueda causar daños irreparables a los empleados o al negocio. Tiene como objetivo final ayudar a los negocios a proporcionar un ambiente de trabajo seguro para los empleados y cualquier persona en el lugar de trabajo. Esto puede conseguirse al controlar factores que puedan potencialmente causar lesiones, enfermedades, y en casos extremos, defunciones. Como resultado, la ISO 45001 se centra en mitigar cualquier factor dañino o que suponga un riesgo para el bienestar físico y mental de los trabajadores.</p>
 
         </div>
@@ -140,7 +140,7 @@
                 <button id="boton-certificacion-8" onclick="cambio8();">BRC</button>
             </div>
             <br>
-            <p id="titulo-iso9001"><b>ISO 22000: Sistemas de Gestión Inocuidad<br> Alimentaria (SGIA)</b></p>
+            <p id="22000"><b>ISO 22000: Sistemas de Gestión Inocuidad<br> Alimentaria (SGIA)</b></p>
             <p id="parrafo-certificacion"> Es una norma internacional que especifica los requisitos de un sistema de gestión para asegurar la inocuidad de los alimentos, a lo largo de toda la cadena alimentaria, hasta el punto de venta de consumo final. Tiene por objeto la armonización de los requisitos de gestión de la inocuidad en toda la cadena alimentaria a nivel mundial.</p>
 
         </div>
@@ -174,7 +174,7 @@
                 <button id="boton-certificacion-8" onclick="cambio8();">BRC</button>
             </div>
             <br>
-            <p id="titulo-iso9001"><b>ISO 27001: Sistema de Gestión de la Seguridad de <br>la Información (SGSI) </b></p>
+            <p id="27001"><b>ISO 27001: Sistema de Gestión de la Seguridad de <br>la Información (SGSI) </b></p>
             <p id="parrafo-certificacion"> Esta norma establece los requisitos para establecer, implementar, mantener y mejorar de forma continua un Sistema de Gestión de la Seguridad de la Información (SGSI). Estos sistemas son cada vez más comunes en las compañías, debido a los nuevos riesgos digitales inherentes a tecnologías como el Cloud Computing o el Big Data y al aumento de los ciberataques. La norma ISO también incluye los requisitos para la apreciación y el tratamiento de los riesgos de seguridad de información a la medida de las necesidades de la organización. Los requisitos establecidos en esta norma internacional son genéricos y aplicables a todas las organizaciones, cualquiera que sea su tipo, tamaño o naturaleza.</p>
 
 
@@ -206,7 +206,7 @@
                 <button id="boton-certificacion-8" onclick="cambio8();">BRC</button>
             </div>
             <br>
-            <p id="titulo-iso9001"><b>HACCP (Hazard Analysis and Critical Control <br>Points) </b></p>
+            <p id="HACCP" ><b>HACCP (Hazard Analysis and Critical Control <br>Points) </b></p>
             <p id="parrafo-certificacion">El Análisis de Peligros y Puntos Críticos de Control, también conocido como HACCP, en un sistema de inocuidad alimentaria, se basa en identificar todos los peligros potenciales en los ingredientes, empaques y procesos de producción de alimentos y tomar las medidas suficientes para evitar todos los riesgos posibles de contaminación. El sistema se ha aceptado por todos los esquemas de seguridad alimentaria, siendo actualmente la mejor herramienta de prevención para la inocuidad alimentaria.<br> <br><b>Sus beneficios:</b></p>
             <ul id="listado">
                 <li>Aporta confianza al consumidor sobre la higiene de los alimentos.</li>
@@ -247,7 +247,7 @@
                 <button id="boton-certificacion-8" onclick="cambio8();">BRC</button>
             </div>
             <br>
-            <p id="titulo-iso9001"><b>FSSC 22000 (Food Safety System Certification)<br> - Sistema de Gestión de Seguridad Alimentaria </b></p>
+            <p id="FSSC"><b>FSSC 22000 (Food Safety System Certification)<br> - Sistema de Gestión de Seguridad Alimentaria </b></p>
             <p id="parrafo-certificacion"> FSSC es un programa de certificación completo para los sistemas de inocuidad alimentaria basado en las normas de certificación ISO 22000 e ISO/TS 22002-1/PAS 220.<br><br> La FSSC 22000 tiene el objetivo de convertirse en el programa de certificación de seguridad alimentaria independiente, basada en las normas ISO, aceptado por la GFSI (Iniciativa Global de Seguridad Alimentaria) y líder mundial para toda la cadena de suministro.</b></p>
             <p id="desgloce">La certificación FSSC 22000 ha sido elaborada para certificar los sistemas de seguridad alimentaria de las organizaciones que procesan o fabrican productos de origen animal, productos vegetales perecederos, productos con una larga vida útil, otros ingredientes alimenticios como aditivos, vitaminas y cultivos biológicos, así como materiales para el empacado de alimentos. La certificación FSSC 22000 ha sido elaborada para certificar los sistemas de seguridad alimentaria de las organizaciones que procesan o fabrican productos de origen animal, productos vegetales perecederos, productos con una larga vida útil, otros ingredientes alimenticios como aditivos, vitaminas y cultivos biológicos, así como materiales para el empacado de alimentos.</p>
             <p id="titulo-listado"><b>La norma permite a su organización:</b></p>

@@ -15,6 +15,9 @@
       </li>
       <li class="nav-item">
         <b><a class="nav-link" href="{{ url('/casos_exito')}}">Casos de éxito</a></b>
+        <ul class="submenu">
+           <li><a href="{{ url('/casos_exito#catalogo')}}">Catalogo 2023</a></li>
+        </ul>
       </li>
       <li class="nav-item">
         <b><a class="nav-link" href="{{ url('/sobre_nosotros')}}">Sobre nosotros</a></b>

@@ -9,6 +9,31 @@
         <h1 id="banner">Aseguramos el éxito en la</h1>
         <h1 id="banner-2">certificación de tu empresa</h1>
         <h3 id="segunda-linea">Este es nuestro compromiso corporativo</h3>
+        <div class = "buscador-text">
+            <select id="url-selector" onchange="navigateToSelectedURL(this)">
+                <option value="">-- Modalidad de servicio --</option>
+                <option value="http://localhost:8888/Programas/Quas2-Peru/public/nuestros_servicios#certificacion_de_empresas">Presencial</option>
+                <option value="http://localhost:8888/Programas/Quas2-Peru/public/nuestros_servicios#erp-gestion-de-empresas-1">Remoto</option>
+                                
+                <!-- Añade tantas opciones como servicios tengas -->
+            </select>
+            <select id="url-selector" onchange="navigateToSelectedURL(this)">
+                <option value="">-- Que certificacion buscas --</option>
+                <option value="http://localhost:8888/Programas/Quas2-Peru/public/nuestros_servicios#certificacion_de_empresas">Certificacion ISO 9001</option>
+                <option value="http://localhost:8888/Programas/Quas2-Peru/public/nuestros_servicios#certificacion_de_empresas2">Certificacion ISO 14001</option>
+                <option value="http://localhost:8888/Programas/Quas2-Peru/public/nuestros_servicios#certificacion_de_empresas-3">Certificacion ISO 45001</option>
+                <option value="http://localhost:8888/Programas/Quas2-Peru/public/nuestros_servicios#certificacion_de_empresas-4">Certificacion ISO 22000</option>
+                <option value="http://localhost:8888/Programas/Quas2-Peru/public/nuestros_servicios#certificacion_de_empresas-6">Certificacion ISO HACCP</option>
+                <option value="http://localhost:8888/Programas/Quas2-Peru/public/nuestros_servicios#certificacion_de_empresas-5">Certificacion ISO 27001</option>
+                <option value="http://localhost:8888/Programas/Quas2-Peru/public/nuestros_servicios#certificacion_de_empresas-7">Certificacion ISO FSSC</option>
+                <option value="http://localhost:8888/Programas/Quas2-Peru/public/nuestros_servicios#certificacion_de_empresas-8">Certificacion ISO BRC</option>
+
+                <!-- Añade tantas opciones como servicios tengas -->
+            </select>
+        </div>
+
+        <br>
+
         <a id="primer-contacto" href="#contacto-index">Contáctanos</a>
     </div>
 </div>

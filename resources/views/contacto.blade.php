@@ -5,7 +5,7 @@
 @section('mapa')
 <br>
 <h2 id="titulo-contacto"><b>Contacto</b></h2>
-<img src="{{asset('image/fotos/mapa.png')}}" id="mapa" alt="mapa" class="img-fluid">
+<img src="{{asset('image/fotos/Lima.png')}}" id="mapa" alt="mapa" width='80%' class="img-fluid">
 @endsection
 @section('formulario')
 
@@ -47,11 +47,11 @@
     <div class="col" id="datos">
         <h3 id="datos-titulo"><b>Escríbenos</b></h3>
         <br>
-        <img src="{{asset('image/font/4-geo.png')}}" style="color:gray; margin-left:0%;" id="texto">Agustinas N° 1022, oficina 1001, Santiago</img><br>
+        <img src="{{asset('image/font/4-geo.png')}}" style="color:gray; margin-left:0%;" id="texto">Av. Manco Cápac 15503, Lima</img><br>
         <br>
-        <img src="{{asset('image/font/4.2-mail.png')}}" style="color:gray">comercial@quas.cl</i><br>
+        <img src="{{asset('image/font/4.2-mail.png')}}" style="color:gray">comercial@quas.pe</i><br>
         <br>
-        <img src="{{asset('image/font/4.3-phone.png')}}" style="color:gray">Teléfono: (+56) 9 7453 2868</i><br>
+        <img src="{{asset('image/font/4.3-phone.png')}}" style="color:gray">Teléfono: Pronto</i><br>
         <br>
         <img src="{{asset('image/redes/linked.svg')}}" id="whatsapp" alt="linked" class="img-fluid" width="8%">
         <img src="{{asset('image/redes/twetter.svg')}}" id="whatsapp" alt="whatsapp" class="img-fluid" width="8%">

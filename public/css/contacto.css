@@ -6,6 +6,9 @@
 
 #mapa{
     align-items: center;
+    width: 80%;
+    margin-bottom: 5%;
+    margin-left: 10%;
 }
 
 #titulo-contacto{
