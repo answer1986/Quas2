@@ -1,10 +1,10 @@
 <?php
-// app/Http/Controllers/Auth/LoginController.php
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Admin;
+use Illuminate\Support\Facades\Auth; 
+use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
 class LoginController extends Controller
 {
@@ -36,16 +36,5 @@ class LoginController extends Controller
         $request->session()->invalidate();
         $request->session()->regenerateToken();
         return redirect('/');
-    }
-}
-
-// app/Http/Controllers/DashboardController.php
-namespace App\Http\Controllers;
-
-class DashboardController extends Controller
-{
-    public function index()
-    {
-        return view('admin.dashboard');
     }
 }
