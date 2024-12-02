@@ -4,99 +4,67 @@
 
 @section('banner')
 <div class="banners">
-    <div class="banner-text">
-        <button id="boton-cosmetico" type="button" class="btn btn-outline-secondary">Estandares de Calidad</button>
-        <h1 id="banner">Aseguramos el éxito en la</h1>
-        <h1 id="banner-2">certificación de tu empresa</h1>
-        <h3 id="segunda-linea">Este es nuestro compromiso corporativo</h3>
-        <div class = "buscador-text">
-            <select id="url-selector" onchange="navigateToSelectedURL(this)">
-                <option value="">-- Modalidad de servicio --</option>
-                <option value="http://localhost:8888/Programas/Quas2-Peru/public/nuestros_servicios#certificacion_de_empresas">Presencial</option>
-                <option value="http://localhost:8888/Programas/Quas2-Peru/public/nuestros_servicios#erp-gestion-de-empresas-1">Remoto</option>
-                                
-                <!-- Añade tantas opciones como servicios tengas -->
-            </select>
-            <select id="url-selector" onchange="navigateToSelectedURL(this)">
-                <option value="">-- Que certificacion buscas --</option>
-                <option value="http://localhost:8888/Programas/Quas2-Peru/public/nuestros_servicios#certificacion_de_empresas">Certificacion ISO 9001</option>
-                <option value="http://localhost:8888/Programas/Quas2-Peru/public/nuestros_servicios#certificacion_de_empresas2">Certificacion ISO 14001</option>
-                <option value="http://localhost:8888/Programas/Quas2-Peru/public/nuestros_servicios#certificacion_de_empresas-3">Certificacion ISO 45001</option>
-                <option value="http://localhost:8888/Programas/Quas2-Peru/public/nuestros_servicios#certificacion_de_empresas-4">Certificacion ISO 22000</option>
-                <option value="http://localhost:8888/Programas/Quas2-Peru/public/nuestros_servicios#certificacion_de_empresas-6">Certificacion ISO HACCP</option>
-                <option value="http://localhost:8888/Programas/Quas2-Peru/public/nuestros_servicios#certificacion_de_empresas-5">Certificacion ISO 27001</option>
-                <option value="http://localhost:8888/Programas/Quas2-Peru/public/nuestros_servicios#certificacion_de_empresas-7">Certificacion ISO FSSC</option>
-                <option value="http://localhost:8888/Programas/Quas2-Peru/public/nuestros_servicios#certificacion_de_empresas-8">Certificacion ISO BRC</option>
-
-                <!-- Añade tantas opciones como servicios tengas -->
-            </select>
+    <div class="consulting-container">
+        <div class="consulting-content">
+            <h1 class="consulting-title">Consultoría<br>Empresarial</h1>
+            <p class="consulting-subtitle">Soluciones a medida para impulsar tu crecimiento.<br>
+                Normas, ERP y capacitación en un solo lugar.</p>
         </div>
-
-        <br>
-
-        <a id="primer-contacto" href="#contacto-index">Contáctanos</a>
+        <div class="consulting-image">
+            <img src="{{ asset('./image/reunion.jpg') }}" alt="Business meeting" />
+        </div>
     </div>
 </div>
 @endsection
 
 @section('certifica')
-<div class="row" id="certificars">
-    <h3 id="certifica">Certificar su empresa es hacer crecer su</h3>
-    <h3 id="certifica-2">negocio y proteger su inversión</h3>
-</div>
-<div class="row" id="caja-certifica-0">
-    <!-- Caja de certificación 1 -->
-    <div class="col md-3" id="caja-certifica-1">
-        <div>
-            <img src="{{ asset('./image/iconos/medalla.svg') }}" style="float:right; margin-right:15%; margin-top:2%;">
-            <h3 id="titulo-caja-certifica-1"><b>Certificación de empresas</b></h3>
+<div class="solutions-container">
+    <h2 class="solutions-title">Nuestras Soluciones</h2>
+    
+    <div class="solutions-grid">
+        <!-- Consultoría de Procesos -->
+        <div class="solution-card">
+            <div class="solution-image">
+                <img src="{{ asset('image/soluciones/consultoria.jpg') }}" alt="Consultoría de Procesos">
+            </div>
+            <div class="solution-content">
+                <h3 class="solution-heading">Consultoría de Procesos</h3>
+                <p class="solution-text">Optimizamos tus procesos, fortalecemos tu equipo y garantizamos tu éxito a través de soluciones personalizadas en control de operaciones, clima organizacional, mapeo de procesos y control estratégico de organizaciones.</p>
+                <br>
+                
+                <a href="#" class="discover-button">Descubre más</a>
+            </div>
         </div>
-        <p style="text-align: left;font: normal normal sans-serif 18px/27px sans-serif;letter-spacing: 0px;color: #606060;"><b>Normas ISO</b></p>
-        <p style="text-align: left;font: normal normal normal 18px/27px sans-serif;letter-spacing: 0px;color: #606060;">9001 - 22000 - 45001 - 27001 - 14001 </p>
-        <p style="text-align: left;font: normal normal normal 18px/27px sans-serif;letter-spacing: 0px;color: #606060;">HACCP - FSSC - BRC</p>
-        <br>
-        <a id="enlace" href="{{ url('/nuestros_servicios#parrafo-caja') }}">Ver detalle</a>
-    </div>
 
-    <!-- Caja de certificación 2 -->
-    <div class="col md-3" id="caja-certificar-2">
-        <div>
-            <img src="{{ asset('./image/iconos/compu-grafica.svg') }}" style="float:right; margin-right:15%; margin-top:2%;">
-            <h3 id="titulo-caja-certifica-2"><b>Consultoría en empresas</b> </h3>
+        <!-- Capacitación y Entrenamiento -->
+        <div class="solution-card">
+            <div class="solution-image">
+                <img src="{{ asset('image/soluciones/capacitacion.jpg') }}" alt="Capacitación y Entrenamiento">
+            </div>
+            <div class="solution-content">
+                <h3 class="solution-heading">Capacitación y Entrenamiento</h3>
+                <p class="solution-text">Ofrecemos capacitaciones personalizadas y certificadas en las normas ISO más importantes. Aumenta la eficiencia, mejora la calidad y cumple con los requisitos legales de tu sector.</p>
+                <br>
+                <a href="#" class="discover-button">Descubre más</a>
+            </div>
         </div>
-        <p style="text-align: left;font: normal normal sans-serif 18px/27px sans-serif;letter-spacing: 0px;color: #606060;">- Control y Gestión de Operaciones.</p>
-        <p style="text-align: left;font: normal normal sans-serif 18px/27px sans-serif;letter-spacing: 0px;color: #606060;">- Control de Procesos. </p>
-        <p style="text-align: left;font: normal normal sans-serif 18px/27px sans-serif;letter-spacing: 0px;color: #606060;">- Clima Organizacional. </p>
-        <p style="text-align: left;font: normal normal sans-serif 18px/27px sans-serif;letter-spacing: 0px;color: #606060;">- Levantamiento y Mapeo de procesos.</p>
-        <p style="text-align: left;font: normal normal sans-serif 18px/27px sans-serif;letter-spacing: 0px;color: #606060;">- Control Estratégico de Organizaciones.</p>
-        <br>
-        <a id="enlace2" href="{{ url('/nuestros_servicios#titulo-consultoria') }}">Ver detalle</a>
-    </div>
 
-    <!-- Caja de certificación 3 -->
-    <div class="col md-3" id="caja-certificar-3">
-        <div>
-            <img src="{{ asset('./image/iconos/compu-tablet-celu.svg') }}" style="float:right; margin-right:15%; margin-top:2%;">
-            <h3 id="titulo-caja-certifica-3"><b>ERP Gestión de empresas</b></h3>
+        <!-- ERP Gestión Empresarial -->
+        <div class="solution-card">
+            <div class="solution-image">
+                <img src="{{ asset('image/soluciones/erp.jpg') }}" alt="ERP Gestión Empresarial">
+            </div>
+            <div class="solution-content">
+                <h3 class="solution-heading">ERP<br>Gestión Empresarial</h3>
+                <p class="solution-text">Simplifica la gestión de tu empresa con nuestras plataformas. Informes automatizados, soporte técnico especializado y respaldos de seguridad te permitirán tomar decisiones estratégicas basadas en datos confiables.</p>
+                <a href="#" class="discover-button">Descubre más</a>
+            </div>
         </div>
-        <p style="text-align: left;font: normal normal sans-serif 18px/27px sans-serif;letter-spacing: 0px;color: #606060;">- Quasmanager.</p>
-        <p style="text-align: left;font: normal normal sans-serif 18px/27px sans-serif;letter-spacing: 0px;color: #606060;">- Quassafety. </p>
-        <p style="text-align: left;font: normal normal sans-serif 18px/27px sans-serif;letter-spacing: 0px;color: #606060;">- Quasfactory. </p>
-        <p style="text-align: left;font: normal normal sans-serif 18px/27px sans-serif;letter-spacing: 0px;color: #606060;">- Quasprocess.</p>
-        <p style="text-align: left;font: normal normal sans-serif 18px/27px sans-serif;letter-spacing: 0px;color: #606060;">- Quasplanning.</p>
-        <br>
-        <a id="enlace3" href="{{ url('/nuestros_servicios#boton-erp-1') }}">Ver detalle</a>
     </div>
-    <br>
-    <row style="margin-top: 10%;">
-        <a href="{{ url('/nuestros_servicios') }}" id="boton-certifica">Ver más servicios</a>
-    </row>
-    <br>
 </div>
-<br>
 @endsection
 
-@section('casos')
+@section('casos2')
 <h2 id="titulo-casos"><b>Casos de éxito</b></h2>
 <p id="parrafo-clientes">Lee lo que dicen nuestros clientes</p>
 <div class="row">
@@ -111,6 +79,35 @@
 
 <a href="{{ url('/casos_exito') }}" id="boton-casos">Ver más casos de éxito</a>
 <br>
+@endsection
+
+@section('casos')
+<div class="success-cases">
+    <div class="success-header">
+        <h2 class="success-title">CASOS DE ÉXITO</h2>
+        <span class="success-subtitle">Testimonios</span>
+    </div>
+    
+    <div class="testimonials-container">
+        <div class="testimonial-card">
+            <div class="testimonial-content">
+                <p>"Somos la única empresa en Chile de servicios de monitoreo de relaves geofísico y geotécnicos, que cuenta con un sistema de gestión integral certificado en ISO9001, ISO14001 e ISO 45001... Quas, es nuestro partner".</p>
+            </div>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="testimonial-content">
+                <p>"Nuestros productos de envase y empaque de frutas, están hoy en los mercado más importantes del mundo, tenemos todas las certificaciones de mercados europeos, asiáticos... Quas, es nuestro Socio Estratégico".</p>
+            </div>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="testimonial-content">
+                <p>"Después de varios años de intentar certificarnos en ISO 22000 sin resultados... , hoy nuestra empresa de alimentos ya cumple su segundo ciclo de certificación en norma de inocuidad alimentaria... Quas, confianza en ellos..."</p>
+            </div>
+        </div>
+    </div>
+</div>
 @endsection
 
 @section('cliente')
