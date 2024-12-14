@@ -1,0 +1,78 @@
+
+#parrafo{
+background: transparent linear-gradient(103deg, #FAFAFA 0%, #e8f7f4 100%) 0% 0% no-repeat padding-box;
+opacity: 1; 
+}
+
+#titulo-casos{
+color:#006953;
+font-size: 3em;
+margin-top: 3%;
+text-align: center;
+}
+
+
+#parrafo-casos{
+text-align: center;
+font: normal normal normal sans-serif;
+font-size: 1.5em;
+letter-spacing: 0px;
+color: #606060;
+opacity: 1;
+font-size: 2em;
+}
+
+#foto1{
+    margin:auto;
+
+}
+
+#caja-texto{
+margin-top:3%;
+position: relative;
+text-align: center;}
+
+
+
+#parrafo-1{
+font-size: 1.5em;
+font: normal normal normal  sans-serif;
+letter-spacing: 0px;
+color: #606060;
+opacity: 1;
+width: 80%;
+text-align: left;
+}
+
+
+
+#boton{
+    background: #006953;
+    opacity: 1; 
+    margin-left: 45%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+#carouselExampleIndicators{
+    margin: auto;
+}
+
+.carousel-control-next{
+    color: #006953;
+}
+
+
+
+#catalogo{
+    width: 70%;
+    align-items: center;
+    margin-left: 10%;
+}
+
+#titulo-catalogo{
+text-align: center;
+color: #006953;
+align-items: center;
+margin-left:10%;
+}

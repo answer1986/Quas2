@@ -1,0 +1,490 @@
+#Titulo {
+    text-align: center;
+    font: normal normal 800 45px/55px sans-serif;
+    letter-spacing: 0px;
+    color: #006953;
+    opacity: 1;
+    margin-top: 5%;
+}
+
+#parrafo {
+    text-align: center;
+    font: normal normal normal 25px/30px sans-serif;
+    letter-spacing: 0px;
+    color: #606060;
+    opacity: 1;
+}
+
+#cabecera-caja-servicios {
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: rgb(147, 145, 145) 0px 3px 1px #b7e9b8ce;
+    border-radius: 10px;
+    opacity: 1;
+    padding-top: 2%;
+    width: 200px;
+}
+
+#cabecera-caja-servicios:hover {
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+
+    box-shadow: 0px 3px 6px #72dd5fc8 white;
+    border-radius: 10px;
+    opacity: 1;
+    padding-top: 2%;
+    width: 200px;
+    border: solid 1px #006953;
+}
+
+#parrafo-caja {
+    text-align: left;
+    font: normal normal bold 20px/24px sans-serif;
+    letter-spacing: 0px;
+    color: #606060;
+    opacity: 1;
+}
+
+#parrafo-caja:hover {
+    text-align: left;
+    font: normal normal bold 20px/24px sans-serif;
+    letter-spacing: 0px;
+    color: #006953;
+    opacity: 1;
+}
+#parrafo-caja1 {
+    text-align: left;
+    font: normal normal bold 20px/24px sans-serif;
+    letter-spacing: 0px;
+    color: #606060;
+    opacity: 1;
+}
+
+#parrafo-caja1:hover {
+    text-align: left;
+    font: normal normal bold 20px/24px sans-serif;
+    letter-spacing: 0px;
+    color: #006953;
+    opacity: 1;
+}
+
+#parrafo-caja2 {
+    text-align: left;
+    font: normal normal bold 20px/24px sans-serif;
+    letter-spacing: 0px;
+    color: #606060;
+    opacity: 1;
+}
+
+#parrafo-caja2:hover {
+    text-align: left;
+    font: normal normal bold 20px/24px sans-serif;
+    letter-spacing: 0px;
+    color: #006953;
+    opacity: 1;
+}
+
+/* certificacion de empresas*/
+#foto-caja-certificacionrs{
+    float: right;
+}
+
+#iso9001{
+    width: 60%;
+}
+
+#titulo-certificacion{
+    font-family: sans-serif;
+    color: #006953;
+    margin-top: 5%;
+}
+
+#boton-certificacion-1 {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    background-color: white;
+    color: gray;
+    font-style: sans-serif;
+}
+
+#boton-certificacion-1:hover {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    background-color: #006953;
+    color: white;
+    font-style: sans-serif;
+}
+
+
+#boton-certificacion-2 {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    background-color: white;
+    color: gray;
+    font-style: sans-serif;
+}
+
+#boton-certificacion-2:hover {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    background-color: #006953;
+    color: white;
+    font-style: sans-serif;
+}
+
+#boton-certificacion-3 {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    background-color: white;
+    color: gray;
+    font-style: sans-serif;
+}
+#boton-certificacion-3:hover {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    background-color: #006953;
+    color: white;
+    font-style: sans-serif;
+}
+
+#boton-certificacion-4 {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    background-color: white;
+    color: gray;
+    font-style: sans-serif;
+}
+
+#boton-certificacion-4:hover {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    background-color: #006953;
+    color: white;
+    font-style: sans-serif;
+}
+
+#boton-certificacion-5 {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    background-color: white;
+    color: gray;
+    font-style: sans-serif;
+}
+
+#boton-certificacion-5:hover {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    background-color: #006953;
+    color: white;
+    font-style: sans-serif;
+}
+
+#boton-certificacion-6 {
+    padding: 5px;
+    padding-left:  15px;
+    padding-right: 15px;
+    border-radius: 15px;
+    background-color: white;
+    color: gray;
+    font-style: sans-serif;
+}
+
+#boton-certificacion-6:hover {
+    padding: 5px;
+    padding-left:  15px;
+    padding-right: 15px;
+    border-radius: 15px;
+    background-color: #006953;
+    color: white;
+    font-style: sans-serif;
+}
+
+
+#boton-certificacion-7 {
+    padding: 5px;
+    padding-left:  20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    background-color: white;
+    color: gray;
+    font-style: sans-serif;
+}
+#boton-certificacion-7:hover {
+    padding: 5px;
+    padding-left:  20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    background-color: #006953;
+    color: white;
+    font-style: sans-serif;
+}
+
+#boton-certificacion-8 {
+    padding: 5px;
+    padding-left:  25px;
+    padding-right: 25px;
+    border-radius: 15px;
+    background-color: white;
+    color: gray;
+    font-style: sans-serif;
+}
+#boton-certificacion-8:hover {
+    padding: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 15px;
+    background-color: #006953;
+    color: white;
+    font-style: sans-serif;
+}
+
+.segunda-linea-boton {
+    margin-top: 10px;
+    height: auto;
+}
+
+#titulo-iso9001{
+    font-family: sans-serif;
+    color: #006953;
+    font-size: 1.5em;
+}
+
+#parrafo-certificacion{
+    font-family: sans-serif;
+    color: #606060;
+    font-size: 1em;
+    width: 500px;
+}
+#listado{
+    font-family: sans-serif;
+    color: #606060;
+    font-size: 1em;
+    width: 500px;
+}
+
+#desgloce{
+    font-family: sans-serif;
+    color: #606060;
+    font-size: 1em;
+    width: 500px;
+}
+
+#titulo-listado{
+    font-family: sans-serif;
+    color: #606060;
+    font-size: 1em;
+}
+
+#desglocers{
+    font-family: sans-serif;
+    color: #606060;
+    font-size: 1em;
+    width: 80%;
+    margin: auto;
+}
+
+#listadors{
+    font-family: sans-serif;
+    color: #606060;
+    font-size: 1em;
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+#listadors2{
+    font-family: sans-serif;
+    color: #606060;
+    font-size: 1em;
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+#texto-ampliadors{
+    width: 100%;
+    height: 100%;
+}
+
+/*fin certificacion de empresas*/
+
+/* consultoria en empresas */
+
+#foto-caja-consultoria {
+    margin-top: 10%;
+    margin-left: 20%;
+    float: right;
+    margin-right: 1em;
+}
+
+#titulo-consultoria {
+    color: #006953;
+    width: 40%;
+    margin-top: 12%;
+}
+
+#parrafo-consultoria {
+    font-size: 1em;
+    color: #606060;
+    width: 60%;
+}
+
+#resumen-consultoria {
+    font-size: 1em;
+    color: #606060;
+    width: 60%;
+}
+
+/*fin consultoria en empresas */
+
+/* erp gestion empresas */
+
+#resumen-gestion-emp-1 {
+    font-size: 1em;
+    color: #606060;
+    width: 60%;
+}
+
+#boton-erp-1 {
+    background-color: white;
+    color: gray;
+    padding: 8px;
+    border-radius: 15px;
+    margin-bottom: 5%;
+}
+
+#video {
+    margin-top: 15%;
+    width: 70%;
+    height: 40%;
+    float: right;
+}
+
+#descripcion-video {
+    margin-top: 55%;
+    width: 70%;
+    text-align: right;
+    color: #373636;
+    margin-left: 15%;
+}
+
+#descripcion-especifica {
+    font-size: 1em;
+    color: #606060;
+    width: 60%;
+    text-align: right;
+    margin-left: 30%;
+    margin-top: 1%;
+}
+
+#titulo-erp {
+    color: #006953;
+    width: 40%;
+    padding: 2%;
+    margin-top: 12%;
+}
+
+#boton-erp {
+    background-color: #006953;
+    color: white;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+#titulo-plataformas {
+    color: #006953;
+    width: 40%;
+    margin-top: 2%;
+    font-size: 1em;
+}
+
+/* fin erp gestion empresas */
+
+/*capacitacion y entrenamiento personal  */
+#foto-caja-capacitacion {
+    margin-top: 10%;
+    margin-left: 20%;
+    float: right;
+    margin-right: 1em;
+}
+
+#titulo-capacitacion {
+    color: #006953;
+    width: 40%;
+    margin-top: 12%;
+}
+
+#parrafo-1 {
+    font-size: 1em;
+    color: #606060;
+    width: 60%;
+}
+
+#parrafo-2 {
+    font-size: 1em;
+    color: #606060;
+    width: 60%;
+}
+#parrafo-3 {
+    font-size: 1em;
+    color: #606060;
+    width: 60%;
+}
+
+#boton-casos {
+    margin-top: 15%;
+    margin-left: 45%;
+}
+
+/* fin capacitacion y entrenamiento personal  */
+
+/*manejo de cajas*/
+#capacitacion_entrenamiento {
+    display: none;
+}
+
+#erp-gestion-de-empresas-2 {
+    display: none;
+}
+
+#erp-gestion-de-empresas-1 {
+    display: none;
+}
+
+#consultoria_en_empresas {
+    display: none;
+}
+
+/* area nuestros clientes */
+#parrafo-clientes {
+    text-align: center;
+}
+/*certificacion de empresas*/
+
+/*fin certificacion de empresas*/

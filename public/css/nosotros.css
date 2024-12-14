@@ -1,0 +1,211 @@
+/* sobre */
+
+#nosotros{
+top: 0px;
+left: 0px;
+/* UI Properties */
+background: transparent linear-gradient(103deg, #FAFAFA 0%, #F5FFFD 100%) 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+#titulo-sobre{
+color:#006953;
+font-size: 3em;
+margin-top: 5%;
+text-align: center;
+background-color: transparent linear-gradient(103deg, #FAFAFA 0%, #cbeee7 100%) 0% 0% no-repeat padding-box;;
+}
+
+#parrafo-sobre{
+text-align: center;
+font: normal normal normal 25px/30px sans-serif;
+letter-spacing: 0px;
+color: #606060;
+opacity: 1;
+}
+
+#imagen-so{
+align-content: center;
+margin: auto;
+}
+
+
+#parrafo-porque{
+color:#006953;
+font-size: 3em;
+text-align: center;
+}
+
+#contenido-porque{
+font: normal normal normal sans-serif;
+font-size: 1.5em;
+letter-spacing: 0px;
+color: #606060;
+opacity: 1;
+margin-bottom: 5%;
+width: 80%;
+text-align: center;
+margin: auto;
+    
+}
+
+#parrafo-preguntas{
+color:#006953;
+font-size: 3em;
+width: 80%;
+text-align: center;
+margin: auto;
+margin-top: 5%;
+}
+
+#contenido-preguntas{
+text-align: center;
+font: normal normal normal sans-serif;
+font-size: 1.5em;
+letter-spacing: 0px;
+color: #606060;
+opacity: 1;
+padding: 5%;
+}
+
+#boton-nosotros{
+text-align: center;
+margin-top: 5%;
+margin-bottom: 5%;
+margin: auto;
+margin-left: 45%;
+}
+
+#container{
+    text-align: center;
+    vertical-align: middle;
+}
+
+/***************************
+seccion mision *************/
+
+.mission-vision-container {
+    padding: 4rem 90px;
+    background-color: #ffffff;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.mission-vision-section {
+    display: flex;
+    gap: 4rem;
+    margin-bottom: 4rem;
+}
+
+.mission-box, .vision-box {
+    flex: 1;
+}
+
+.title-script {
+    font-family: 'Dancing Script', cursive;
+    color: #39B54A;
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+.content-text {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+.values-section {
+    text-align: center;
+}
+
+.values-title {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+
+.values-container {
+    position: relative;
+    padding: 2rem 0;
+}
+
+.gears-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    z-index: 1;
+}
+
+.gears-image {
+    width: 100%;
+    opacity: 0.8;
+}
+
+.values-content {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.value-item {
+    padding: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #333;
+    text-align: left;
+}
+
+.highlight {
+    color: #39B54A;
+}
+
+.left-value {
+    text-align: right;
+    padding-right: 3rem;
+}
+
+.right-value {
+    text-align: left;
+    padding-left: 3rem;
+}
+
+.bottom-value {
+    grid-column: 1;
+    text-align: right;
+    padding-right: 3rem;
+}
+
+.bottom-right-value {
+    grid-column: 2;
+    text-align: left;
+    padding-left: 3rem;
+}
+
+@media (max-width: 768px) {
+    .mission-vision-container {
+        padding: 2rem 20px;
+    }
+
+    .mission-vision-section {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .values-content {
+        grid-template-columns: 1fr;
+    }
+
+    .left-value, .right-value, .bottom-value, .bottom-right-value {
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .gears-container {
+        width: 200px;
+    }
+}

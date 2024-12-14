@@ -1,0 +1,87 @@
+
+#contactors{
+    background: transparent linear-gradient(103deg, #FAFAFA 0%, #e1f2ee 100%) 0% 0% no-repeat padding-box;
+}
+
+
+#mapa{
+    align-items: center;
+    width: 80%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+}
+
+#titulo-contacto{
+    color:#006953;
+    font-size: 3em;
+    text-align: center;
+}
+
+#formulario{
+    
+    color:white;
+    margin-left: 30%;
+    padding: 20px;
+    border-radius: 15px;
+    background:transparent linear-gradient(137deg, #21D9B2 0%, #004839 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 40px 60px 60px #0000001A;
+    border-radius: 32px;
+    width: 350px;
+    float: right;
+   
+}
+
+#boton{
+    width: 150px;
+    margin-left:25%;
+}
+
+#exampleFormControlInput1{
+font: normal normal  25px/30px sans-serif;
+}
+
+#exampleFormControlInput2{
+    font: normal normal  25px/30px sans-serif;
+
+}
+
+
+#exampleFormControlInput3{
+    font: normal normal  25px/30px sans-serif;
+
+}
+.boton{
+    background-color: black;
+    text-align: center;
+   
+}
+#ubicacion{
+    margin-left: 45%;
+    color:#006953;
+    
+}
+
+#datos{
+    width: 500px;
+    height: 400px;
+    margin-top: 4%;
+    
+}
+
+#datos-titulo{
+color:#006953;
+margin-left: 5%;
+}
+#formula{
+    margin-bottom: 10%;
+}
+
+#texto{
+    color: #606060;
+    font: normal normal normal 18px/26px sans-serif;
+    margin-left: 5%;
+}
+#whatsapp{
+    margin-left: 5%;
+   
+}
