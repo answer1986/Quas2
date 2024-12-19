@@ -130,7 +130,7 @@ caja 1 cambio ******************/
 }
 
 .consulting-title {
-  font-family: 'Dancing Script', cursive; /* Una fuente más similar a la imagen */
+  font-family: 'Water Brush', cursive;
   font-size: 5.5rem;
   margin-bottom: 1.5rem;
   line-height: 1;
@@ -303,7 +303,8 @@ nuestras soluciones **************************/
 }
 
 .solutions-title {
-  font-size: 3rem;
+  font-family: 'Water Brush', cursive;
+  font-size: 5.5rem;
   color: #1B7F69;
   margin-bottom: 3rem;
   font-weight: 600;
@@ -539,13 +540,7 @@ color: #006953;
 /*fin banner*/
 /*certifica*/
 
-#certificars{
-  /*background: transparent linear-gradient(61deg, #FAFAFA 0%, #F5FFFD 100%) 0% 0% no-repeat padding-box;*/
-}
 
-#caja-certifica-0{
-  /*background: transparent linear-gradient(61deg, #FAFAFA 0%, #F5FFFD 100%) 0% 0% no-repeat padding-box;*/
-}
 
 
 #certifica{
@@ -680,9 +675,9 @@ color: #006953;
 /*fin certifica*/
 /*casos*/
 
-#titulo-casos{
+.casos-tittle{
+  font-family: 'Water Brush', cursive;
   text-align: left;
-  font: normal normal 800 45px/55px sans-serif;
   letter-spacing: 0px;
   color: #006953;
   opacity: 1;
@@ -747,8 +742,9 @@ color: #006953;
 }
 
 #titulo-clientes{
+  font-family: 'Water Brush', cursive;
+  font-size: 5.5rem;
   text-align: center;
-  font: normal normal 800 45px/55px sans-serif;
   letter-spacing: 0px;
   color: #006953;
   opacity: 1;
@@ -945,3 +941,203 @@ button[type="submit"]:hover {
   background-color: #39953d;
 }
 
+
+
+/***************************************
+area especializacion*******************/
+
+/* Estilo de fondo y contenedor principal */
+.bg-dark-green {
+  background-color: rgb(25, 42, 37);
+  min-height: 100vh;
+  padding: 1rem 0;
+  margin-bottom: 2%;
+}
+
+/* Grid principal */
+.grid-cols-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 25%); /* 4 columnas iguales */
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 2%;
+}
+
+/* Tarjetas de especialización */
+.card {
+  position: relative;
+  height: 330px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Imágenes dentro de las tarjetas */
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Efecto hover en imágenes */
+.card:hover img {
+  transform: scale(1.1);
+}
+
+/* Gradiente sobre las imágenes */
+.card .gradient-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+  padding: 1.5rem;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+/* Títulos dentro de las tarjetas */
+.card h3 {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+
+/* Segunda fila centrada */
+.segunda-fila {
+  display: grid;
+  grid-template-columns: repeat(4, 99%);
+  gap: 2rem;
+  margin-top: 5rem;
+  margin-left: 10%;
+  align-items: end;
+}
+
+.text-xxl-end {
+  margin-left: 90%;
+  margin-bottom: 12%;
+  font-size: 240%;
+}
+
+.text.text-xl{
+  margin-left:10%;
+  color:greenyellow;
+}
+
+.relative.group.h-49{
+padding-left: 180px;
+
+}
+/* Responsivo */
+@media (max-width: 1024px) {
+  .grid-cols-4,
+  .segunda-fila {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .grid-cols-4,
+  .segunda-fila {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    height: 200px;
+  }
+}
+/* modal 1*/
+/* Estilos para el modal */
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(5px);
+}
+
+#processModal {
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+/* Estilos para el contenido del modal1 */
+/* Estilos base para todos los modales */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+}
+
+/* Clase show para todos los modales */
+.modal.show {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Contenido del primer modal (Consultoría) */
+#processModal .modal-content {
+  background-color: #fff;
+  padding: 20px;
+  width: 70%;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contenido para modales de imagen (Capacitación y ERP) */
+#trainingModal .modal-content,
+#erpModal .modal-content {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  background: none;
+  padding: 0;
+}
+
+/* Imágenes en modales */
+.modal-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Botón de cerrar unificado */
+.close-button {
+  position: absolute;
+  right: -30px;
+  top: -30px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  z-index: 1001;
+}
+
+/* Estilos específicos para el primer modal */
+.modal-title {
+  font-size: 28px;
+  color: #116845;
+  margin-bottom: 20px;
+  font-family: 'Water Brush', cursive;
+}
+
+.modal-body {
+  color: #333;
+  line-height: 1.6;
+}
