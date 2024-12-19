@@ -51,6 +51,9 @@
         <h5 id="siguenos">Siguenos</h5>
         <img src="{{ asset('./image/redes/twetter.svg') }}" alt="facebook" id="facebook">
         <img src="{{ asset('./image/redes/linked.svg') }}" alt="instagram" id="instagram">
+        <div class="button-quas">
+            <a href="https://www.quasmanager.cl/profile" id="boton-quas">Quasmanager</a>
+        </div>
     </div>
 </div>
 </footer>

@@ -482,6 +482,33 @@ color: #006953;
   letter-spacing: 0px;
   color: #006953;
 }
+
+
+.button-quas{
+  margin-top: 2%;
+  background-color: #088a08;
+  width: 50%;
+  padding-left: 3px;
+  border-radius: 2%;
+  animation: blink-border 1s infinite;
+}
+
+@keyframes blink-border {
+  0% {
+    border: 2px solid red;
+  }
+  50% {
+    border: 2px solid transparent;
+  }
+  100% {
+    border: 2px solid red;
+  }
+}
+
+#boton-quas{
+  color: white;
+ 
+}
 /*fin de caja-2 y 3*/
 
 /*banner*/
