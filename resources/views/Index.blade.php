@@ -11,7 +11,7 @@
                 Normas, ERP y capacitación en un solo lugar.</p>
         </div>
         <div class="consulting-image">
-            <img src="{{ asset('./image/reunion.jpg') }}" alt="Business meeting" />
+            <img src="{{ asset('./image/img-header.jpg') }}" alt="Business meeting" />
         </div>
     </div>
 </div>
