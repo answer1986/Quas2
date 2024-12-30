@@ -449,4 +449,58 @@
     @endsection
 
 
+    @section('sevicios2')
+    <div class="py-12 bg-white">
+   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+           <!-- ISO 9001 -->
+           <a href="#" class="service-card">
+               <div class="relative group">
+                   <img src="{{ asset('image/normas/9001.png') }}" alt="ISO 9001" class="w-full h-64 object-cover rounded-lg transition-transform duration-300 group-hover:scale-105">
+                   <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                       <h3 class="text-white text-xl">ISO 9001</h3>
+                       <p class="text-gray-200">Gestión de Calidad</p>
+                   </div>
+               </div>
+           </a>
+
+           <!-- ISO 14001 -->
+           <a href="#" class="service-card">
+               <div class="relative group">
+                   <img src="{{ asset('image/normas/14001.png') }}" alt="ISO 14001" class="w-full h-64 object-cover rounded-lg transition-transform duration-300 group-hover:scale-105">
+                   <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                       <h3 class="text-white text-xl">ISO 14001</h3>
+                       <p class="text-gray-200">Gestión Ambiental</p>
+                   </div>
+               </div>
+           </a>
+
+           <!-- ISO 45001 -->
+           <a href="#" class="service-card">
+               <div class="relative group">
+                   <img src="{{ asset('image/normas/45001.png') }}" alt="ISO 45001" class="w-full h-64 object-cover rounded-lg transition-transform duration-300 group-hover:scale-105">
+                   <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                       <h3 class="text-white text-xl">ISO 45001</h3>
+                       <p class="text-gray-200">Seguridad y Salud</p>
+                   </div>
+               </div>
+           </a>
+
+           <!-- ISO 22000 -->
+           <a href="#" class="service-card">
+               <div class="relative group">
+                   <img src="{{ asset('image/normas/22000.png') }}" alt="ISO 22000" class="w-full h-64 object-cover rounded-lg transition-transform duration-300 group-hover:scale-105">
+                   <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                       <h3 class="text-white text-xl">ISO 22000</h3>
+                       <p class="text-gray-200">Seguridad Alimentaria</p>
+                   </div>
+               </div>
+           </a>
+       </div>
+   </div>
+</div>
+
+    @endsection
+
+
     @extends('essencials.footer')
