@@ -167,8 +167,8 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- Título y Chile -->
         <div class="text-white flex justify-between items-start mb-12">
-            <h2 class="text-4xl">Áreas de Especialización</h2>
-            <span class="text-xxl-end ">Chile</span>
+            <h2 class="text-4xl" id="area-esp">Áreas de Especialización</h2>
+            <span class="text-xxl-end" id="chile">Chile</span>
         </div>
         
         <!-- Grid de especialidades -->
@@ -178,7 +178,7 @@
                 <div class="relative group h-48">
                     <img src="{{ asset('image/especializacion/ingenieria.png') }}" alt="Ingeniería" class="w-full h-full object-cover rounded-lg transition-transform duration-300 group-hover:scale-110">
                     <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent rounded-b-lg">
-                        <h3 class="text text-xl">Ingeniería</h3>
+                        <h3 class="text text-xl" id="areas2">Ingeniería</h3>
                     </div>
                 </div>
             </div>
@@ -187,7 +187,7 @@
                 <div class="relative group h-48">
                     <img src="{{ asset('image/especializacion/manufactura.png') }}" alt="Manufactura" class="w-full h-full object-cover rounded-lg transition-transform duration-300 group-hover:scale-110">
                     <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent rounded-b-lg">
-                        <h3 class="text text-xl">Manufactura</h3>
+                        <h3 class="text text-xl"id="areas2">Manufactura</h3>
                     </div>
                 </div>
             </div>
@@ -196,7 +196,7 @@
                 <div class="relative group h-48">
                     <img src="{{ asset('image/especializacion/alimentos.png') }}" alt="Alimentos" class="w-full h-full object-cover rounded-lg transition-transform duration-300 group-hover:scale-110">
                     <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent rounded-b-lg">
-                        <h3 class="text text-xl">Alimentos</h3>
+                        <h3 class="text text-xl" id="areas2">Alimentos</h3>
                     </div>
                 </div>
             </div>
@@ -205,7 +205,7 @@
                 <div class="relative group h-48">
                     <img src="{{ asset('image/especializacion/transporte.png') }}" alt="Transporte" class="w-full h-full object-cover rounded-lg transition-transform duration-300 group-hover:scale-110">
                     <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent rounded-b-lg">
-                        <h3 class="text text-xl">Transporte</h3>
+                        <h3 class="text text-xl"id="areas2">Transporte</h3>
                     </div>
                 </div>
             </div>
@@ -216,7 +216,7 @@
                     <div class="relative group h-49">
                         <img src="{{ asset('image/especializacion/servicios.png') }}" alt="Servicios" class="w-full h-full object-cover rounded-lg transition-transform duration-300 group-hover:scale-110">
                         <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent rounded-b-lg">
-                            <h3 class="text text-xl" >Servicios</h3>
+                            <h3 class="text text-xl" id="areas2" >Servicios</h3>
                         </div>
                     </div>
                 </div>
@@ -225,7 +225,7 @@
                     <div class="relative group h-49">
                         <img src="{{ asset('image/especializacion/informatica.png') }}" alt="Informática" class="w-full h-full object-cover rounded-lg transition-transform duration-300 group-hover:scale-110">
                         <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent rounded-b-lg">
-                            <h3 class="text text-xl">Almacenamiento</h3>
+                            <h3 class="text text-xl" id="areas2">Informatica</h3>
                         </div>
                     </div>
                 </div>
@@ -234,7 +234,7 @@
                     <div class="relative group h-49">
                         <img src="{{ asset('image/especializacion/almacenamiento.png') }}" alt="Almacenamiento" class="w-full h-full object-cover rounded-lg transition-transform duration-300 group-hover:scale-110">
                         <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent rounded-b-lg">
-                            <h3 class="text text-xl">Informática</h3>
+                            <h3 class="text text-xl"id="areas2">Almacenamiento</h3>
                         </div>
                     </div>
                 </div>
@@ -247,55 +247,28 @@
 @section('cliente')
 <br>
 <div class="cabecera">
-    <h2 id="titulo-clientes"><b>Nuestros Clientes</b></h2>
-    <p id="parrafo-clientes-1">En Quas certificamos a clientes de diferentes áreas</p>
+    <h2 id="titulo-clientes"><b>Clientes y alianzas estrategicas</b></h2>
 </div>
 <div class="row" id="clientes">
     <!-- Cliente 1 -->
-    <div class="col md-3" id="cliente-1">
-        <img src="{{ asset('./image/fotos/1-mineria.png') }}" alt="cliente" width="80%" style="margin-left: 15px;">
-        <p id="mineria" style="margin-left: 35%;"><b>Mineria</b></p>
-        <img src="{{ asset('./image/clientes/3castillos.png') }}" width="80%">
+    <div class="col" id="cliente-1">
+        <img src="{{ asset('./image/alianza.png') }}" alt="cliente" style="width: 99%">
+        
     </div>
-    <!-- Cliente 2 -->
-    <div class="col md-3" id="cliente-2">
-        <img src="{{ asset('./image/fotos/1.2-alimentos.png') }}" alt="cliente" width="80%">
-        <p id="mineria" style="margin-left:30% ;"><b>Alimentos</b></p>
-        <img src="{{ asset('./image/clientes/plastiservi.png') }}" width="80%">
-    </div>
-    <!-- Cliente 3 -->
-    <div class="col md-3" id="cliente-3">
-        <img src="{{ asset('./image/fotos/1.3-manufacturas.png') }}" alt="cliente" width="80%">
-        <p id="mineria"><b>Manufactura</b></p>
-        <img src="{{ asset('./image/clientes/multitudine.png') }}" width="80%">
-    </div>
-    <!-- Cliente 4 -->
-    <div class="col md-3" id="cliente-4">
-        <img src="{{ asset('./image/fotos/1.4-transportes.png') }}" alt="cliente" width="80%">
-        <p id="mineria"><b>Transporte</b></p>
-        <img src="{{ asset('./image/clientes/geo.png') }}" width="80%">
-    </div>
-    <!-- Cliente 5 -->
-    <div class="col md-3" id="cliente-5">
-        <img src="{{ asset('./image/fotos/1.5-comercio.png') }}" alt="cliente" width="80%">
-        <p id="mineria-1"style="margin-left:10% ;"><b>Comercio Internacional</b></p>
-        <img src="{{ asset('./image/clientes/lucsa.png') }}"  width="80%">
-    </div>
+    
 </div>
 @endsection
 
 
-@section('contacto-rapido')
+<!-- @section('contacto-rapido')
    
 
     <div class="contact-form" id="contacto-index">
-        <!-- Aquí va tu imagen al costado izquierdo del formulario -->
         <div class="image-container">
             <img src="{{ asset('image/peru/peru-contacto.jpg') }}" alt="Imagen de contacto">
         </div>
 
         <form action="{{ route('contact.submit') }}" method="post">
-            <!-- ... tus campos de formulario ... -->
             <input type="text" name="name" placeholder="Nombre" required>
             <input type="email" name="email" placeholder="Correo Electrónico" required>
             <input type="text" name="phone" placeholder="Teléfono">
@@ -309,7 +282,6 @@
             @csrf
         </form>
 
-        <!-- Agregar esta sección para mostrar mensajes de éxito o errores -->
         @if (session('success'))
             <div class="alert alert-success">
                 {{ session('success') }}
@@ -327,7 +299,7 @@
     </div>
 
     
-@endsection
+@endsection -->
 
 
 

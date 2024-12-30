@@ -59,4 +59,39 @@
 </div>
 <br>
 @endsection
+
+
+
+@section('contacto')
+<section class="contact-section">
+   <h1 class="contact-title">Ponte en Contacto con Nosotros!!!</h1>
+   
+   <div class="contact-container">
+       <div class="contact-info">
+           <h2 class="question-title">¿Tiene preguntas?</h2>
+           
+           <div class="contact-method">
+               <h3>Email</h3>
+               <p>control_operaciones@quas.cl</p>
+           </div>
+           
+           <div class="contact-method">
+               <h3>Llámanos</h3>
+               <p>+56 9 4057 4473</p>
+           </div>
+           
+           <div class="contact-method">
+               <h3>Visítanos</h3>
+               <p>Calle Serrano 73, Santiago Centro, Santiago</p>
+           </div>
+       </div>
+       
+       <div class="contact-icons">
+       <img src="{{asset ('../image/iconos/contacto.jpg')}}"   id="contacto-foto">
+       </div>
+   </div>
+</section>
+
+
+@endsection
 @extends('essencials.footer')

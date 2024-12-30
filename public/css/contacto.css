@@ -85,3 +85,89 @@ margin-left: 5%;
     margin-left: 5%;
    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav-link{
+    color: white;
+    font: normal normal sans-serif 18px/22px sans-serif;
+    margin-right: 32px;
+    font-size: 18px;
+    color: #006953;
+
+}
+
+.contact-section {
+    padding: 4rem 2rem;
+    background: linear-gradient(rgba(255, 255, 255, 0.64), rgba(255,255,255,0.9)),
+                url('../image/callcenter.jpg') center/cover;
+ }
+ 
+ .contact-title {
+    font-family: 'Cursive', cursive;
+    font-size: 3rem;
+    color: #2D8D7C;
+    text-align: right;
+    margin-bottom: 3rem;
+ }
+ 
+ .contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+ }
+ 
+ .question-title {
+    font-family: 'Impact', sans-serif;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+ }
+ 
+ .contact-method {
+    margin-bottom: 2rem;
+ }
+ 
+ .contact-method h3 {
+    font-family: 'Impact', sans-serif;
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+ }
+ 
+ .contact-method p {
+    font-size: 1.2rem;
+    color: #666;
+ }
+ 
+ .contact-icons {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+ }
+ 
+ .contacto-foto {
+    width: 360px;
+    object-fit: contain;
+ }
+ 
+ @media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+    }
+    
+    .contact-title {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+ }

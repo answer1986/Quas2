@@ -17,10 +17,10 @@
 </head>
 
 <body>
-  <div class="nosotrosrs">
+  <div class="nosot">
       @yield('navbar_top')
       @yield('navbar')
-      @yield('sobre')
+      <!--@yield('sobre')-->
       @yield('mision')
 
   </div>
@@ -28,4 +28,44 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
+
+<style>
+.nosot {
+  position: relative;
+  background: url('../image/structure.jpg') center/cover;
+}
+
+.nosot::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5); /* Ajusta el color y la opacidad según sea necesario */
+  z-index: 1;
+}
+
+.nosot > * {
+  position: relative;
+  z-index: 2;
+
+
+  .nav-link{
+    color: white;
+    font: normal normal sans-serif 18px/22px sans-serif;
+    margin-right: 32px;
+    font-size: 18px;
+    color: #006953;
+
+    
+}
+
+}
+
+
+
+</style>
+
+
 </html>

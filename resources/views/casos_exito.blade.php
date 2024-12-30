@@ -90,4 +90,23 @@
 @endif
 @endsection
 
+
+@section('casos2024')
+<section class="cases-section">
+   <h1 class="cases-title">CASOS DE ÉXITO</h1>
+   <h2 class="testimonials-subtitle">Testimonios</h2>
+   <div class="testimonials-container">
+       <div class="testimonial-card">
+           <p class="testimonial-text">"Somos la única empresa en Chile de servicios de monitoreo de relaves geofísico y geotécnicos, que cuenta con un sistema de gestión integral certificado en ISO9001, ISO14001 e ISO 45001... Quas, es nuestro partner".</p>
+       </div>
+       <div class="testimonial-card">
+           <p class="testimonial-text">"Nuestros productos de envase y empaque de frutas, están hoy en los mercado más importantes del mundo, tenemos todas las certificaciones de mercados europeos, asiáticos... Quas, es nuestro Socio Estratégico".</p>
+       </div>
+       <div class="testimonial-card">
+           <p class="testimonial-text">"Después de varios años de intentar certificarnos en ISO 22000 sin resultados..., hoy nuestra empresa de alimentos ya cumple su segundo ciclo de certificación en norma de inocuidad alimentaria... Quas, confianza en ellos..."</p>
+       </div>
+   </div>
+</section>
+@endsection
+
 @extends('essencials.footer')

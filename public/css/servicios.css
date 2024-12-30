@@ -487,4 +487,14 @@
 }
 /*certificacion de empresas*/
 
+
+
+.nav-link{
+    color: white;
+    font: normal normal sans-serif 18px/22px sans-serif;
+    margin-right: 32px;
+    font-size: 18px;
+    color: #006953;
+}
+
 /*fin certificacion de empresas*/

@@ -18,7 +18,7 @@
         <div class="container">
             <button id="boton-nosotros" type="button" class="btn btn-success" href="{{ url('/contacto')}}">Contáctanos</button>
         </div>
-@endsection
+@endsection 
 
 
 @section('mision')
