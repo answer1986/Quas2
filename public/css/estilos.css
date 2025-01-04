@@ -100,12 +100,7 @@ margin-top: 11%;
 float: none;
 }
 
-@media(max-width:480px){
-  #logo{
-    height: 40px;
-    width: 90px;
-  }
-}
+
 
 /*****************************
 caja 1 cambio ******************/
@@ -196,7 +191,6 @@ caja 1 cambio ******************/
   }
 }
 
-
 @media (max-width:480px) {
   .banners{
     margin-left: 5px;
@@ -207,11 +201,9 @@ caja 1 cambio ******************/
     width: 260px;
     height: 436px;
   }
-
   .consulting-content{
    padding-left: 10px;
   }
-
   .consulting-image{
     width: 160px;
     height: 400px;
@@ -224,11 +216,6 @@ caja 1 cambio ******************/
     font-size: 20px;
   }
 }
-
-
-
-
-
 /***********************************
 fin caja 1 cambio ******************/
 
@@ -449,10 +436,12 @@ nuestras soluciones **************************/
   }
 }
 
+
 @media (max-width: 480px) {
   .solutions-container {
-  margin-top: 40px;
-  }
+  margin-top: 50px;
+}
+}
 
 
 /*******************************
@@ -908,13 +897,6 @@ margin-bottom: 10%;
   margin-right: 10%; /* Espacio entre la imagen y los campos del formulario */
 }
 
-@media (max-width: 480px) {
-  .image-container img {
-  width: 40px;
-  height: 40px;
-  }
-}
-
 .image-container img {
   max-width: 300px;
   border-radius: 10px;
@@ -1032,6 +1014,28 @@ button[type="submit"]:hover {
 
 
 
+@media(max-width: 480px) {
+ 
+
+  .image-container img {
+      width: 40px;
+  }
+
+  .contact-form {
+      padding: 10px;
+  }
+
+  #url-selector {
+      width: 100%;
+  }
+
+  #primer-contacto {
+      width: 100%;
+  }
+  
+}
+
+
 /***************************************
 area especializacion*******************/
 
@@ -1131,8 +1135,6 @@ padding-left: 180px;
   .grid-cols-4,
   .segunda-fila {
     grid-template-columns: 1fr;
-    margin-left: 0px;
-    margin-top: 10px;
   }
 
   .card {
@@ -1234,107 +1236,24 @@ padding-left: 180px;
 }
 
 /*area especializacion*/
-/* Estilos base */
-#area-esp, #chile {
+
+#area-esp{
   font-family: 'belleza', cursive;
   font-size: 43px;
-  color: white;
+  color:white;
 }
 
-#areas2 {
+#chile{
+  font-family: 'belleza', cursive;
+  font-size: 43px;
+  color:white;
+}
+
+#areas2{
   font-family: 'arimo';
   font-size: 21px;
-  color: #bef4a8;
+  color:#bef4a8;
 }
-
-@media (max-width: 768px) {
-  .grid-cols-4 {
-      grid-template-columns: repeat(2, 1fr);
-  }
-
-  .col-span-1 {
-      grid-column: span 1 / span 1;
-  }
-
-  .text-4xl {
-      font-size: 1.5rem;
-      line-height: 2rem;
-  }
-
-  .text-xxl-end {
-      font-size: 1rem;
-      text-align: center;
-  }
-
-  .flex {
-      flex-direction: column;
-      align-items: center;
-  }
-
-  .justify-between {
-      justify-content: center;
-  }
-
-  .mb-12 {
-      margin-bottom: 1.5rem;
-  }
-
-  .h-48 {
-      height: 10rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .grid-cols-4 {
-      grid-template-columns: 1fr;
-  }
-
-  .col-span-1 {
-      grid-column: span 1 / span 1;
-  }
-
-  .text-4xl {
-      font-size: 1.25rem;
-      line-height: 1.75rem;
-  }
-
-  .text-xxl-end {
-      font-size: 0.875rem;
-      text-align: center;
-  }
-
-  .flex {
-      flex-direction: column;
-      align-items: center;
-  }
-
-  .justify-between {
-      justify-content: center;
-  }
-
-  .mb-12 {
-      margin-bottom: 1rem;
-  }
-
-  .h-48 {
-      height: 8rem;
-  }
-}
-
-/* Ajustes adicionales para mejorar la alineación y el tamaño de las imágenes */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
-}
-
-@media (max-width: 768px) {
-  .grid {
-      grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-
 
 @media (max-width: 480px) {
   .grid-cols-4 {

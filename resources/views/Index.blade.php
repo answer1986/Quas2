@@ -261,7 +261,7 @@
 @endsection
 
 
-<!-- @section('contacto-rapido')
+ @section('contacto-rapido')
    
 
     <div class="contact-form" id="contacto-index">
@@ -300,7 +300,7 @@
     </div>
 
     
-@endsection -->
+@endsection 
 
 
 

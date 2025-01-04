@@ -247,12 +247,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-
-
-
-
-
-
 <!-- JavaScript Bundle with Popper -->
 </body>
 </html>
