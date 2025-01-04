@@ -246,16 +246,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    var navbarToggler = document.querySelector('.navbar-toggler');
-    navbarToggler.addEventListener('click', function() {
-        var target = document.querySelector(this.getAttribute('data-bs-target'));
-        if (target) {
-            target.classList.toggle('show');
-        }
-    });
+    const button = document.querySelector('.navbar-toggler');
+    const menu = document.querySelector('#navbarNav');
+    
+    if (button && menu) {
+        button.addEventListener('click', function() {
+            const bsCollapse = new bootstrap.Collapse(menu);
+            bsCollapse.toggle();
+        });
+    }
 });
 </script>
-
 
 <!-- JavaScript Bundle with Popper -->
 </body>

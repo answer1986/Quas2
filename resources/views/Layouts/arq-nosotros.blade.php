@@ -66,6 +66,18 @@
 
 
 </style>
-
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const button = document.querySelector('.navbar-toggler');
+    const menu = document.querySelector('#navbarNav');
+    
+    if (button && menu) {
+        button.addEventListener('click', function() {
+            const bsCollapse = new bootstrap.Collapse(menu);
+            bsCollapse.toggle();
+        });
+    }
+});
+</script>
 
 </html>
