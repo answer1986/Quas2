@@ -908,6 +908,13 @@ margin-bottom: 10%;
   margin-right: 10%; /* Espacio entre la imagen y los campos del formulario */
 }
 
+@media (max-width: 480px) {
+  .image-container img {
+  width: 40px;
+  height: 40px;
+  }
+}
+
 .image-container img {
   max-width: 300px;
   border-radius: 10px;
