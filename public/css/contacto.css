@@ -169,7 +169,7 @@ margin-left: 5%;
 
  
  @media (max-width: 468px) {
-    .contact-icons{
+    #contacto-foto{
         width: 300px;
     }
  }
