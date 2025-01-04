@@ -162,6 +162,7 @@
 </div>
 @endsection
 
+
 @section('especializacion')
 <div class="py-12 bg-dark-green">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -213,7 +214,7 @@
                 <!-- Segunda fila, offset para centrar -->
             <div class="segunda-fila">
                 <div class="col-start-2 col-span-1">
-                    <div class="relative group h-49">
+                    <div class="relative group h-49" id="caja-segunda-fila">
                         <img src="{{ asset('image/especializacion/servicios.png') }}" alt="Servicios" class="w-full h-full object-cover rounded-lg transition-transform duration-300 group-hover:scale-110">
                         <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent rounded-b-lg">
                             <h3 class="text text-xl" id="areas2" >Servicios</h3>
@@ -222,7 +223,7 @@
                 </div>
                 
                 <div class="col-span-1">
-                    <div class="relative group h-49">
+                    <div class="relative group h-49" id="caja-segunda-fila">
                         <img src="{{ asset('image/especializacion/informatica.png') }}" alt="Informática" class="w-full h-full object-cover rounded-lg transition-transform duration-300 group-hover:scale-110">
                         <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent rounded-b-lg">
                             <h3 class="text text-xl" id="areas2">Informatica</h3>
@@ -231,7 +232,7 @@
                 </div>
                 
                 <div class="col-span-1">
-                    <div class="relative group h-49">
+                    <div class="relative group h-49" id="caja-segunda-fila">
                         <img src="{{ asset('image/especializacion/almacenamiento.png') }}" alt="Almacenamiento" class="w-full h-full object-cover rounded-lg transition-transform duration-300 group-hover:scale-110">
                         <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent rounded-b-lg">
                             <h3 class="text text-xl"id="areas2">Almacenamiento</h3>
