@@ -100,7 +100,12 @@ margin-top: 11%;
 float: none;
 }
 
-
+@media(max-width:480px){
+  #logo{
+    height: 40px;
+    width: 90px;
+  }
+}
 
 /*****************************
 caja 1 cambio ******************/
@@ -190,6 +195,39 @@ caja 1 cambio ******************/
       margin-top: 2rem;
   }
 }
+
+
+@media (max-width:480px) {
+  .banners{
+    margin-left: 5px;
+    margin-top: 10px;
+    padding-right:5px;
+  }
+  .consulting-container{
+    width: 260px;
+    height: 436px;
+  }
+
+  .consulting-content{
+   padding-left: 10px;
+  }
+
+  .consulting-image{
+    width: 160px;
+    height: 400px;
+    left: 200px;
+  }
+  .consulting-title{
+    font-size: 40px;
+  }
+  .consulting-subtitle{
+    font-size: 20px;
+  }
+}
+
+
+
+
 
 /***********************************
 fin caja 1 cambio ******************/
@@ -411,6 +449,10 @@ nuestras soluciones **************************/
   }
 }
 
+@media (max-width: 480px) {
+  .solutions-container {
+  margin-top: 40px;
+  }
 
 
 /*******************************
