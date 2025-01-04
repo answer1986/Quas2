@@ -244,7 +244,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var navbarToggler = document.querySelector('.navbar-toggler');
+    navbarToggler.addEventListener('click', function() {
+        var target = document.querySelector(this.getAttribute('data-bs-target'));
+        if (target) {
+            target.classList.toggle('show');
+        }
+    });
+});
+</script>
 
 
 <!-- JavaScript Bundle with Popper -->
