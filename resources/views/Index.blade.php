@@ -266,7 +266,7 @@
 
     <div class="contact-form" id="contacto-index">
         <div class="image-container">
-            <img src="{{ asset('image/peru/peru-contacto.jpg') }}" alt="Imagen de contacto">
+            <img src="{{ asset('image/servicios/pc-proyeccion.png') }}" alt="Imagen de contacto">
         </div>
 
         <form action="{{ route('contact.submit') }}" method="post">
