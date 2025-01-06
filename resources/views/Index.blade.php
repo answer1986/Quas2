@@ -25,7 +25,7 @@
         <!-- Consultoría de Procesos -->
         <div class="solution-card">
             <div class="solution-image">
-                <img src="{{ asset('image/soluciones/consultoria.jpg') }}" alt="Consultoría de Procesos">
+                <img src="{{ asset('image/soluciones/consultoria.jpeg') }}" alt="Consultoría de Procesos">
             </div>
             <div class="solution-content">
                 <h3 class="solution-heading">Consultoría de Procesos</h3>
