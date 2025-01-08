@@ -253,7 +253,7 @@
 <div class="row" id="clientes">
     <!-- Cliente 1 -->
     <div class="col" id="cliente-1">
-        <img src="{{ asset('./image/alianza.png') }}" alt="cliente" style="width: 99%">
+        <img src="{{ asset('./image/alianza2.png') }}" alt="cliente" style="width: 99%">
         
     </div>
     
